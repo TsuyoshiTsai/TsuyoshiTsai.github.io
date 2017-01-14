@@ -3,16 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
+title: Learning Note
+subtitle: Keep Learning !
+description: 將學習過程紀錄下來，以便將來查找。
+keywords: Learning, Note
+author: Tsuyoshi Tsai
+language: zh-tw
 timezone:
+avatar: /images/avatar.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://tsuyoshitsai.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -28,7 +30,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -61,11 +63,22 @@ per_page: 10
 pagination_dir: page
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
+## Plugins: https://hexo.io/plugins/plugin:
+plugin:
+- hexo-generator-feed
+
+# Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20
+
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/TsuyoshiTsai/TsuyoshiTsai.github.io.git
+  branch: master  
