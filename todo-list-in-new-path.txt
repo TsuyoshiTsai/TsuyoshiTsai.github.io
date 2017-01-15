@@ -1,4 +1,4 @@
-git clone [URL]
+git clone https://github.com/TsuyoshiTsai/TsuyoshiTsai.github.io.git
 npm install hexo
 npm install
 npm install hexo-deployer-git --save
