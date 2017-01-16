@@ -14,7 +14,7 @@ avatar: /images/avatar.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://tsuyoshitsai.github.io/
+url: https://tsuyoshitsai.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -73,8 +73,12 @@ type: atom
 path: atom.xml
 limit: 20
 
-# Comment
-disqus_shortname: https-tsuyoshitsai-github-io
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 ## Themes: https://hexo.io/themes/
 theme: next
