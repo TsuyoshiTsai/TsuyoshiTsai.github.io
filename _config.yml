@@ -73,6 +73,9 @@ type: atom
 path: atom.xml
 limit: 20
 
+# Comment
+disqus_shortname: https-tsuyoshitsai-github-io
+
 ## Themes: https://hexo.io/themes/
 theme: next
 

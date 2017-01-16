@@ -7,26 +7,22 @@ tags: Git
 使用版控軟體，最主要就是想透過遠端與其他人合作，而 GitHub 是目前全世界最大的開源專案平台，本章會提供本地儲存庫與 GitHub 遠端儲存庫的溝通方式。
 另外，在 GitHub 上建立 Git Repo 並不困難，在此不多做贅述。
 
+<!-- more -->
 
 ### 基本觀念
 將本地變更推送至 GitHub 有以下幾種方式：
+
 1. GitHub **沒有** 版本，本地 **沒有** 版本
     - 在 GitHub 建立沒有版本的儲存庫
     - 透過 `git clone` 取得遠端儲存庫
     - 建立版本並上傳
- 
-
 2. GitHub **沒有** 版本，本地 **已有** 版本
     - 在 GitHub 建立沒有版本的儲存庫
-    - 將現有的本地儲存庫上傳到指定的 GitHub 專案
- 
-
+    - 將現有的本地儲存庫上傳到指定的 GitHub 專案 
 3. GitHub **已有** 版本，本地 **沒有** 版本
     - 在 GitHub 建立有初始化版本的儲存庫
     - 透過 `git clone` 取得遠端儲存庫
-    - 建立版本並上傳
- 
-
+    - 建立版本並上傳 
 4. GitHub **已有** 版本，本地 **已有** 版本
     - 在 GitHub 建立有初始化版本的儲存庫
     - 將現有的本地儲存庫上傳到指定的 GitHub 專案
@@ -40,26 +36,21 @@ tags: Git
  
  
 ### 操作方式
+
 1. GitHub **沒有** 版本，本地 **沒有** 版本
     - 直接使用 `git clone [URL]` 即可
     - Git 會自動建立工作目錄
     - 在本地端建立版本後，使用 `git push [RemoteRefName] [Branch]` 指令上傳至遠端
-    - 可在 push 後加上 `-u` 參數，設定本地分支追蹤遠端分支
-    
-
+    - 可在 push 後加上 `-u` 參數，設定本地分支追蹤遠端分支   
 2. GitHub **沒有** 版本，本地 **已有** 版本
     - 在本地儲存庫使用 `git remote add [RemoteRefName] [URL]` 指令，建立遠端參照名稱
     - 使用 `git push [RemoteRefName] [Branch]` 上傳至遠端
     - 可在 push 後加上 `-u` 參數，設定本地分支追蹤遠端分支
-
-
 3. GitHub **已有** 版本，本地 **沒有** 版本
     - 直接使用 `git clone [URL]` 即可
     - Git 會自動建立工作目錄
     - 在本地端建立版本後，使用 `git push [RemoteRefName] [Branch]` 指令上傳至遠端
     - 不需加上 `-u` 參數，Git 會自動設定本地分支追蹤遠端分支
-
-
 4. GitHub **已有** 版本，本地 **已有** 版本
     - 在本地儲存庫使用 `git remote add [RemoteRefName] [URL]` 指令，建立遠端參照名稱
     - 若直接使用 `git push [RemoteRefName] [Branch]` 指令會被拒絕，因為兩個地方都已有版本，會產生衝突

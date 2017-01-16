@@ -14,7 +14,7 @@ tags: Git
     - 設定於特定專案中
     - 通常預設位置在 ***/[WorkingDir]/.git/config*** 這個檔案中
 
-
+<!-- more -->
 
 ### Command
 ##### 一般操作
