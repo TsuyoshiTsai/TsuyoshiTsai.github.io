@@ -1,7 +1,10 @@
 ---
 title: 'Git #16 Git on GitHub - Basic'
 date: 2017-01-16 00:40:24
-tags: Git
+tags: 
+    - Git
+categories:
+    - Git , Learn-Git-in-30-days
 ---
 ### 概述
 使用版控軟體，最主要就是想透過遠端與其他人合作，而 GitHub 是目前全世界最大的開源專案平台，本章會提供本地儲存庫與 GitHub 遠端儲存庫的溝通方式。
