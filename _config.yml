@@ -62,6 +62,9 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+# Disqus
+disqus_shortname: https-tsuyoshitsai-github-io
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/plugin:
 plugin:

@@ -268,7 +268,7 @@ mathjax:
 # Duoshuo ShortName
 #duoshuo_shortname:
 
-Disqus
+# Disqus
 disqus_shortname: https-tsuyoshitsai-github-io
 
 # Hypercomments
