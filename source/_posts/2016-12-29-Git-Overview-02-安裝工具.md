@@ -16,6 +16,8 @@ categories:
 
 <!-- more -->
 
+---
+
 ### 2. [GitHub for Windows] [02]
 GitHub 官方開發的 GUI 工具，可完成基本的版控功能。
 - 將 GitHub 上的儲存庫複製回來 ( Clone Repositories )
@@ -23,6 +25,8 @@ GitHub 官方開發的 GUI 工具，可完成基本的版控功能。
 - 提交變更到本地儲存庫 ( Commit Changes )
 - 建立與管理、切換分支 ( Branch Code )
 - 與 GitHub 同步 ( Share on GitHub.com )
+
+---
 
 ### 3. [SourceTree] [03]
 較完整的 GUI 工具，建議了解 Git 運作機制與觀念後再使用。
