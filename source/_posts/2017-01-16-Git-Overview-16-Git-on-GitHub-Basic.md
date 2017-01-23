@@ -65,4 +65,4 @@ categories:
 ---
 
 ### Reference
-{% post_link Git-Command-12-遠端操作 "Git Command #12 遠端操作" %}
+{% post_link Git-Command-11-遠端操作 "Git Command #11 遠端操作" %}

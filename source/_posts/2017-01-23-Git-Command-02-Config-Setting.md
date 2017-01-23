@@ -17,6 +17,7 @@ categories:
     - `git config --list --local`
         - 僅列出儲存區層級的選項
 
+<!-- more -->
 
  - `git config [ConfigSection.ConfigName]`
     - 取得特定選項的值
