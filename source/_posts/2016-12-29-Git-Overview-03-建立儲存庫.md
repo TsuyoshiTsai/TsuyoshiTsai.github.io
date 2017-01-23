@@ -56,3 +56,8 @@ categories:
 
 > 註：`mkdir` 與 `cd` 都代表命令提示字元 ( Command Prompt，或稱終端機 Terminal ) 的指令。
 [相關教學](https://carolhsu.gitbooks.io/django-girls-tutorial-traditional-chiness/content/intro_to_command_line/README.html)
+
+---
+
+### Reference
+{% post_link Git-Command-01-初始化 "Git Command #01 初始化" %}

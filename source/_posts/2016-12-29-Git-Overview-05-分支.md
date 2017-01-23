@@ -42,6 +42,11 @@ categories:
 有分支就必須要合併，合併會產生版本衝突，為了解決版本衝突的問題，需要做好分支的管理。
 - git-flow 
     - 管理分支的邏輯
-    - [參考資料 01] [git-flow 01]
+    - [Reference 01] [git-flow 01]
 
 [git-flow 01]: https://speakerdeck.com/cjies/git-let-it-flow
+
+---
+
+### Reference
+{% post_link Git-Command-05-分支操作 "Git Command #05 分支操作" %}

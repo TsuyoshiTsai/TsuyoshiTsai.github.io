@@ -57,3 +57,8 @@ categories:
     - 遠端儲存庫每個分支的 **最新版 ( HEAD )** 的絕對名稱
  - MERGE_HEAD
     - 合併來源的 Commit 物件的絕對名稱
+
+---
+
+### Reference
+{% post_link Git-Command-06-參照操作 "Git Command #06 參照操作" %}

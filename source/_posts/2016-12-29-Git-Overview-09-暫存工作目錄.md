@@ -27,44 +27,6 @@ categories:
  - 刪除檔案 ( 已加入索引 ) ( Tracked/Staged files )
  
 
-### Command
-- `git stash (save)`
-    - 建立暫存版
-    - 僅包含已追蹤 ( tracked ) 的檔案
-    - `git stash (save) -u`
-        - 包含所有未追蹤 ( Untracked ) 及已追蹤 ( Tracked ) 的檔案
-    - `git stash save -u "LogMessage"`
-        - 該指令可以在建立暫存版的同時輸入版本說明
-
-
- - `git stash pop`
-    - 將暫存版合併回現在的工作目錄
-    - 預設會取回最近的一筆暫存版 ( stash@{0} )
-    - 該指令執行完後 **會** 將被取回的 stash 分支刪除
-    
-
- - `git stash apply`
-    - 將暫存版合併回現在的工作目錄
-    - 該指令執行完後 **不會** 將被取回的 stash 分支刪除
-
-
-- `git stash pop/apply "Stash"`
-    - 取回特定的暫存版
-    - 如 `git stash pop/apply "stash@{1}"` 可取回 stash@{1} 的暫存版
-
-
- - `git stash list`
-    - 列出目前的 stash 分支清單
-
-
- - `git stash drop "Stash"`
-    - 刪除特定的暫存版
-
-
- - `git stash clear`
-    - 刪除所有暫存版
-
-
 ### 運作
 建立暫存版的過程中， Git  會自動建立兩個分支、並個別建立版本，再將這兩個分支與 HEAD 版本合併成 stash 版本，以下為三個版本的內容：
  1. 工作目錄的 HEAD 版本
@@ -73,5 +35,7 @@ categories:
 
 建立暫存版後，Git  會自動產生暫存版的一般參照，並將變更的檔案還原成與 HEAD 的狀態相同，新增的檔案被刪除、修改的檔案被還原、刪除的檔案被加回。簡言之，就是使工作目錄的狀態與 HEAD 同步。
  
+---
 
-
+### Reference
+{% post_link Git-Command-08-暫存工作目錄 "Git Command #08 暫存工作目錄" %}

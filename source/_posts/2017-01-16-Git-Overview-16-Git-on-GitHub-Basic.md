@@ -61,3 +61,8 @@ categories:
     - 若直接使用 `git push [RemoteRefName] [Branch]` 指令會被拒絕，因為兩個地方都已有版本，會產生衝突
     - 可使用 `git pull [RemoteRefName] [Branch]` 指令，將遠端的內容拉回並合併至本地後，再 push 回遠端
     - 或使用 `git fetch` 指令，將遠端的內容拉回，再自行使用 `git merge` 合併至本地，再 push 回遠端
+
+---
+
+### Reference
+{% post_link Git-Command-12-遠端操作 "Git Command #12 遠端操作" %}

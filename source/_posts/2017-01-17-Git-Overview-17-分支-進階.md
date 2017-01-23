@@ -99,3 +99,8 @@ categories:
 
 
 `git fetch` 可取得遠端儲存庫的相關物件，它會先透過 URL 連到遠端儲存庫，取出「來源參照規格」的遠端分支，再放入「目的參照規格」的本地追蹤分支。
+
+---
+
+### Reference
+{% post_link Git-Command-05-分支操作 "Git Command #05 分支操作" %}

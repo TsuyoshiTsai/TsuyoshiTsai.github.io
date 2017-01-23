@@ -34,23 +34,7 @@ categories:
 ### Reflog 的過期時間
 預設保存 90 天。若其中的 Commit 物件已不在分支上，則預設保留 30 天。
 
+---
 
-### Command
- - `git reflog`
-    - 列出 reflog 清單
-    - `git reflog [Branch]`
-        - 只顯示特定分支的 reflog
- - `git log -g`
-    - 列出每個 reflog 中的內容
- - `git reflog delete [Ref@{Specifier}]`
-    - 刪除特定 reflog
- - `git config --global/local gc.reflogExpire "Day"`
- - `git config --global/local gc.reflogExpireUnreachable "Day"`
-    - 調整 reflog 過期的預設值
-    - Day 可設定 [Number days]，如 30 days 可保留 30 天
-    - Day 可設定 never 表示永不刪除紀錄
-    - `git config --local gc.[Branch].reflogExpire "Day"`
-    - `git config --local gc.[Branch].reflogExpireUnreachable "Day"`
-        - 針對特定分支設定 reflog 過期時間
- - `git reflog expire --expire=now --all`
-    -  清除所有 reflog
+### Reference
+{% post_link Git-Command-09-版本日誌 "Git Command #09 版本日誌" %}
