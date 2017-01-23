@@ -1,8 +1,9 @@
 ---
-title: 'Git #10 Config Setting'
+title: 'Git Overview #10 Config Setting'
 date: 2016-12-29 01:36:40
 tags: 
     - Git
+    - Git Overview
     - Learn-Git-in-30-days
 categories:
     - Git
