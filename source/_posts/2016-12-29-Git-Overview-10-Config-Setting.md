@@ -8,7 +8,7 @@ tags:
 categories:
     - Git
 ---
-### 儲存 Git Config 的三個地方
+# 儲存 Git Config 的三個地方
 - 系統層級 ( `--system` )
     - 設定整台電腦，適用於本機所有使用者的預設值
     - 通常預設位置在 **C:/Program Files (x86)/Git/etc/.gitconfig** 這個檔案中
@@ -21,7 +21,9 @@ categories:
 
 <!-- more -->
 
-### 套用順序
+---
+
+# 套用順序
 Git 在執行時會依照以下順序套用：
 1. 系統層級
 2. 使用者層級
@@ -29,5 +31,5 @@ Git 在執行時會依照以下順序套用：
 
 ---
 
-### Reference
+# Reference
 {% post_link Git-Command-02-Config-Setting "Git Command #02 Config Setting" %}

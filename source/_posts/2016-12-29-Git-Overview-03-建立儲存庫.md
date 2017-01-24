@@ -10,7 +10,7 @@ categories:
 ---
 有三種建立儲存庫的方式：
 
-### 1. 本機的本地儲存庫 ( Local Repository )
+# 1. 本機的本地儲存庫 ( Local Repository )
 使用 GitHub for Windows 的 Git Shell 指令列工具操作
 
 1. 建立目錄：
@@ -27,7 +27,7 @@ categories:
 
 ---
 
-### 2. 本機的共用儲存庫 ( Shared Repository )
+# 2. 本機的共用儲存庫 ( Shared Repository )
 共用儲存庫是指建立 Git 儲存庫但不包含工作目錄 ( Working Directory )，大多使用直接的檔案存取，通常在 Linux 作業系統下較有機會使用到。
 
 1. 建立目錄：
@@ -42,7 +42,7 @@ categories:
 
 ---
 
-### 3. GitHub 或其他 Git 平台的遠端儲存庫 ( Remote Repository )
+# 3. GitHub 或其他 Git 平台的遠端儲存庫 ( Remote Repository )
 與共用儲存庫幾乎一樣，差別在於遠端儲存庫大多使用 SSH, Git Protocol, HTTP 等協定遠端存取儲存庫。
 
 1. 登入 GitHub，找到並選擇 New Repository
@@ -59,5 +59,5 @@ categories:
 
 ---
 
-### Reference
+# Reference
 {% post_link Git-Command-01-初始化 "Git Command #01 初始化" %}

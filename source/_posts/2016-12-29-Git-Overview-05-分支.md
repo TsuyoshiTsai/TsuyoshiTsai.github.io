@@ -8,23 +8,27 @@ tags:
 categories:
     - Git
 ---
-### 概述
+# 概述
 可以將分支想像成一種 **快照** 功能，將某個版本與其歷史版本建立一個 **快照**，並賦予其分支名稱，我們可以在這些分支上建立版本，日後可以再進行合併的操作。
 
 <!-- more -->
 
-### 功能
+---
+
+# 功能
  - Git 分散式版本控管機制的核心
  - 解決版本衝突，順利進行合併
 
+---
 
-### 狀態
-**[master]**
+# 狀態
+
+### **[master]**
 - master 代表目前的分支 ( Branch )
 - 後面沒有數字代表目前沒有要被建立版本的索引
 
 
-**[master +10 ~15 -20 !]**
+### **[master +10 ~15 -20 !]**
 - +10 代表有 10 個「新增」的檔案 ( add )
 - ~15 代表有 15 個「修改」的檔案 ( modify )
 - -20 代表有 20 個「刪除」的檔案 ( delete )
@@ -37,16 +41,18 @@ categories:
     - 這些變更 **會** 進入版本控管
     - 可執行 `git commit` 指令將這些檔案變更建立版本
 
+---
 
-### 管理模式
+# 管理模式
 有分支就必須要合併，合併會產生版本衝突，為了解決版本衝突的問題，需要做好分支的管理。
-- git-flow 
-    - 管理分支的邏輯
-    - [Reference 01] [git-flow 01]
+
+### git-flow 
+- 管理分支的邏輯
+- [Reference 01] [git-flow 01]
 
 [git-flow 01]: https://speakerdeck.com/cjies/git-let-it-flow
 
 ---
 
-### Reference
+# Reference
 {% post_link Git-Command-05-分支操作 "Git Command #05 分支操作" %}

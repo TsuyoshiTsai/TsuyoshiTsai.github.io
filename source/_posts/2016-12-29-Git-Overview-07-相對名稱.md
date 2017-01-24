@@ -8,11 +8,12 @@ tags:
 categories:
     - Git
 ---
-### 功能
+# 功能
  - 以特定 Commit 物件的相對位置，找到其他 Commit 物件
 
+---
 
-### 表示法
+# 表示法
  - [Object]~[Number]
     - 代表第 Number 個上層 Commit 物件
     - HEAD~1 可找到 HEAD 的上一層 Commit 物件
@@ -33,8 +34,9 @@ categories:
     - HEAD^3~1 可找到 HEAD 的第三個第一代的上一層 Commit 物件 ( 需在有分支合併的情況下才能這麼做 )
     - HEAD^3~3 可找到 HEAD 的第三個第一代的上三層 Commit 物件 ( 需在有分支合併的情況下才能這麼做 )
 
+---
 
-### 詳細說明
+# 詳細說明
 ```
 G   H   I   J
  \ /     \ /
@@ -59,11 +61,15 @@ I = F^   = B^3^    = A^^3^
 J = F^2  = B^3^2   = A^^3^2
 ```
 
-### 圖解
+---
+
+# 圖解
+
 {% img /images/git-node.png %}
  
+---
 
-### Reference
+# Reference
 [What's the difference between HEAD^ and HEAD~ in Git?] [Refernce 01]
 
 [Refernce 01]: http://stackoverflow.com/questions/2221658/whats-the-difference-between-head-and-head-in-git

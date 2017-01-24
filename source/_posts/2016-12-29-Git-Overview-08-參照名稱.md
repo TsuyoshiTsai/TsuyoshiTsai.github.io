@@ -8,7 +8,7 @@ tags:
 categories:
     - Git
 ---
-## 參照名稱 ( Ref )
+# 參照名稱 ( Ref )
 ### 功能
  - 參照名稱是物件的指標
  - Git 引擎或由使用者自行定義的名稱，用來指向特定 Git 物件
@@ -42,7 +42,7 @@ categories:
 ---
 
 
-## 符號參照名稱 ( Symref ) 
+# 符號參照名稱 ( Symref ) 
 ### 特性
  - 指向另一個一般參照，內容以 **ref:** 開頭
 
@@ -60,5 +60,5 @@ categories:
 
 ---
 
-### Reference
+# Reference
 {% post_link Git-Command-06-參照操作 "Git Command #06 參照操作" %}

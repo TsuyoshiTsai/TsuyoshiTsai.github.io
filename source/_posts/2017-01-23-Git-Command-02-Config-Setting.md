@@ -7,7 +7,7 @@ tags:
 categories:
     - Git
 ---
-### 一般操作
+# 一般操作
  - `git config --list`
     - 列出 Git for Windows 已設定的所有選項
     - `git config --list --system`
@@ -30,8 +30,9 @@ categories:
  - `git config --unset --system/global/local [ConfigSection.ConfigName]`
     - 刪除特定選項的值
 
+---
 
-### 常用設定
+# 常用設定
  - `git config --global alias.[Alias] [GitCommand]`
     - 設定 [Alias] 為 [GitCommand] 的別名，以利快速執行指令
     - `git config --global alias.co checkout`
