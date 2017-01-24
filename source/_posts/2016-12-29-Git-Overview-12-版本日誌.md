@@ -18,7 +18,7 @@ categories:
 
 
 ### 產生 Reflog 的動作
-除以下動作外，每個分支、暫存版都會有自己的 Reflog，這些資料也都會存在 ***.git/logs/refs/*** 資料夾下。
+除以下動作外，每個分支、暫存版都會有自己的 Reflog，這些資料也都會存在 **.git/logs/refs/** 資料夾下。
 - Commit
 - Checkout
 - Pull

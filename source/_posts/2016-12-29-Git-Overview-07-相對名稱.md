@@ -32,4 +32,38 @@ categories:
     - HEAD^1~3 可找到 HEAD 的第一個第一代的上三層 Commit 物件
     - HEAD^3~1 可找到 HEAD 的第三個第一代的上一層 Commit 物件 ( 需在有分支合併的情況下才能這麼做 )
     - HEAD^3~3 可找到 HEAD 的第三個第一代的上三層 Commit 物件 ( 需在有分支合併的情況下才能這麼做 )
+
+
+### 詳細說明
+```
+G   H   I   J
+ \ /     \ /
+  D   E   F
+   \  |  / \
+    \ | /   |
+     \|/    |
+      B     C
+       \   /
+        \ /
+         A
+
+A =      = A^0
+B = A^   = A^1     = A~1
+C = A^2  = A^2
+D = A^^  = A^1^1   = A~2
+E = B^2  = A^^2
+F = B^3  = A^^3
+G = A^^^ = A^1^1^1 = A~3
+H = D^2  = B^^2    = A^^^2  = A~2^2
+I = F^   = B^3^    = A^^3^
+J = F^2  = B^3^2   = A^^3^2
+```
+
+### 圖解
+{% img /images/git-node.png %}
  
+
+### Reference
+[What's the difference between HEAD^ and HEAD~ in Git?] [Refernce 01]
+
+[Refernce 01]: http://stackoverflow.com/questions/2221658/whats-the-difference-between-head-and-head-in-git

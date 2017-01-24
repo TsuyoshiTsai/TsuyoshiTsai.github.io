@@ -10,7 +10,7 @@ categories:
 ---
 ## 參照名稱 ( Ref )
 ### 功能
- - 參照名稱 ( Ref ) 是物件的指標
+ - 參照名稱是物件的指標
  - Git 引擎或由使用者自行定義的名稱，用來指向特定 Git 物件
  - 可將其想成 Git 物件絕對名稱的別名 ( Alias )
 
@@ -18,17 +18,17 @@ categories:
 
 ### 特性
  - 參照名稱通常指向 Commit 物件，但也可以指向其他 Git 物件
- - 參照名稱只是檔案，且放在 ***.git/refs*** 資料夾下
-    - 本地分支：***.git/refs/heads***
-    - 遠端分支：***.git/refs/remotes***
-    - 標　　籤：***.git/refs/tags***
+ - 參照名稱只是檔案，且放在 **.git/refs** 資料夾下
+    - 本地分支：**.git/refs/heads**
+    - 遠端分支：**.git/refs/remotes**
+    - 標　　籤：**.git/refs/tags**
  - 當輸入 **參照簡稱** 時，Git 會依照以下順序搜尋參照名稱，找到後立即回傳該檔案內容的 **物件絕對名稱**
-    - ***.git/<參照簡稱>***
-    - ***.git/refs/<參照簡稱>***
-    - ***.git/refs/tags/<參照簡稱;標籤名稱>***
-    - ***.git/refs/heads/<參照簡稱;本地分支名稱>***
-    - ***.git/refs/remotes/<參照簡稱>***
-    - ***.git/refs/remotes/<參照簡稱;遠端分支名稱>***
+    - **.git/<參照簡稱>**
+    - **.git/refs/<參照簡稱>**
+    - **.git/refs/tags/<參照簡稱;標籤名稱>**
+    - **.git/refs/heads/<參照簡稱;本地分支名稱>**
+    - **.git/refs/remotes/<參照簡稱>**
+    - **.git/refs/remotes/<參照簡稱;遠端分支名稱>**
 
 ### 例子
  - HEAD

@@ -33,7 +33,7 @@ categories:
 
 
 ##### 遠端參照設定
-使用 `git remote add [RemoteName] [URL]` 建立遠端儲存庫的參照後，這些設定資訊會被存放在 ***.git/config*** 中，內容範例如下：
+使用 `git remote add [RemoteName] [URL]` 建立遠端儲存庫的參照後，這些設定資訊會被存放在 **.git/config** 中，內容範例如下：
 
 
 ```
@@ -56,7 +56,7 @@ categories:
 
 
 ##### 對應設定
-執行 `git push` 指令時，會自動將目前所在分支推送到設定的遠端分支，可以在 ***.git/config*** 中設定本地分支與遠端儲存庫的對應關係，以下是執行 `git clone` 後，Git 自動建立的預設設定：
+執行 `git push` 指令時，會自動將目前所在分支推送到設定的遠端分支，可以在 **.git/config** 中設定本地分支與遠端儲存庫的對應關係，以下是執行 `git clone` 後，Git 自動建立的預設設定：
 
 
 ```

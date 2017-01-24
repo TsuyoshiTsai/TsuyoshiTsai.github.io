@@ -16,4 +16,4 @@ categories:
 ### 特性
 - 可列出檔名或路徑
 - 列在清單內的檔名或路徑不會出現在 `git status` 的結果中，也不會在 `git add` 時加入索引
-- 僅限 **未追蹤 ( Untracked file )** 的檔案會被忽略，**已追蹤 ( Staged file )** 的檔案不受忽略清單控制
+- 僅限 **未追蹤 ( Untracked )** 的檔案會被忽略，**已追蹤 ( Tracked )** 的檔案不受忽略清單控制
