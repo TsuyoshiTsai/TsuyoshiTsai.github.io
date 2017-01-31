@@ -18,11 +18,11 @@ categories:
 
 # 全覽指南
 ### 中文
-1. [30 天精通 Git 版本控管] [Refernce 01]
-2. [Pro Git book] [Refernce 02]
-3. [連猴子都能懂的Git入門指南] [Refernce 03]
+1. [30 天精通 Git 版本控管] [Ref 01]
+2. [Pro Git book] [Ref 02]
+3. [連猴子都能懂的Git入門指南] [Ref 03]
 
 
-[Refernce 01]: https://github.com/doggy8088/Learn-Git-in-30-days
-[Refernce 02]: https://git-scm.com/book/zh-tw/v1
-[Refernce 03]: https://backlogtool.com/git-guide/tw/
+[Ref 01]: https://github.com/doggy8088/Learn-Git-in-30-days
+[Ref 02]: https://git-scm.com/book/zh-tw/v1
+[Ref 03]: https://backlogtool.com/git-guide/tw/

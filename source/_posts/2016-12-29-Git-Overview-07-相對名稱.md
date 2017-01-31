@@ -70,6 +70,6 @@ J = F^2  = B^3^2   = A^^3^2
 ---
 
 # Reference
-[What's the difference between HEAD^ and HEAD~ in Git?] [Refernce 01]
+[What's the difference between HEAD^ and HEAD~ in Git?] [Ref 01]
 
-[Refernce 01]: http://stackoverflow.com/questions/2221658/whats-the-difference-between-head-and-head-in-git
+[Ref 01]: http://stackoverflow.com/questions/2221658/whats-the-difference-between-head-and-head-in-git

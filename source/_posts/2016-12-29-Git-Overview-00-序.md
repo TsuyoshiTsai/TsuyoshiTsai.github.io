@@ -10,11 +10,11 @@ categories:
 ---
 # 前言
 
-這一系列的文章用來記錄學習 Git 的過程，最主要的資訊來源是保哥的 [《30 天精通 Git 版本控管》] [Refernce 01]。
+這一系列的文章用來記錄學習 Git 的過程，最主要的資訊來源是保哥的 [《30 天精通 Git 版本控管》] [Ref 01]。
 
 會寫下一些核心的觀念跟常用的指令，希望未來突然記不起某個概念或某項指令的操作方式時，能透過這些文章讓自己迅速地回想起來。
 
-[Refernce 01]: https://github.com/doggy8088/Learn-Git-in-30-days
+[Ref 01]: https://github.com/doggy8088/Learn-Git-in-30-days
 
 <!-- more -->
 
