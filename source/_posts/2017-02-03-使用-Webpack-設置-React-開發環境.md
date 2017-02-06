@@ -61,8 +61,7 @@ npm i -S react
 npm i -S react react-dom
 {% endcodeblock %}
 
-### 8. 建立並進入 src 資料夾
-##### 1. 建立 index.html
+### 7. 在開發目錄中建立 index.html
 {% codeblock src/index.html lang:html %}
 <!DOCTYPE html>
 <html lang="en">
@@ -76,7 +75,7 @@ npm i -S react react-dom
 </html>
 {% endcodeblock %}
 
-##### 2. 建立 index.js
+### 8. 建立並進入 src 資料夾，並建立 index.js
 在檔案中引入 React
 
 {% codeblock src/index.js lang:javascript %}
@@ -97,7 +96,6 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 ### 9. 建立並設定 webpack.config.js
 {% codeblock webpack.config.js lang:javascript%}
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 var path = require('path');
 
 module.exports = {
@@ -111,11 +109,6 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.css$/,
-                loader: 'style!css',
-                exclude: /node_modules/
-            },
-            {
                 test: /.js|jsx?$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/
@@ -125,14 +118,7 @@ module.exports = {
     devServer: {
         inline: true,
         port: 8080,
-    },
-    plugins: [
-        new HtmlWebpackPlugin({
-            template: `${__dirname}/src/index.html`,
-            filename: 'index.html',
-            inject: 'body',
-        })
-    ],
+    }
 };
 {% endcodeblock %}
 
@@ -153,14 +139,14 @@ module.exports = {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --devtool eval --progress --colors",
     "start-w": "webpack-dev-server --devtool eval --progress --colors --watch",
-    "start-w-o": "webpack-dev-server --devtool eval --progress --colors --watch --open"
+    "start-w-o": "webpack-dev-server --devtool eval --progress --colors --watch --open"    
   }
 {% endcodeblock %}
 
 ### 12. 在 terminal 中執行指令檢測畫面
 {% codeblock %}
   webpack
-  npm run start
+  npm run start-w-o
 {% endcodeblock %}
 
 ---
@@ -172,7 +158,6 @@ module.exports = {
   "babel-loader": "^6.2.10",
   "babel-preset-es2015": "^6.22.0",
   "babel-preset-react": "^6.22.0",
-  "html-webpack-plugin": "^2.28.0",
   "webpack": "^2.2.1",
   "webpack-dev-server": "^1.16.3"
 },
