@@ -65,13 +65,14 @@ npm i -S react react-dom
 {% codeblock src/index.html lang:html %}
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-      <title>React Setup</title>
-  </head>
-  <body>
+    <title>React Setup</title>
+</head>
+<body>
     <div id="root"></div>
-  </body>
+    <script src="./dist/bundle.js"></script>
+</body>
 </html>
 {% endcodeblock %}
 
