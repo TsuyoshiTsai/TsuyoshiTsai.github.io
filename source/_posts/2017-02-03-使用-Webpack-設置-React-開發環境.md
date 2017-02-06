@@ -61,17 +61,6 @@ npm i -S react
 npm i -S react react-dom
 {% endcodeblock %}
 
-### 7. 安裝 Loaders
-{% codeblock install Loaders %}
-npm i -D style-loader
-         css-loader
-{% endcodeblock %}
-
-### 7. 安裝 Plugins
-{% codeblock install Plugins %}
-npm i -D html-webpack-plugin
-{% endcodeblock %}
-
 ### 8. 建立並進入 src 資料夾
 ##### 1. 建立 index.html
 {% codeblock src/index.html lang:html %}
@@ -109,20 +98,22 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ### 9. 建立並設定 webpack.config.js
 {% codeblock webpack.config.js lang:javascript%}
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+var path = require('path');
 
 module.exports = {
     entry: [
-        './src/index.js',
+        path.resolve(__dirname, './src/index.js'),
     ],
     output: {
-        path: `${__dirname}/dist`,
+        path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js'
     },
     module: {
         loaders: [
             {
                 test: /\.css$/,
-                
+                loader: 'style!css',
+                exclude: /node_modules/
             },
             {
                 test: /.js|jsx?$/,
