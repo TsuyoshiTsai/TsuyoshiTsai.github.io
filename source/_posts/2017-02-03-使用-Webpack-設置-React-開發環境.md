@@ -2,9 +2,10 @@
 title: 使用 Webpack 設置 React 開發環境
 date: 2017-02-03 15:03:20
 tags:
-    - React Initial with Webpack    
-categories:
     - React
+    - Webpack    
+categories:
+    - Webpack
 ---
 僅列出精簡的步驟，並另外補充其他教學中較少提及的相關知識。
 流程與內容主要是參考這幾篇：
