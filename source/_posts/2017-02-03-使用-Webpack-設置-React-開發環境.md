@@ -110,7 +110,10 @@ module.exports = {
             {
                 test: /.js|jsx?$/,
                 loader: 'babel-loader',
-                exclude: /node_modules/
+                exclude: /node_modules/,
+                query: {
+                    presets: ['es2015', 'react']
+                }
             }
         ]
     },
@@ -121,18 +124,7 @@ module.exports = {
 };
 {% endcodeblock %}
 
-### 10. 建立並設定 .babelrc
-{% codeblock .babelrc lang:javascript%}
-{
-  "presets": [
-    "es2015",
-    "react",
-  ],
-  "plugins": []
-}
-{% endcodeblock %}
-
-### 11. 在 package.json 中設定指令別名
+### 10. 在 package.json 中設定指令別名
 {% codeblock package.json lang:javascript %}
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -142,7 +134,7 @@ module.exports = {
   }
 {% endcodeblock %}
 
-### 12. 在 terminal 中執行指令檢測畫面
+### 11. 在 terminal 中執行指令檢測畫面
 {% codeblock %}
   webpack
   npm run start-w-o
