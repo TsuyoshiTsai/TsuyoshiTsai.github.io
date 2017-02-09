@@ -19,6 +19,8 @@ npm i -D node-sass
 npm i -D node-sass sass-loader
 {% endcodeblock %}
 
+<!-- more -->
+
 ### 2. 設定 webpack.config.js
 在 webpack.config.js 的 module > loaders 陣列中新增一個物件
 {% codeblock webpack.config.js %}
