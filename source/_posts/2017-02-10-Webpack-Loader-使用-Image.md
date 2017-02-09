@@ -3,7 +3,7 @@ title: Webpack Loader - 使用 Image
 date: 2017-02-10 00:06:47
 tags:
     - Webpack
-    - Loader
+    - Webpack Loader
 categories:
     - Webpack
 ---

@@ -3,7 +3,7 @@ title: Webpack Loader - 使用 Scss
 date: 2017-02-10 00:00:55
 tags:
     - Webpack
-    - Loader
+    - Webpack Loader
 categories:
     - Webpack
 ---
