@@ -4,8 +4,6 @@ date: 2017-02-09 23:49:37
 tags:
     - Webpack
     - Loader
-    - style-loader
-    - css-loader
 categories:
     - Webpack
 ---

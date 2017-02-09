@@ -4,8 +4,6 @@ date: 2017-02-10 00:06:47
 tags:
     - Webpack
     - Loader
-    - url-loader
-    - file-loader
 categories:
     - Webpack
 ---

@@ -4,8 +4,6 @@ date: 2017-02-10 00:00:55
 tags:
     - Webpack
     - Loader
-    - node-sass
-    - sass-loader
 categories:
     - Webpack
 ---
