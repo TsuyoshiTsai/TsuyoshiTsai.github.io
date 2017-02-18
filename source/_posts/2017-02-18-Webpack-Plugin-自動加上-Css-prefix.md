@@ -16,7 +16,7 @@ npm i -D postcss-loader
 
 ### 2. 設定 webpack.config.js
 在 webpack.config.js 中加入 postcss-loader
-{% codeblock webpack.config.js %}
+{% codeblock webpack.config.js lang:javascript %}
 module: {
     loaders: [
         {
@@ -33,7 +33,7 @@ module: {
 {% endcodeblock %}
 
 ### 3. 建立並設定 postcss.config.js
-{% codeblock postcss.config.js %}
+{% codeblock postcss.config.js lang:javascript %}
 module.exports = {
     plugins: [
         require('autoprefixer')({ /* ...options */ })

@@ -21,7 +21,7 @@ npm i -D style-loader css-loader
 
 ### 2. 設定 webpack.config.js
 在 webpack.config.js 的 module > loaders 陣列中新增一個物件
-{% codeblock webpack.config.js %}
+{% codeblock webpack.config.js lang:javascript %}
 module: {    
     loaders: [
         {
@@ -35,7 +35,7 @@ module: {
 
 ### 3. 使用 css
 在欲使用 css 的 js 檔中加入
-{% codeblock %}
+{% codeblock lang:javascript %}
 import './[FileName].css';
 {% endcodeblock %}
 

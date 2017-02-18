@@ -21,7 +21,7 @@ npm i -D url-loader file-loader
 
 ### 2. 設定 webpack.config.js
 在 webpack.config.js 的 output 中加入 publicPath，並在 module > loaders 陣列中新增一個物件
-{% codeblock webpack.config.js %}
+{% codeblock webpack.config.js lang:javascript %}
 output: {
     publicPath: './dist/',
     ...

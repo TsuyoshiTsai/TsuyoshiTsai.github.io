@@ -16,7 +16,7 @@ npm i -D extract-text-webpack-plugin
 
 ### 2. 設定 webpack.config.js
 在 webpack.config.js 中加入 ExtractTextPlugin 變數，並在 plugins 陣列中實體化該物件
-{% codeblock webpack.config.js %}
+{% codeblock webpack.config.js lang:javascript %}
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 plugins: [
     new CleanWebpackPlugin({ filename: "[name].css", allChunks: true })
@@ -25,7 +25,7 @@ plugins: [
 {% endcodeblock %}
 
 在 module > loaders 陣列中調整樣式相關檔案的物件，如：
-{% codeblock webpack.config.js %}
+{% codeblock webpack.config.js lang:javascript %}
 module: {
     loaders: [        
         {

@@ -16,7 +16,7 @@ npm i -D html-webpack-plugin
 
 ### 2. 設定 webpack.config.js
 在 webpack.config.js 中加入 HtmlWebpackPlugin 變數，並在 plugins 陣列中實體化該物件
-{% codeblock webpack.config.js %}
+{% codeblock webpack.config.js lang:javascript %}
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 plugins: [
     new HtmlWebpackPlugin({
