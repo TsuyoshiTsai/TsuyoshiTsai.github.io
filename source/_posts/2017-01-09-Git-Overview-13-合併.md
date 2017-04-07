@@ -3,10 +3,10 @@ title: 'Git Overview #13 合併'
 date: 2017-01-09 00:51:44
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 基本觀念
 - 合併的功能奠基於分支上

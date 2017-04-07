@@ -3,10 +3,10 @@ title: 'Git Overview #15 版本歷史紀錄'
 date: 2017-01-09 00:52:51
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 概述
 版本分享給其他人前，可以預先整理版本紀錄，讓其他人對版本的修改過程有較清楚的瞭解。

@@ -3,10 +3,10 @@ title: 'Git Overview #01 準備開始'
 date: 2016-12-29 01:33:45
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # Git 的優點
 - 不依賴網路，能夠在本地端進行版控

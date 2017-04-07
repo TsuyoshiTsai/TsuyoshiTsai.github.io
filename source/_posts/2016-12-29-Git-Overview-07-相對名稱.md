@@ -3,10 +3,10 @@ title: 'Git Overview #07 相對名稱'
 date: 2016-12-29 01:36:24
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 功能
  - 以特定 Commit 物件的相對位置，找到其他 Commit 物件

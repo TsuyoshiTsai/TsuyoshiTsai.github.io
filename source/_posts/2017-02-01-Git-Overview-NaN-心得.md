@@ -3,10 +3,10 @@ title: 'Git Overview #NaN 心得'
 date: 2017-02-01 02:13:48
 tags:
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
+    - Learn Git in 30 days
 categories:
     - Git
+    - Overview    
 ---
 
 在閱讀保哥的文章作筆記時，有些部分的說明其實不太容易理解，如相對名稱的意義、遠端的操作、重置與還原的操作等，所以在學習的過程中會透過關鍵字參考其他地方的資料，也因此得到一些額外的收穫。

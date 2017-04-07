@@ -2,10 +2,11 @@
 title: Webpack Plugin - 自動將 bundle 檔加進 html 文件
 date: 2017-02-18 16:45:17
 tags:
-    - Webpack
-    - Webpack Plugin
+    - JavaScript
+    - Webpack    
 categories:
     - Webpack
+    - Plugin
 ---
 ### 1. 安裝 Plugin
 {% codeblock install Plugins %}
@@ -46,5 +47,5 @@ plugins: [
 ---
 
 # Reference
-[webpack 插件： html-webpack-plugin] (http://www.cnblogs.com/haogj/p/5160821.html)
+[webpack 插件： html-webpack-plugin](http://www.cnblogs.com/haogj/p/5160821.html)
 

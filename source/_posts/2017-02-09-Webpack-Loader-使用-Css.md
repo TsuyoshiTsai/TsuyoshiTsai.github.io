@@ -2,10 +2,11 @@
 title: Webpack Loader - 使用 Css
 date: 2017-02-09 23:49:37
 tags:
-    - Webpack
-    - Webpack Loader
+    - JavaScript
+    - Webpack    
 categories:
     - Webpack
+    - Loader
 ---
 ### 1. 安裝 Loader
 {% codeblock install Loaders %}

@@ -3,10 +3,10 @@ title: 'Git Overview #10 Config Setting'
 date: 2016-12-29 01:36:40
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 儲存 Git Config 的三個地方
 - 系統層級 ( `--system` )

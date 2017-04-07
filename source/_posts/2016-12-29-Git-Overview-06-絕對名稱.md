@@ -3,10 +3,10 @@ title: 'Git Overview #06 絕對名稱'
 date: 2016-12-29 01:36:15
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 功能
  - 執行 Git 指令時，會需要用到物件名稱

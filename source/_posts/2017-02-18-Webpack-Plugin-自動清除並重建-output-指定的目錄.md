@@ -2,10 +2,11 @@
 title: Webpack Plugin - 自動清除並重建 output 指定的目錄
 date: 2017-02-18 16:47:00
 tags:
-    - Webpack
-    - Webpack Plugin
+    - JavaScript
+    - Webpack    
 categories:
     - Webpack
+    - Plugin
 ---
 ### 1. 安裝 Plugin
 {% codeblock install Plugins %}
@@ -39,5 +40,5 @@ plugins: [
 ---
 
 # Reference
-[html-webpack-plugin] (https://github.com/johnagan/clean-webpack-plugin)
+[html-webpack-plugin](https://github.com/johnagan/clean-webpack-plugin)
 

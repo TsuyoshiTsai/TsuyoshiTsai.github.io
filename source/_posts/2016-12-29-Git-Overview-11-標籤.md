@@ -3,10 +3,10 @@ title: 'Git Overview #11 標籤'
 date: 2016-12-29 01:36:58
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 概述
 隨著開發時程拉長、版本的數量增加，難以單憑版本說明尋找到特定的版本，所以我們可以在建立版本時，使用標籤替某些重要的版本做標記。

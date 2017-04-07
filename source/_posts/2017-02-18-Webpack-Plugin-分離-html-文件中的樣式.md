@@ -2,10 +2,11 @@
 title: Webpack Plugin - 分離 html 文件中的樣式
 date: 2017-02-18 16:47:38
 tags:
-    - Webpack
-    - Webpack Plugin
+    - JavaScript
+    - Webpack    
 categories:
     - Webpack
+    - Plugin
 ---
 ### 1. 安裝 Plugin
 {% codeblock install Plugins %}

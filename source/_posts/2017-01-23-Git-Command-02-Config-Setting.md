@@ -1,11 +1,11 @@
 ---
 title: 'Git Command #02 Config Setting'
 date: 2017-01-23 23:48:34
-tags:
+tags: 
     - Git
-    - Git Command
-categories:
+categories: 
     - Git
+    - Command
 ---
 # 一般操作
  - `git config --list`

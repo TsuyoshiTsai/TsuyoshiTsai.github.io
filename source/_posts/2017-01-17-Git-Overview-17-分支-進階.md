@@ -1,12 +1,12 @@
 ---
 title: 'Git Overview #17 分支 - 進階'
 date: 2017-01-17 00:18:49
-tags:
+tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 概述
 {% post_link Git-05-分支 "Git #05 分支" %} 中的分支僅限於本地分支，加上遠端儲存庫後，分支系統可以被拆成四種概念，且本地與遠端之間的關係會變得稍微複雜一些。

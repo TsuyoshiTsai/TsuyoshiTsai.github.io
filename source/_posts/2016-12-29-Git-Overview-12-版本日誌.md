@@ -3,10 +3,10 @@ title: 'Git Overview #12 版本日誌'
 date: 2016-12-29 01:37:03
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 概述
 在 Git 中做的所有版本變更，即使是復原的操作，都會被記錄下來，所以透過版本日誌的紀錄，能夠還原到任何狀態。簡言之，版本日誌就是參照變更的歷程記錄。無論對這些紀錄本身做任何操作，如修改或刪除，都不會影響物件儲存庫的內容。

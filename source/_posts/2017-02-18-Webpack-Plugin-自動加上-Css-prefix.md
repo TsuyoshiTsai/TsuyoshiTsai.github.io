@@ -2,10 +2,11 @@
 title: Webpack Plugin - 自動加上 Css prefix
 date: 2017-02-18 16:48:33
 tags:
-    - Webpack
-    - Webpack Plugin
+    - JavaScript
+    - Webpack    
 categories:
     - Webpack
+    - Plugin
 ---
 ### 1. 安裝 Plugin
 {% codeblock install Plugins %}
@@ -57,5 +58,5 @@ webpack.config.js 中 postcss-loader 設定的順序必須在 css-loader 之後�
 ---
 
 # Reference
-[postcss-loader] (https://github.com/postcss/postcss-loader)
+[postcss-loader](https://github.com/postcss/postcss-loader)
 

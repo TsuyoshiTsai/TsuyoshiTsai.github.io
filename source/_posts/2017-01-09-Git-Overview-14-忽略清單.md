@@ -3,10 +3,10 @@ title: 'Git Overview #14 忽略清單'
 date: 2017-01-09 00:52:42
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 概述
 有時不希望將工具產生的暫存或快取檔案被加入版本控管，為了排除這些檔案，可以使用忽略清單 ( .gitignore ) 的機制。

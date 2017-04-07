@@ -3,10 +3,10 @@ title: 'Git Overview #03 建立儲存庫'
 date: 2016-12-29 01:35:26
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 有三種建立儲存庫的方式：
 

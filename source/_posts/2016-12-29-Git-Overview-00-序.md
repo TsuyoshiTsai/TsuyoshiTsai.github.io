@@ -3,10 +3,10 @@ title: 'Git Overview #00 序'
 date: 2016-12-29 01:30:45
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 前言
 

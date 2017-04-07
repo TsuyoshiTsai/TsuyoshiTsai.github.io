@@ -3,10 +3,10 @@ title: 'Git Overview #09 暫存工作目錄'
 date: 2016-12-29 01:36:35
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 概述
 工作目錄是目前進度的狀態；索引則是希望建立版本的狀態。當開發途中被要求臨時修改某項功能，但不希望動到未完成的檔案時，可以將工作目錄中的變更狀態使用 `git stash` 指令建立 stash 版本，或稱之為暫存版。

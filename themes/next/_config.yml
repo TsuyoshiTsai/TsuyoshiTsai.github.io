@@ -41,6 +41,7 @@ menu:
   archives: /archives
   categories: /categories
   tags: /tags
+  comments: /comments
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -55,10 +56,11 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
-  categories: th
-  schedule: calendar
-  tags: tags
   archives: archive
+  categories: th
+  tags: tags
+  comments: commenting
+  schedule: calendar
   sitemap: sitemap
   commonweal: heartbeat
 
@@ -84,40 +86,40 @@ scheme: Pisces
 # - Introduce in 5.0.1
 # ---------------------------------------------------------------
 font:
-  enable: true
+  enable: false
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host: 
+  host:
 
   # Global font settings used on <body> element.
   global:
     # external: true will load this font family from host.
-    external: true
-    family: Microsoft JhengHei
+    external: false
+    family: Noto Sans TC
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
   headings:
-    external: true
+    external: false
     family:
 
   # Font settings for posts
   # Fallback to `global` font settings.
   posts:
-    external: true
+    external: false
     family:
 
   # Font settings for Logo
   # Fallback to `global` font settings.
   # The `size` option use `px` as unit
   logo:
-    external: true
+    external: false
     family:
-    size:
+    size: 24
 
   # Font settings for <code> and code blocks.
   codes:
-    external: true
+    external: false
     family:
     size:
 
@@ -254,10 +256,10 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
-  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-
+  https:
+  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 # Swiftype Search API Key
 #swiftype_key:

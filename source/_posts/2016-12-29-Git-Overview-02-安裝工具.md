@@ -3,10 +3,10 @@ title: 'Git Overview #02 安裝工具'
 date: 2016-12-29 01:34:30
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 1. [Git for Windows*] [Ref 01]
 底層 Git 工具，Windows 使用者非裝不可。

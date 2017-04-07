@@ -3,10 +3,10 @@ title: 'Git Overview #08 參照名稱'
 date: 2016-12-29 01:36:29
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 參照名稱 ( Ref )
 ### 功能

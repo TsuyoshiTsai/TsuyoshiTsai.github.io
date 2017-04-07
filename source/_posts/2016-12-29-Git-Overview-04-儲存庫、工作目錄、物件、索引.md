@@ -3,10 +3,10 @@ title: 'Git Overview #04 儲存庫、工作目錄、物件、索引'
 date: 2016-12-29 01:35:45
 tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 概述
 Git 儲存庫的運作，是將工作目錄裡的變化，透過更新索引的方式，將資料寫入成 Git 物件。 

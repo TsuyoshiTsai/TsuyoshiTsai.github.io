@@ -1,11 +1,11 @@
 ---
 title: Git Reference
 date: 2017-01-21 01:29:42
-tags:
+tags: 
     - Git
-    - Git Reference
-categories:
+categories: 
     - Git
+    - Reference
 ---
 
 紀錄學習 Git 時的參考來源，以及有關 Git 的有用資訊。

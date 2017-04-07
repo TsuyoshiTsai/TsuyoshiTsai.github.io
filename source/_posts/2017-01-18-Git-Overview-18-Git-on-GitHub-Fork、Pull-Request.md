@@ -1,12 +1,12 @@
 ---
 title: 'Git Overview #18 Git on GitHub - Fork、Pull Request'
 date: 2017-01-18 00:03:37
-tags:
+tags: 
     - Git
-    - Git Overview
-    - Learn-Git-in-30-days
-categories:
+    - Learn Git in 30 days
+categories: 
     - Git
+    - Overview
 ---
 # 概述
 由於 Git 沒有特意強化權限控管的機制，這代表所有人都可以下載一個遠端儲存庫的完整版本，也有權限將變更推送到遠端儲存庫，這對共同開發而言並不是件好事，因此 GitHub 採用了 Fork 與 Pull Request 的方式讓使用者可以做到基本的權限控管。
