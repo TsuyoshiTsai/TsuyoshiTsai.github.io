@@ -9,10 +9,14 @@ categories:
     - Number
 ---
 
-JavaScript 中不存在整數，因其數字儲存格式為 64 位元的雙精度浮點數。當我們輸入數字時，通常使用的是十進位的浮點數 ( decimal floating-point numbers )，但在 JavaScript 引擎內部這些數字被表示為二進位的浮點數 ( binary floating-point numbers )。
+# 釐清問題
+JavaScript 中不存在整數，因其數字儲存格式為 64 位元的雙精度 (double precision) 浮點數。當我們輸入數字時，通常使用的是十進位的浮點數 ( decimal floating-point numbers )，但在 JavaScript 引擎內部這些數字被表示為二進位的浮點數 ( binary floating-point numbers )。
 
 我們可以透過觀察十進位浮點數及二進位浮點數能表示什麼樣子的小數，瞭解這個情況是如何發生的：
 {% codeblock lang:javascript %}
+> 0.1 + 0.2 === 0.3
+false
+
 > 0.1 + 0.2
 0.30000000000000004
 {% endcodeblock %}
@@ -61,30 +65,32 @@ ${0.2\_{dec} = {2 \over 10} = {1 \over 5}}$
 0.10000000000000009
 {% endcodeblock %}
 
-因為 JavaScript 在運算數字的時候，會先將 0.1、0.2 這些十進位的浮點數轉換為二進位的浮點數，若以科學的方式表示：
-<small>${0.1\_{bin} \approx 1.\underbrace{10011001\cdots10011010}\_{52}\times2^{-4}}$</small>
+# 驗證過程
+1. JavaScript 在運算數字的時候，會先將 0.1、0.2 這些十進位的浮點數轉換為二進位的浮點數，若以科學的方式表示：
+<p><small>${0.1\_{bin} \approx 1.\underbrace{10011001\cdots10011010}\_{52}\times2^{-4}}$</small>
+<small>${0.2\_{bin} \approx 1.\underbrace{10011001\cdots10011010}\_{52}\times2^{-3}}$</small></p>
 
-<small>${0.2\_{bin} \approx 1.\underbrace{10011001\cdots10011010}\_{52}\times2^{-3}}$</small>
-
-將兩個數字相加後，得到的數字為：
+2. 將兩個數字相加後，得到的數字為：
 <small>${10.\underbrace{01100110\cdots01100111}\_{52}\times2^{-3} = 1.\underbrace{00110011\cdots001100111}\_{53}\times2^{-2}}$</small>
 
-由於約整後的尾數數量 ( 53 ) 已經超過其有效位數 ( 52 )，JS 會將其無條件進位：
+3. 由於約整後的尾數數量 ( 53 ) 已經超過其有效位數 ( 52 )，JS 會將其無條件進位：
 <small>${1.\underbrace{00110011\cdots001100110100}\_{52}\times2^{-2}}$</small>
 
-最後，JS 以二進位的方式儲存運算結果的值：
+4. 最後，以二進位的方式儲存運算結果的值：
 <small>${0 01111111101 0011001100110011001100110011001100110011001100110100}$</small>
 
-但該值被轉換成供我們閱讀的十進位時，則為：
+5. 但該值被轉換成供我們閱讀的十進位時，則為：
 <small>${0.3000000000000000444089209850062616169452667236328125}$</small>
 
-取其前 17 個小數位 ( 找不到來源，如有任何取位數的緣由參考請告知 )：
+6. 取其前 17 個小數位 ( [Double-precision floating-point format](https://www.wikiwand.com/en/Double-precision_floating-point_format#/section_IEEE_754_double-precision_binary_floating-point_format:_binary64 "If an IEEE 754 double precision is converted to a decimal string with at least 17 significant digits and then converted back to double, then the final number must match the original.") )：
 <small>${0.30000000000000004}$</small>
 
-為什麼 0.1 + 0.2 的值不等於 0.3，因為 0.3 儲存的二進位數字被轉換成十進位時為：
+至於 0.1 + 0.2 的值不等於 0.3，是因為 0.3 儲存的二進位數字被轉換成十進位時為：
 <small>${0.299999999999999988897769753748434595763683319091796875}$</small>
 
-詳請參閱 [The Internal Representation of Numbers] [iRef 01] 與 [Floating point according to the IEEE754] [iRef 02]。
+關於 Javascript 內部的雙精度數字表示法與詳細計算過程請參閱：
+1. [The Internal Representation of Numbers] [iRef 01]
+2. [Floating point according to the IEEE754] [iRef 02]
 
 [iRef 01]: http://speakingjs.com/es5/ch11.html#number_representation "Speaking JavaScript - The Internal Representation of Numbers"
 [iRef 02]: https://medium.com/the-node-js-collection/javascripts-number-type-8d59199db1b6#7025 "JavaScript’s Number type in details - Floating point according to the IEEE754"
@@ -95,34 +101,25 @@ ${0.2\_{dec} = {2 \over 10} = {1 \over 5}}$
 
 由於約整誤差的關係，不應該直接比較非整數，而是考量約整誤差，取一個上界 ( upper bound )，這樣的上界被稱作 [machine epsilon](http://en.wikipedia.org/wiki/Machine_epsilon "machine epsilon")。雙精度的標準 epsilon 值為 ${2^{-53}}$，我們可以自訂一個函式確保浮點數的精確性：
 {% codeblock lang:javascript %}
-//書上提供的方法
-var EPSILON = Math.pow(2, -53);
-function epsEqu(x, y) {
-    return Math.abs(x - y) < EPSILON;
-}
-
-//經改良後的方法
-if (!Math.hasOwnProperty('epsEqu')){
-    Math.epsEqu = function(x, y) {
-        return this.abs(x - y) < this.pow(2, -53);
-    }
+if (!Number.EPSILON) { Number.EPSILON = Math.pow(2, -53); }
+var epsEqu = function(x, y) {
+  return Math.abs(x - y) < Number.EPSILON;
 }
 {% endcodeblock %}
 
+感謝友人讓我知道某些瀏覽器有實作 [EPSILON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON "EPSILON") 可以用。
+
 測試：
 {% codeblock lang:javascript %}
-> 0.1 + 0.2 === 0.3
-false
-
-> Math.epsEqu(0.1 + 0.2, 0.3)
+> epsEqu(0.1 + 0.2, 0.3)
 true
 {% endcodeblock %}
 
 ---
 
 # Reference
-[Speaking JavaScript - Handling Rounding Errors] [Ref 01]
-[JavaScript’s Number type in details] [Ref 02]
+1. [Speaking JavaScript - Handling Rounding Errors] [Ref 01]
+2. [JavaScript’s Number type in details] [Ref 02]
 
 [Ref 01]: http://speakingjs.com/es5/ch11.html#rounding_errors "Speaking JavaScript - Handling Rounding Errors"
 [Ref 02]: https://medium.com/the-node-js-collection/javascripts-number-type-8d59199db1b6 "JavaScript’s Number type in details"

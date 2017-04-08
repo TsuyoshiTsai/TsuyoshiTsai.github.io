@@ -15,7 +15,7 @@
   +mobile() { margin: 0 5px; }
 }
 
-.pagination {
+.pagination {  
   .prev, .next, .page-number {
     @extend .page-number-basic;
     border-bottom: 0;
@@ -39,6 +39,13 @@
     color: $pagination-active-color;
     background: $pagination-active-bg;
     border-top-color: $pagination-active-border;
+  }
+
+  a {
+    color: $black-light;
+    &:hover {
+      color: $black-deep;
+    }
   }
 }
 
