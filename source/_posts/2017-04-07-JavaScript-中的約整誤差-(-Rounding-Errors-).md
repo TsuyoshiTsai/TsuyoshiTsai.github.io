@@ -123,5 +123,3 @@ true
 
 [Ref 01]: http://speakingjs.com/es5/ch11.html#rounding_errors "Speaking JavaScript - Handling Rounding Errors"
 [Ref 02]: https://medium.com/the-node-js-collection/javascripts-number-type-8d59199db1b6 "JavaScript’s Number type in details"
-
-<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
