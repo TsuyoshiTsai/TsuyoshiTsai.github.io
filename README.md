@@ -13,6 +13,6 @@ https://hexo.io/docs/commands.html
 - `git clone https://github.com/TsuyoshiTsai/TsuyoshiTsai.github.io.git`
 - `npm install hexo`
 - `npm install`
-- `npm install hexo-deployer-git —save`
-- `npm install hexo-generator-feed —save`
-- `npm install hexo-generator-searchdb —save`
+- `npm install hexo-deployer-git --save`
+- `npm install hexo-generator-feed --save`
+- `npm install hexo-generator-searchdb --save`
