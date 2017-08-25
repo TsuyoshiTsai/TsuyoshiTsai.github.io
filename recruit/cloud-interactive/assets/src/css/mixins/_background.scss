@@ -1,0 +1,12 @@
+// basic
+@mixin background-style($size: contain, $repeat: no-repeat, $position: center) {
+  background-size: $size;
+  background-repeat: $repeat;
+  background-position: $position;
+}
+
+// utility
+@mixin background-image($url, $size: contain, $repeat: no-repeat, $position: center) {
+  background-image: url($url);
+  @include background-style($size, $repeat, $position);
+}

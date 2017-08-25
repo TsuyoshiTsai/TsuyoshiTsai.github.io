@@ -1,0 +1,185 @@
+/*
+  search variable by
+  
+  global
+  
+  topic  
+  topic-length
+  topic-heights
+  topic-types
+  topic-bg-color
+  topic-border-color
+  topic-img-float
+  topic-img-corner-width
+  topic-img-corner-color
+  topic-content-padding
+  topic-link-color
+  topic-link-icon-google
+
+  slider
+  slider-length
+*/
+
+
+/*
+  global
+*/
+$transition: all .2s ease-in-out;
+$colors: (  
+  type2-topic-link-bg: hsla(0, 0%, 0%, .2),
+  topic-more: hsl(220, 100%, 57%),
+  slider-nav: hsl(0, 0%, 100%),
+  slider-dot: hsl(0, 0%, 100%),
+  mobile-bg: hsl(250, 14%, 17%),
+  mobile-header-border: hsla(231, 64%, 34%, .5),
+  mobile-header-bg: hsl(0, 0%, 100%),
+  mobile-header-nav-controler-bg:  hsla(218, 75%, 36%, .05),
+  mobile-header-nav-divider: hsla(0, 0%, 0%, .15),
+  mobile-header-nav-font: inherit,
+  mobile-header-nav-bg: transparent,
+  mobile-header-nav-bgmask: transparent,
+  mobile-header-nav-bgmask-hover: hsla(218, 75%, 36%, .15),
+  mobile-topic-link-divider: hsl(0, 0%, 70%),
+  mobile-topic-link-bg: hsl(0, 0%, 95%),
+  mobile-footer-font: hsl(0, 0%, 63%),
+  mobile-footer-bg: hsl(0, 0%, 7%),
+  desktop-link-divider: hsl(0, 0%, 76%),
+  desktop-header-border: transparent,
+  desktop-header-bg: transparent,
+  desktop-header-nav-divider: hsl(0, 0%, 100%),
+  desktop-header-nav-font: hsl(0, 0%, 100%),
+  desktop-header-nav-bg: hsl(218, 75%, 36%),
+  desktop-header-nav-bgmask: linear-gradient(hsla(0, 0%, 10%, .375), hsla(0, 0%, 50%, .25)),
+  desktop-header-nav-bgmask-hover: linear-gradient(hsla(0, 0%, 10%, .375), hsla(0, 0%, 10%, .375)),
+  desktop-header-searchbtn-border: hsla(0, 0%, 0%, .15),
+  desktop-header-searchbtn-main-bg: linear-gradient(hsl(39, 100%, 68%) 50%, hsl(36, 100%, 63%) 50%),
+  desktop-header-searchbtn-main-font: hsl(0, 0%, 20%),
+  desktop-header-searchbtn-other-bg: linear-gradient(hsl(225, 100%, 67%) 50%, hsl(220, 100%, 57%) 50%),
+  desktop-header-searchbtn-other-font: hsl(0, 0%, 100%),
+  desktop-footer-bg: hsl(223, 3%, 94%)  
+);
+
+
+/*
+  topic
+*/
+// topic-length
+$topic-length: 5;
+
+// topic-heights
+$topic-heights: (
+    xs: 18.75rem,
+    sm: 18.75rem,
+    md: 13.125rem,
+    lg: 16.875rem,
+    xl: 15.625rem
+);
+
+// topic-types
+$topic-types: type1, type2;
+
+// topic-bg-color
+$topic-bg-color: (
+  nth($topic-types, 1): hsl(0, 0%, 95%),
+  nth($topic-types, 2): hsl(0, 0%, 100%),
+  mobile: hsl(0, 0%, 100%)
+);
+@function topic-bg-color($type) {
+  @return map-get($topic-bg-color, $type);
+}
+
+// topic-border-color
+$topic-border-color: (
+  nth($topic-types, 1): transparent,
+  nth($topic-types, 2): hsl(0, 0%, 86%),
+  mobile: none
+);
+@function topic-border-color($type) {
+  @return map-get($topic-border-color, $type);
+}
+
+// topic-img-float
+$topic-img-float: (
+  nth($topic-types, 1): left,
+  nth($topic-types, 2): right
+);
+@function topic-img-float($type) {
+  @return map-get($topic-img-float, $type);
+}
+
+// topic-img-corner-width
+$topic-img-corner-width: (
+  #{nth($topic-types, 1)}-xs: 3.125rem 2.5rem 0 0,
+  #{nth($topic-types, 1)}-sm: 3.125rem 2.5rem 0 0,
+  #{nth($topic-types, 1)}-md: 0 0 map-get($topic-heights, md) 5.625rem,
+  #{nth($topic-types, 1)}-lg: 0 0 map-get($topic-heights, lg) 5.625rem,
+  #{nth($topic-types, 1)}-xl: 0 0 map-get($topic-heights, xl) 5.625rem,  
+  #{nth($topic-types, 2)}-xs: 3.125rem 2.5rem 0 0,
+  #{nth($topic-types, 2)}-sm: 3.125rem 2.5rem 0 0,
+  #{nth($topic-types, 2)}-md: map-get($topic-heights, md) 5.625rem 0 0,
+  #{nth($topic-types, 2)}-lg: map-get($topic-heights, lg) 5.625rem 0 0,
+  #{nth($topic-types, 2)}-xl: map-get($topic-heights, xl) 5.625rem 0 0
+);
+@function topic-img-corner-width($type, $size) {
+  @return map-get($topic-img-corner-width , #{$type}-#{$size});
+}
+
+// topic-img-corner-color
+$topic-img-corner-color: (
+  nth($topic-types, 1): transparent transparent map-get($topic-bg-color, nth($topic-types, 1)) transparent,
+  nth($topic-types, 2): map-get($topic-bg-color, nth($topic-types, 2)) transparent transparent transparent,
+  mobile: currentColor transparent transparent transparent
+);
+@function topic-img-corner-color($type) {
+  @return map-get($topic-img-corner-color , $type);
+}
+
+// topic-content-padding
+$topic-content-padding: (  
+  #{nth($topic-types, 1)}-xs: 0 1.25rem,
+  #{nth($topic-types, 1)}-sm: 0 1.25rem,
+  #{nth($topic-types, 1)}-md: 0 1.5rem,
+  #{nth($topic-types, 1)}-lg: 0 3.125rem 0 1.25rem,
+  #{nth($topic-types, 1)}-xl: 0 3.125rem 0 1.25rem,
+  #{nth($topic-types, 2)}-xs: 0 1.25rem,
+  #{nth($topic-types, 2)}-sm: 0 1.25rem,
+  #{nth($topic-types, 2)}-md: 0 1.5rem,
+  #{nth($topic-types, 2)}-lg: 0 1.25rem 0 3.125rem,
+  #{nth($topic-types, 2)}-xl: 0 1.25rem 0 3.125rem
+);
+@function topic-content-padding($type, $size) {
+  @return map-get($topic-content-padding , #{$type}-#{$size});
+}
+
+// topic-link-color
+$topic-link-color: (
+  nth($topic-types, 1): hsl(0, 0%, 45%),
+  nth($topic-types, 2): hsl(0, 0%, 100%),
+  mobile: hsl(0, 0%, 45%)
+);
+@function topic-link-color($type) {
+  @return map-get($topic-link-color, $type);
+}
+
+// topic-link-icon-google
+$topic-link-icon-google: (
+  nth($topic-types, 1): '../image/google-plus-grey.svg',
+  nth($topic-types, 2): '../image/google-plus-white.svg',
+  mobile: '../image/google-plus-grey.svg'
+);
+@function topic-link-icon-google($type) {
+  @return map-get($topic-link-icon-google, $type);
+}
+
+/*
+  slider
+*/
+// slider-length
+$slider-length: 3;
+
+// slider-mask-colors
+$slider-mask-colors: (
+  hsl(16, 66%, 50%),
+  hsl(225, 100%, 67%),  
+  hsl(36, 100%, 63%)
+);

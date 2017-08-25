@@ -1,0 +1,13 @@
+// basic
+@mixin fontAwesome-style($font-size: inherit, $font-weight: inherit, $color: currentColor) {
+  font-family: fontAwesome;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  color: $color;
+}
+
+// utility
+@mixin fontAwesome($utf, $font-size: inherit, $font-weight: inherit, $color: currentColor) {
+  content: $utf;
+  @include fontAwesome-style($font-size, $font-weight, $color);
+}

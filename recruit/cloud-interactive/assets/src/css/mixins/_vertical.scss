@@ -1,0 +1,27 @@
+// basic
+@mixin vertical-parent {
+  font-size: 0;
+
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 100%;
+  }
+}
+@mixin vertical-child($font-size) {
+  font-size: $font-size;
+}
+
+// middle
+@mixin vertical-parent-middle {
+   @include vertical-parent();
+
+  &:before {
+    vertical-align: middle;
+  }
+}
+@mixin vertical-child-middle($font-size: inherit) {
+   @include vertical-child($font-size);
+  vertical-align: middle;
+}

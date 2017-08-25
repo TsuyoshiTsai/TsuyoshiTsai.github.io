@@ -1,0 +1,147 @@
+.footer {
+  display: none;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+/*
+  modifiler
+*/
+.footer--desktop {
+  margin-top: 1.25rem;
+
+  .footer__box {
+    padding: 1.25rem .625rem;
+    background-color: map-get($colors , desktop-footer-bg );
+    @include clearfix();
+
+    .copyright {
+      float: left;
+      font-size: 75%;
+      line-height: 1;
+    }
+
+    .link__list {
+      float: right;
+      font-size: 0;
+
+      li {
+        display: inline-block;
+        font-size: 1rem;
+        line-height: .75;
+        border-right: 1px solid map-get($colors, desktop-link-divider);
+
+        &:last-child {
+          padding-right: 0;
+          border-right: none;
+        }
+      }
+
+      .link__item {
+        font-size: 75%;
+      }
+    }
+  }
+}
+
+.footer--mobile {
+  padding: .9375rem 0;
+  text-align: center;
+  background-color: map-get($colors, mobile-footer-bg);
+
+  .copyright {
+    display: block;
+    padding: .9375rem 0;
+    font-size: .9375rem;
+    color: map-get($colors, mobile-footer-font);
+  }
+
+  .link__list {
+    padding: .9375rem 0;
+  }
+
+  .link__item {
+    color: map-get($colors, mobile-footer-font);
+  }
+
+  .link__list--character {
+    li {
+      padding-bottom: 1.875rem;
+      font-size: .9375rem;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .link__list--icon {
+    li {
+      display: inline-block;
+      padding: 0 1.5625rem;
+      font-size: 1.25rem;
+    }
+  }
+
+}
+
+/*
+  media
+*/
+// xs
+@media screen and (min-width: map-get($grid-breakpoints, xs)) {
+  .footer--mobile {
+    display: block;
+  }
+}
+
+// md
+@media screen and (min-width: map-get($grid-breakpoints, md)) {
+  .footer--mobile {
+    display: none;
+  }
+
+  .footer--desktop {
+    display: block;
+
+    .footer__box {
+      .copyright,
+      .link__list {
+        padding: .625rem 0;
+        width: 100%;
+        text-align: center;
+      }
+
+      .link__list {
+        li {
+          padding: 0 .375rem;
+        }
+      }
+    }
+
+  }
+}
+
+// lg
+@media screen and (min-width: map-get($grid-breakpoints, xl)) {
+  .footer--desktop {
+    .footer__box {
+      .copyright,
+      .link__list {
+        padding: 0;
+        width: auto;
+        text-align: inherit;
+      }
+
+      .link__list {
+        li {
+          padding: 0 .25rem;
+        }
+      }
+    }
+  }
+}

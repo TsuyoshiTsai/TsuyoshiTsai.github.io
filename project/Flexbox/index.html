@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <title>Flexbox</title>
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href=css/main-48a0faef722a3b697c9d52be0a88fc23.css rel=stylesheet></head>
+
+<body data-spy=scroll data-target=#navbar>
+    <div class=container>
+        <div class=row>
+
+
+            <div class=col-md-10>
+                <section id=flex-container>
+
+                    <section class=property>
+                        <h1 id=container-display class=property__title>display</h1>
+                        <small class=property__summary>Flex Container</small>
+                        <p class=property__usage>
+                            <small class=usage__title>Syntax: </small>
+                            <code class=usage__syntax>display: flex | inline-flex</code>
+                        </p>
+                        <code class=property__syntax></code>
+                        <div class=value>
+                            <h2 class=value__title>flex</h2>
+                            <div class=value__container>
+                                <span>before context</span>
+                                <div class="display--flex box box--color1">display: flex;</div>
+                                <span>after context</span>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>inline-flex</h2>
+                            <div class=value__container>
+                                <span>before context</span>
+                                <div class="display--inline-flex box box--color2">display: inline-flex;</div>
+                                <span>after context</span>
+                            </div>
+                        </div>
+                    </section>
+                    
+
+                    <section class=property>
+                        <h1 id=container-flex-direction class=property__title>
+                            <a class=property__title-link href=https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction target=_blank>
+                                flex-direction
+                            </a>
+                        </h1>
+                        <small class=property__summary>Flex Container</small>
+                        <p class=property__usage>
+                            <small class=usage__title>Syntax: </small>
+                            <code class=usage__syntax>flex-direction: row | row-reverse | column | column-reverse</code>
+                            <small class=usage__title>/ Initial Value:</small>
+                            <code class=usage__syntax>row</code>
+                        </p>
+                        <div class=value>
+                            <h2 class=value__title>row</h2>
+                            <div class=value__container>
+                                <div class="display--flex direction--row box box--color1">
+                                    <div class="box box--color3">item1</div>
+                                    <div class="box box--color4">item2</div>
+                                    <div class="box box--color5">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>row-reverse</h2>
+                            <div class=value__container>
+                                <div class="display--flex direction--row-reverse box box--color1">
+                                    <div class="box box--color3">item1</div>
+                                    <div class="box box--color4">item2</div>
+                                    <div class="box box--color5">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>column</h2>
+                            <div class=value__container>
+                                <div class="display--flex direction--column box box--color1">
+                                    <div class="box box--color3">item1</div>
+                                    <div class="box box--color4">item2</div>
+                                    <div class="box box--color5">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>column-reverse</h2>
+                            <div class=value__container>
+                                <div class="display--flex direction--column-reverse box box--color1">
+                                    <div class="box box--color3">item1</div>
+                                    <div class="box box--color4">item2</div>
+                                    <div class="box box--color5">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+
+                    <section class=property>
+                        <h1 id=container-flex-wrap class=property__title>
+                            <a class=property__title-link href=https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap target=_blank>
+                                flex-wrap
+                            </a>
+                        </h1>
+                        <small class=property__summary>Flex Container</small>
+                        <p class=property__usage>
+                            <small class=usage__title>Syntax: </small>
+                            <code class=usage__syntax>flex-wrap: nowrap | wrap | wrap-reverse</code>
+                            <small class=usage__title>/ Initial Value:</small>
+                            <code class=usage__syntax>nowrap</code>
+                        </p>
+                        <code class=property__syntax></code>
+                        <div class=value>
+                            <h2 class=value__title>nowrap</h2>
+                            <div class=value__container>
+                                <div class="display--flex direction--row wrap--nowrap box box--color1">
+                                    <div class="box box--color3 box-width--1by3">item1</div>
+                                    <div class="box box--color4 box-width--1by3">item2</div>
+                                    <div class="box box--color5 box-width--1by3">item3</div>
+                                    <div class="box box--color6 box-width--1by3">item4</div>
+                                    <div class="box box--color7 box-width--1by3">item5</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>wrap</h2>
+                            <div class=value__container>
+                                <div class="display--flex direction--row wrap--wrap box box--color1">
+                                    <div class="box box--color3 box-width--1by3">item1</div>
+                                    <div class="box box--color4 box-width--1by3">item2</div>
+                                    <div class="box box--color5 box-width--1by3">item3</div>
+                                    <div class="box box--color6 box-width--1by3">item4</div>
+                                    <div class="box box--color7 box-width--1by3">item5</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>wrap-reverse</h2>
+                            <div class=value__container>
+                                <div class="display--flex direction--row wrap--wrap-reverse box box--color1">
+                                    <div class="box box--color3 box-width--1by3">item1</div>
+                                    <div class="box box--color4 box-width--1by3">item2</div>
+                                    <div class="box box--color5 box-width--1by3">item3</div>
+                                    <div class="box box--color6 box-width--1by3">item4</div>
+                                    <div class="box box--color7 box-width--1by3">item5</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+
+                    <section class=property>
+                        <h1 id=container-flex-flow class=property__title>
+                            <a class=property__title-link href=https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow target=_blank>
+                                flex-flow
+                            </a>
+                        </h1>
+                        <small class=property__summary>Flex Container / a shorthand property for flex-direction and flex-wrap</small>
+                        <p class=property__usage>
+                            <small class=usage__title>Syntax: </small>
+                            <code class=usage__syntax>flex-flow: &lt;'flex-direction'&gt; || &lt;'flex-wrap'&gt;</code>
+                            <small class=usage__title>/ Initial Value:</small>
+                            <code class=usage__syntax>row nowrap</code>
+                        </p>
+                        <small class=property__summary></small>
+                        <div class="value container">
+                            <div class=row>
+                                <div class=col-md-4>
+                                    <h3 class=value__title>row nowrap</h3>
+                                    <div class=value__container>
+                                        <div class="display--flex flow--row-nowrap box box--color1 box-height--md">
+                                            <div class="box box--color3 box-width--1by3 font-size--xs">item1</div>
+                                            <div class="box box--color4 box-width--1by3 font-size--xs">item2</div>
+                                            <div class="box box--color5 box-width--1by3 font-size--xs">item3</div>
+                                            <div class="box box--color6 box-width--1by3 font-size--xs">item4</div>
+                                            <div class="box box--color7 box-width--1by3 font-size--xs">item5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-4>
+                                    <h3 class=value__title>row wrap</h3>
+                                    <div class=value__container>
+                                        <div class="display--flex flow--row-wrap box box--color1 box-height--md">
+                                            <div class="box box--color3 box-width--1by3 font-size--xs">item1</div>
+                                            <div class="box box--color4 box-width--1by3 font-size--xs">item2</div>
+                                            <div class="box box--color5 box-width--1by3 font-size--xs">item3</div>
+                                            <div class="box box--color6 box-width--1by3 font-size--xs">item4</div>
+                                            <div class="box box--color7 box-width--1by3 font-size--xs">item5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-4>
+                                    <h3 class=value__title>row wrap-reverse</h3>
+                                    <div class=value__container>
+                                        <div class="display--flex flow--row-wrap-reverse box box--color1 box-height--md">
+                                            <div class="box box--color3 box-width--1by3 font-size--xs">item1</div>
+                                            <div class="box box--color4 box-width--1by3 font-size--xs">item2</div>
+                                            <div class="box box--color5 box-width--1by3 font-size--xs">item3</div>
+                                            <div class="box box--color6 box-width--1by3 font-size--xs">item4</div>
+                                            <div class="box box--color7 box-width--1by3 font-size--xs">item5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="value container">
+                            <div class=row>
+                                <div class=col-md-4>
+                                    <h3 class=value__title>row-reverse nowrap</h3>
+                                    <div class=value__container>
+                                        <div class="display--flex flow--row-reverse-nowrap box box--color1 box-height--md">
+                                            <div class="box box--color3 box-width--1by3 font-size--xs">item1</div>
+                                            <div class="box box--color4 box-width--1by3 font-size--xs">item2</div>
+                                            <div class="box box--color5 box-width--1by3 font-size--xs">item3</div>
+                                            <div class="box box--color6 box-width--1by3 font-size--xs">item4</div>
+                                            <div class="box box--color7 box-width--1by3 font-size--xs">item5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-4>
+                                    <h3 class=value__title>row-reverse wrap</h3>
+                                    <div class=value__container>
+                                        <div class="display--flex flow--row-reverse-wrap box box--color1 box-height--md">
+                                            <div class="box box--color3 box-width--1by3 font-size--xs">item1</div>
+                                            <div class="box box--color4 box-width--1by3 font-size--xs">item2</div>
+                                            <div class="box box--color5 box-width--1by3 font-size--xs">item3</div>
+                                            <div class="box box--color6 box-width--1by3 font-size--xs">item4</div>
+                                            <div class="box box--color7 box-width--1by3 font-size--xs">item5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-4>
+                                    <h3 class=value__title>row-reverse wrap-reverse</h3>
+                                    <div class=value__container>
+                                        <div class="display--flex flow--row-reverse-wrap-reverse box box--color1 box-height--md">
+                                            <div class="box box--color3 box-width--1by3 font-size--xs">item1</div>
+                                            <div class="box box--color4 box-width--1by3 font-size--xs">item2</div>
+                                            <div class="box box--color5 box-width--1by3 font-size--xs">item3</div>
+                                            <div class="box box--color6 box-width--1by3 font-size--xs">item4</div>
+                                            <div class="box box--color7 box-width--1by3 font-size--xs">item5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="value container">
+                            <div class=row>
+                                <div class=col-md-4>
+                                    <h3 class=value__title>column nowrap</h3>
+                                    <div class=value__container>
+                                        <div class="display--flex flow--column-nowrap box box--color1 box-height--xl">
+                                            <div class="box box--color3 box-height--xs box-width--1by3 font-size--xs">item1</div>
+                                            <div class="box box--color4 box-height--xs box-width--1by3 font-size--xs">item2</div>
+                                            <div class="box box--color5 box-height--xs box-width--1by3 font-size--xs">item3</div>
+                                            <div class="box box--color6 box-height--xs box-width--1by3 font-size--xs">item4</div>
+                                            <div class="box box--color7 box-height--xs box-width--1by3 font-size--xs">item5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-4>
+                                    <h3 class=value__title>column wrap</h3>
+                                    <div class=value__container>
+                                        <div class="display--flex flow--column-wrap box box--color1 box-height--md">
+                                            <div class="box box--color3 box-height--xs box-width--1by3 font-size--xs">item1</div>
+                                            <div class="box box--color4 box-height--xs box-width--1by3 font-size--xs">item2</div>
+                                            <div class="box box--color5 box-height--xs box-width--1by3 font-size--xs">item3</div>
+                                            <div class="box box--color6 box-height--xs box-width--1by3 font-size--xs">item4</div>
+                                            <div class="box box--color7 box-height--xs box-width--1by3 font-size--xs">item5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-4>
+                                    <h3 class=value__title>column wrap-reverse</h3>
+                                    <div class=value__container>
+                                        <div class="display--flex flow--column-wrap-reverse box box--color1 box-height--md">
+                                            <div class="box box--color3 box-height--xs box-width--1by3 font-size--xs">item1</div>
+                                            <div class="box box--color4 box-height--xs box-width--1by3 font-size--xs">item2</div>
+                                            <div class="box box--color5 box-height--xs box-width--1by3 font-size--xs">item3</div>
+                                            <div class="box box--color6 box-height--xs box-width--1by3 font-size--xs">item4</div>
+                                            <div class="box box--color7 box-height--xs box-width--1by3 font-size--xs">item5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="value container">
+                            <div class=row>
+                                <div class=col-md-4>
+                                    <h3 class=value__title>column-reverse nowrap</h3>
+                                    <div class=value__container>
+                                        <div class="display--flex flow--column-reverse-nowrap box box--color1 box-height--xl">
+                                            <div class="box box--color3 box-height--xs box-width--1by3 font-size--xs">item1</div>
+                                            <div class="box box--color4 box-height--xs box-width--1by3 font-size--xs">item2</div>
+                                            <div class="box box--color5 box-height--xs box-width--1by3 font-size--xs">item3</div>
+                                            <div class="box box--color6 box-height--xs box-width--1by3 font-size--xs">item4</div>
+                                            <div class="box box--color7 box-height--xs box-width--1by3 font-size--xs">item5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-4>
+                                    <h3 class=value__title>column-reverse wrap</h3>
+                                    <div class=value__container>
+                                        <div class="display--flex flow--column-reverse-wrap box box--color1 box-height--md">
+                                            <div class="box box--color3 box-height--xs box-width--1by3 font-size--xs">item1</div>
+                                            <div class="box box--color4 box-height--xs box-width--1by3 font-size--xs">item2</div>
+                                            <div class="box box--color5 box-height--xs box-width--1by3 font-size--xs">item3</div>
+                                            <div class="box box--color6 box-height--xs box-width--1by3 font-size--xs">item4</div>
+                                            <div class="box box--color7 box-height--xs box-width--1by3 font-size--xs">item5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-4>
+                                    <h3 class=value__title>column-reverse wrap-reverse</h3>
+                                    <div class=value__container>
+                                        <div class="display--flex flow--column-reverse-wrap-reverse box box--color1 box-height--md">
+                                            <div class="box box--color3 box-height--xs box-width--1by3 font-size--xs">item1</div>
+                                            <div class="box box--color4 box-height--xs box-width--1by3 font-size--xs">item2</div>
+                                            <div class="box box--color5 box-height--xs box-width--1by3 font-size--xs">item3</div>
+                                            <div class="box box--color6 box-height--xs box-width--1by3 font-size--xs">item4</div>
+                                            <div class="box box--color7 box-height--xs box-width--1by3 font-size--xs">item5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+
+                    <section class=property>
+                        <h1 id=container-justify-content class=property__title>
+                            <a class=property__title-link href=https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content target=_blank>
+                                justify-content
+                            </a>
+                        </h1>
+                        <small class=property__summary>Flex Container</small>
+                        <p class=property__usage>
+                            <small class=usage__title>Syntax: </small>
+                            <code class=usage__syntax>justify-content: flex-start | flex-end | center | space-between | space-around</code>
+                            <small class=usage__title>/ Initial Value:</small>
+                            <code class=usage__syntax>flex-start</code>
+                        </p>
+                        <div class=value>
+                            <h2 class=value__title>flex-start</h2>
+                            <div class=value__container>
+                                <div class="display--flex justify-content--flex-start box box--color1">
+                                    <div class="box box--color3 font-size--md">item1</div>
+                                    <div class="box box--color4 font-size--xs">item2</div>
+                                    <div class="box box--color5 font-size--xl">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>flex-end</h2>
+                            <div class=value__container>
+                                <div class="display--flex justify-content--flex-end box box--color1">
+                                    <div class="box box--color3 font-size--md">item1</div>
+                                    <div class="box box--color4 font-size--xs">item2</div>
+                                    <div class="box box--color5 font-size--xl">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>center</h2>
+                            <div class=value__container>
+                                <div class="display--flex justify-content--center box box--color1">
+                                    <div class="box box--color3 font-size--md">item1</div>
+                                    <div class="box box--color4 font-size--xs">item2</div>
+                                    <div class="box box--color5 font-size--xl">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>space-between</h2>
+                            <div class=value__container>
+                                <div class="display--flex justify-content--space-between box box--color1">
+                                    <div class="box box--color3 font-size--md">item1</div>
+                                    <div class="box box--color4 font-size--xs">item2</div>
+                                    <div class="box box--color5 font-size--xl">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>space-around</h2>
+                            <div class=value__container>
+                                <div class="display--flex justify-content--space-around box box--color1">
+                                    <div class="box box--color3 font-size--md">item1</div>
+                                    <div class="box box--color4 font-size--xs">item2</div>
+                                    <div class="box box--color5 font-size--xl">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+
+                    <section class=property>
+                        <h1 id=container-align-items class=property__title>
+                            <a class=property__title-link href=https://developer.mozilla.org/en-US/docs/Web/CSS/align-items target=_blank>
+                                align-items
+                            </a>
+                        </h1>
+                        <small class=property__summary>Flex Container</small>
+                        <p class=property__usage>
+                            <small class=usage__title>Syntax: </small>
+                            <code class=usage__syntax>align-items: flex-start | flex-end | center | baseline | stretch</code>
+                            <small class=usage__title>/ Initial Value:</small>
+                            <code class=usage__syntax>stretch</code>
+                        </p>
+                        <div class=value>
+                            <h2 class=value__title>flex-start</h2>
+                            <div class=value__container>
+                                <div class="display--flex align-items--flex-start box box--color1">
+                                    <div class="box box--color3 font-size--md">item1</div>
+                                    <div class="box box--color4 font-size--xs">item2</div>
+                                    <div class="box box--color5 font-size--xl">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>flex-end</h2>
+                            <div class=value__container>
+                                <div class="display--flex align-items--flex-end box box--color1">
+                                    <div class="box box--color3 font-size--md">item1</div>
+                                    <div class="box box--color4 font-size--xs">item2</div>
+                                    <div class="box box--color5 font-size--xl">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>center</h2>
+                            <div class=value__container>
+                                <div class="display--flex align-items--center box box--color1">
+                                    <div class="box box--color3 font-size--md">item1</div>
+                                    <div class="box box--color4 font-size--xs">item2</div>
+                                    <div class="box box--color5 font-size--xl">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>baseline</h2>
+                            <div class=value__container>
+                                <div class="display--flex align-items--baseline box box--color1">
+                                    <div class="box box--color3 font-size--md">item1</div>
+                                    <div class="box box--color4 font-size--xs">item2</div>
+                                    <div class="box box--color5 font-size--xl">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>stretch</h2>
+                            <div class=value__container>
+                                <div class="display--flex align-items--stretch box box--color1">
+                                    <div class="box box--color3 font-size--md">item1</div>
+                                    <div class="box box--color4 font-size--xs">item2</div>
+                                    <div class="box box--color5 font-size--xl">item3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+
+                    <section class=property>
+                        <h1 id=container-align-content class=property__title>
+                            <a class=property__title-link href=https://developer.mozilla.org/en-US/docs/Web/CSS/align-content target=_blank>
+                                align-content
+                            </a>
+                        </h1>
+                        <small class=property__summary>Flex Container</small>
+                        <p class=property__usage>
+                            <small class=usage__title>Syntax: </small>
+                            <code class=usage__syntax>align-content: flex-start | flex-end | center | space-between | space-around | stretch</code>
+                            <small class=usage__title>/ Initial Value:</small>
+                            <code class=usage__syntax>stretch</code>
+                        </p>
+                        <div class=value>
+                            <h2 class=value__title>flex-start</h2>
+                            <div class=value__container>
+                                <div class="display--flex align-content--flex-start wrap--wrap box box--color1 box-height--md">
+                                    <div class="box box--color3 box-width--1by3">item1</div>
+                                    <div class="box box--color4 box-width--1by3">item2</div>
+                                    <div class="box box--color5 box-width--1by3">item3</div>
+                                    <div class="box box--color6 box-width--1by3">item4</div>
+                                    <div class="box box--color7 box-width--1by3">item5</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>flex-end</h2>
+                            <div class=value__container>
+                                <div class="display--flex align-content--flex-end wrap--wrap box box--color1 box-height--md">
+                                    <div class="box box--color3 box-width--1by3">item1</div>
+                                    <div class="box box--color4 box-width--1by3">item2</div>
+                                    <div class="box box--color5 box-width--1by3">item3</div>
+                                    <div class="box box--color6 box-width--1by3">item4</div>
+                                    <div class="box box--color7 box-width--1by3">item5</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>center</h2>
+                            <div class=value__container>
+                                <div class="display--flex align-content--center wrap--wrap box box--color1 box-height--md">
+                                    <div class="box box--color3 box-width--1by3">item1</div>
+                                    <div class="box box--color4 box-width--1by3">item2</div>
+                                    <div class="box box--color5 box-width--1by3">item3</div>
+                                    <div class="box box--color6 box-width--1by3">item4</div>
+                                    <div class="box box--color7 box-width--1by3">item5</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>space-between</h2>
+                            <div class=value__container>
+                                <div class="display--flex align-content--space-between wrap--wrap box box--color1 box-height--md">
+                                    <div class="box box--color3 box-width--1by3">item1</div>
+                                    <div class="box box--color4 box-width--1by3">item2</div>
+                                    <div class="box box--color5 box-width--1by3">item3</div>
+                                    <div class="box box--color6 box-width--1by3">item4</div>
+                                    <div class="box box--color7 box-width--1by3">item5</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>space-around</h2>
+                            <div class=value__container>
+                                <div class="display--flex align-content--space-around wrap--wrap box box--color1 box-height--md">
+                                    <div class="box box--color3 box-width--1by3">item1</div>
+                                    <div class="box box--color4 box-width--1by3">item2</div>
+                                    <div class="box box--color5 box-width--1by3">item3</div>
+                                    <div class="box box--color6 box-width--1by3">item4</div>
+                                    <div class="box box--color7 box-width--1by3">item5</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=value>
+                            <h2 class=value__title>stretch</h2>
+                            <div class=value__container>
+                                <div class="display--flex align-content--stretch wrap--wrap box box--color1 box-height--md">
+                                    <div class="box box--color3 box-width--1by3">item1</div>
+                                    <div class="box box--color4 box-width--1by3">item2</div>
+                                    <div class="box box--color5 box-width--1by3">item3</div>
+                                    <div class="box box--color6 box-width--1by3">item4</div>
+                                    <div class="box box--color7 box-width--1by3">item5</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+
+                </section>
+                
+
+
+                <section id=flex-item>
+
+                    <section class=property>
+                        <h1 id=item-order class=property__title>
+                            <a class=property__title-link href=https://developer.mozilla.org/en-US/docs/Web/CSS/order target=_blank>
+                                order
+                            </a>
+                        </h1>
+                        <small class=property__summary>Flex Item</small>
+                        <p class=property__usage>
+                            <small class=usage__title>Syntax: </small>
+                            <code class=usage__syntax>order: &lt;integer&gt;</code>
+                            <small class=usage__title>/ Initial Value:</small>
+                            <code class=usage__syntax>0</code>
+                        </p>
+                        <div class=value>
+                            <h2 class=value__title>&lt;integer&gt;</h2>
+                            <div class=value__container>
+                                <div class="display--flex box box--color1">
+                                    <div class="box box--color3 order--3">item1 - order: 3;</div>
+                                    <div class="box box--color4 order--5">item2 - order: 5;</div>
+                                    <div class="box box--color5 order--1">item3 - order: 1;</div>
+                                    <div class="box box--color6 order--4">item4 - order: 4;</div>
+                                    <div class="box box--color7 order--2">item5 - order: 2;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+
+                    <section class=property>
+                        <h1 id=item-align-self class=property__title>
+                            <a class=property__title-link href=https://developer.mozilla.org/en-US/docs/Web/CSS/align-self target=_blank>
+                                align-self
+                            </a>
+                        </h1>
+                        <small class=property__summary>Flex Item / overriding the align-items value</small>
+                        <p class=property__usage>
+                            <small class=usage__title>Syntax: </small>
+                            <code class=usage__syntax>align-self: auto | flex-start | flex-end | center | baseline | stretch</code>
+                            <small class=usage__title>/ Initial Value:</small>
+                            <code class=usage__syntax>auto</code>
+                        </p>
+                        <div class="value container">
+                            <h2 class=value__title>auto</h2>
+                            <div class=row>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: flex-start</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--flex-start box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--auto font-size--xs">item2 - align-self: auto;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: flex-end</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--flex-end box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--auto font-size--xs">item2 - align-self: auto;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: center</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--center box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--auto font-size--xs">item2 - align-self: auto;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: baseline</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--baseline box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--auto font-size--xs">item2 - align-self: auto;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: stretch</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--stretch box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--auto font-size--xs">item2 - align-self: auto;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="value container">
+                            <h2 class=value__title>flex-start</h2>
+                            <div class=row>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: flex-start</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--flex-start box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--flex-start font-size--xs">item2 - align-self: flex-start;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: flex-end</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--flex-end box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--flex-start font-size--xs">item2 - align-self: flex-start;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: center</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--center box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--flex-start font-size--xs">item2 - align-self: flex-start;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: baseline</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--baseline box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--flex-start font-size--xs">item2 - align-self: flex-start;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: stretch</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--stretch box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--flex-start font-size--xs">item2 - align-self: flex-start;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="value container">
+                            <h2 class=value__title>flex-end</h2>
+                            <div class=row>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: flex-start</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--flex-start box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--flex-end font-size--xs">item2 - align-self: flex-end;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: flex-end</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--flex-end box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--flex-end font-size--xs">item2 - align-self: flex-end;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: center</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--center box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--flex-end font-size--xs">item2 - align-self: flex-end;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: baseline</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--baseline box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--flex-end font-size--xs">item2 - align-self: flex-end;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: stretch</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--stretch box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--flex-end font-size--xs">item2 - align-self: flex-end;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="value container">
+                            <h2 class=value__title>center</h2>
+                            <div class=row>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: flex-start</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--flex-start box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--center font-size--xs">item2 - align-self: center;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: flex-end</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--flex-end box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--center font-size--xs">item2 - align-self: center;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: center</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--center box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--center font-size--xs">item2 - align-self: center;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: baseline</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--baseline box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--center font-size--xs">item2 - align-self: center;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: stretch</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--stretch box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--center font-size--xs">item2 - align-self: center;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="value container">
+                            <h2 class=value__title>baseline</h2>
+                            <div class=row>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: flex-start</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--flex-start box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--baseline font-size--xs">item2 - align-self: baseline;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: flex-end</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--flex-end box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--baseline font-size--xs">item2 - align-self: baseline;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: center</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--center box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--baseline font-size--xs">item2 - align-self: baseline;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: baseline</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--baseline box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--baseline font-size--xs">item2 - align-self: baseline;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: stretch</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--stretch box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--baseline font-size--xs">item2 - align-self: baseline;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="value container">
+                            <h2 class=value__title>stretch</h2>
+                            <div class=row>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: flex-start</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--flex-start box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--stretch font-size--xs">item2 - align-self: stretch;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: flex-end</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--flex-end box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--stretch font-size--xs">item2 - align-self: stretch;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: center</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--center box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--stretch font-size--xs">item2 - align-self: stretch;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: baseline</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--baseline box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--stretch font-size--xs">item2 - align-self: stretch;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>align-items: stretch</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex align-items--stretch box box--color1">
+                                            <div class="box box--color3 font-size--md">item1</div>
+                                            <div class="box box--color4 align-self--stretch font-size--xs">item2 - align-self: stretch;</div>
+                                            <div class="box box--color5 font-size--xl">item3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </section>
+                    
+
+                    <section class=property>
+                        <h1 id=item-flex-grow class=property__title>
+                            <a class=property__title-link href=https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow target=_blank>
+                                flex-grow
+                            </a>
+                        </h1>
+                        <small class=property__summary>Flex Item</small>
+                        <p class=property__usage>
+                            <small class=usage__title>Syntax: </small>
+                            <code class=usage__syntax>flex-grow: &lt;number&gt;</code>
+                            <small class=usage__title>/ Initial Value:</small>
+                            <code class=usage__syntax>0</code>
+                        </p>
+                        <div class=value>
+                            <h2 class=value__title>&lt;number&gt;</h2>
+                            <div class=value__container>
+                                <div class="display--flex box box--color1">
+                                    <div class="box box--color3 grow--1 font-size--xs">item1<br>flex-grow: 1;</div>
+                                    <div class="box box--color4 grow--2 font-size--xs">item2<br>flex-grow: 2;</div>
+                                    <div class="box box--color5 grow--3 font-size--xs">item3<br>flex-grow: 3;</div>
+                                    <div class="box box--color6 grow--4 font-size--xs">item4<br>flex-grow: 4;</div>
+                                    <div class="box box--color7 grow--5 font-size--xs">item5<br>flex-grow: 5;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+
+                    <section class=property>
+                        <h1 id=item-flex-shrink class=property__title>
+                            <a class=property__title-link href=https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink target=_blank>
+                                flex-shrink
+                            </a>
+                        </h1>
+                        <small class=property__summary>Flex Item</small>
+                        <p class=property__usage>
+                            <small class=usage__title>Syntax: </small>
+                            <code class=usage__syntax>flex-shrink: &lt;number&gt;</code>
+                            <small class=usage__title>/ Initial Value:</small>
+                            <code class=usage__syntax>1</code>
+                        </p>
+                        <div class=value>
+                            <h2 class=value__title>&lt;number&gt;</h2>
+                            <div class=value__container>
+                                <div class="display--flex box box--color1">
+                                    <div class="box box--color3 shrink--2 box-width--1by3 font-size--xs">item1<br>flex-shrink: 2;</div>
+                                    <div class="box box--color4 shrink--3 box-width--1by3 font-size--xs">item2<br>flex-shrink: 3;</div>
+                                    <div class="box box--color5 shrink--4 box-width--1by3 font-size--xs">item3<br>flex-shrink: 4;</div>
+                                    <div class="box box--color6 shrink--5 box-width--1by3 font-size--xs">item4<br>flex-shrink: 5;</div>
+                                    <div class="box box--color7 shrink--6 box-width--1by3 font-size--xs">item5<br>flex-shrink: 6;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+
+                    <section class=property>
+                        <h1 id=item-flex-basis class=property__title>
+                            <a class=property__title-link href=https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis target=_blank>
+                                flex-basis
+                            </a>
+                        </h1>
+                        <small class=property__summary>Flex Item / &lt;'width'&gt; defined as a number followed by a absolute unit such as px, mm, pt, %</small>
+                        <p class=property__usage>
+                            <small class=usage__title>Syntax: </small>
+                            <code class=usage__syntax>flex-basis: content | &lt;'width'&gt;</code>
+                            <small class=usage__title>/ Initial Value:</small>
+                            <code class=usage__syntax>auto</code>
+                        </p>
+                        <code class=property__syntax></code>
+                        <div class=value>
+                            <h2 class=value__title>percentage width</h2>
+                            <div class=value__container>
+                                <div class="display--flex box box--color1">
+                                    <div class="box box--color3 basis--1by15 font-size--xs">item1<br>1 / 15</div>
+                                    <div class="box box--color4 basis--2by15 font-size--xs">item2<br>2 / 15</div>
+                                    <div class="box box--color5 basis--3by15 font-size--xs">item3<br>3 / 15</div>
+                                    <div class="box box--color6 basis--4by15 font-size--xs">item4<br>4 / 15</div>
+                                    <div class="box box--color7 basis--5by15 font-size--xs">item5<br>5 / 15</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+
+                    <section class=property>
+                        <h1 id=item-flex class=property__title>
+                            <a class=property__title-link href=https://developer.mozilla.org/en-US/docs/Web/CSS/flex target=_blank>
+                                flex
+                            </a>
+                        </h1>
+                        <small class=property__summary>Flex Item / a shorthand property for flex-grow, flex-shrink and flex-basis</small>
+                        <p class=property__usage>
+                            <small class=usage__title>Syntax: </small>
+                            <code class=usage__syntax>flex: none | [ &lt;'flex-grow'&gt; &lt;'flex-shrink'&gt;? || &lt;'flex-basis'&gt; ]</code>
+                            <small class=usage__title>/ Initial Value:</small>
+                            <code class=usage__syntax>0 1 auto</code>
+                        </p>
+                        <div class="value container">
+                            <div class=row>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>flex: 1 1 25% | 1 2 25% | 1 3 25%;</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex box box--color1">
+                                            <div class="box box--color3 flex--1_1_25 font-size--xs">item1<br>flex: 1 1 25%;</div>
+                                            <div class="box box--color4 flex--1_2_25 font-size--xs">item2<br>flex: 1 2 25%;</div>
+                                            <div class="box box--color5 flex--1_3_25 font-size--xs">item3<br>flex: 1 3 25%;</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>flex: 1 1 50% | 1 2 50% | 1 3 50%;</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex box box--color1">
+                                            <div class="box box--color3 flex--1_1_50 font-size--xs">item1<br>flex: 1 1 50%;</div>
+                                            <div class="box box--color4 flex--1_2_50 font-size--xs">item2<br>flex: 1 2 50%;</div>
+                                            <div class="box box--color5 flex--1_3_50 font-size--xs">item3<br>flex: 1 3 50%;</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="value container">
+                            <div class=row>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>flex: 1 1 25% | 2 1 25% | 3 1 25%;</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex box box--color1">
+                                            <div class="box box--color3 flex--1_1_25 font-size--xs">item1<br>flex: 1 1 25%;</div>
+                                            <div class="box box--color4 flex--2_1_25 font-size--xs">item2<br>flex: 2 1 25%;</div>
+                                            <div class="box box--color5 flex--3_1_25 font-size--xs">item3<br>flex: 3 1 25%;</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=col-md-6>
+                                    <h4 class=value__subtitle>flex: 1 1 50% | 2 1 50% | 3 1 50%;</h4>
+                                    <div class=value__container>
+                                        <div class="display--flex box box--color1">
+                                            <div class="box box--color3 flex--1_1_50 font-size--xs">item1<br>flex: 1 1 50%;</div>
+                                            <div class="box box--color4 flex--2_1_50 font-size--xs">item2<br>flex: 2 1 50%;</div>
+                                            <div class="box box--color5 flex--3_1_50 font-size--xs">item3<br>flex: 3 1 50%;</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </section>
+                    
+
+                </section>
+                
+            </div>
+            
+
+
+            <div class=col-md-2>
+                <nav id=navbar class="nav hidden-print hidden-sm-down" role=complementary>
+
+                    <ul class="nav__list nav__list--primary">
+                        <li class="nav__item nav__item--primary">
+                            <a id=flex-container class="nav__title nav__title--primary nav-link" href=#flex-container>Flex Container</a>
+                            <ul class="nav__list nav__list--secondary">
+                                <li class="nav__item nav__item--secondary"><a class="nav__title nav__title--secondary nav-link" href=#container-display>display</a></li>
+                                <li class="nav__item nav__item--secondary"><a class="nav__title nav__title--secondary nav-link" href=#container-flex-direction>flex-direction</a></li>
+                                <li class="nav__item nav__item--secondary"><a class="nav__title nav__title--secondary nav-link" href=#container-flex-wrap>flex-wrap</a></li>
+                                <li class="nav__item nav__item--secondary"><a class="nav__title nav__title--secondary nav-link" href=#container-flex-flow>flex-flow</a></li>
+                                <li class="nav__item nav__item--secondary"><a class="nav__title nav__title--secondary nav-link" href=#container-justify-content>justify-content</a></li>
+                                <li class="nav__item nav__item--secondary"><a class="nav__title nav__title--secondary nav-link" href=#container-align-items>align-items</a></li>
+                                <li class="nav__item nav__item--secondary"><a class="nav__title nav__title--secondary nav-link" href=#container-align-content>align-content</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item nav__item--primary">
+                            <a id=flex-item class="nav__title nav__title--primary nav-link" href=#flex-item>Flex Item</a>
+                            <ul class="nav__list nav__list--secondary">
+                                <li class="nav__item nav__item--secondary"><a class="nav__title nav__title--secondary nav-link" href=#item-order>order</a></li>
+                                <li class="nav__item nav__item--secondary"><a class="nav__title nav__title--secondary nav-link" href=#item-align-self>align-self</a></li>
+                                <li class="nav__item nav__item--secondary"><a class="nav__title nav__title--secondary nav-link" href=#item-flex-grow>flex-grow</a></li>
+                                <li class="nav__item nav__item--secondary"><a class="nav__title nav__title--secondary nav-link" href=#item-flex-shrink>flex-shrink</a></li>
+                                <li class="nav__item nav__item--secondary"><a class="nav__title nav__title--secondary nav-link" href=#item-flex-basis>flex-basis</a></li>
+                                <li class="nav__item nav__item--secondary"><a class="nav__title nav__title--secondary nav-link" href=#item-flex>flex</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+            
+
+
+        </div>
+        
+    </div>
+    
+<script type=text/javascript src=js/manifest-37a2c52ae559841ca0f8.js></script><script type=text/javascript src=js/vendor-799f63caa971f23e02b5.js></script><script type=text/javascript src=js/main-d6e43279c2068bdfc52e.js></script></body>
+
+</html>
