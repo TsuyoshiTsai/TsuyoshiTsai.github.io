@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Learning Note</title>
+  <subtitle>Keep Learning !</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://tsuyoshitsai.github.io/"/>
+  <updated>2017-08-25T16:04:51.000Z</updated>
+  <id>https://tsuyoshitsai.github.io/</id>
+  
+  <author>
+    <name>Tsuyoshi Tsai</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何從自我囚禁的監獄中逃脫？</title>
+    <link href="https://tsuyoshitsai.github.io/2017/05/20/How-did-we-escape-form-the-prison-bounded-by-a-nutshell/"/>
+    <id>https://tsuyoshitsai.github.io/2017/05/20/How-did-we-escape-form-the-prison-bounded-by-a-nutshell/</id>
+    <published>2017-05-19T17:38:15.000Z</published>
+    <updated>2017-08-25T16:04:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>How did we escape form the prison bounded by a nutshell?</p>
+<p>《宇宙大探索》 ( Cosmos: A Spacetime Odyssey ) 最後一集部分內容的紀錄，原文與中文翻譯皆來自 <a href="https://www.netflix.com/title/80004448" target="_blank">Netflix</a>。</p>
+<a id="more"></a>
+<hr>
+<p>我們這種渺小的生物，居住在一顆塵埃上，如何想出怎麼發射太空船，進入銀河系的繁星中？<br>How did we, tiny creatures living on that speck of dust, ever manage to figure out how to send spacecraft out among the stars of the Milky Way?</p>
+<p>那是世世代代追尋者的心血，他們謹記五條簡單的原則：<br>It was the work of generations of searchers who took five simple rules to heart.</p>
+<hr>
+<h3 id="1-質疑權威-Question-authority"><a href="#1-質疑權威-Question-authority" class="headerlink" title="1. 質疑權威 ( Question authority )"></a>1. 質疑權威 ( Question authority )</h3><p>即使某人說是如此，也不表示真是如此，包括我。<br>No idea is true just because someone says so, including me.</p>
+<h3 id="2-獨立思考-Think-for-your-self"><a href="#2-獨立思考-Think-for-your-self" class="headerlink" title="2. 獨立思考 ( Think for your self )"></a>2. 獨立思考 ( Think for your self )</h3><h3 id="3-質疑自己-Question-your-self"><a href="#3-質疑自己-Question-your-self" class="headerlink" title="3. 質疑自己 ( Question your self )"></a>3. 質疑自己 ( Question your self )</h3><p>別只因為你想相信而去相信，相信某件事，並不表示那是事實。用觀察與實驗獲得的證據來測試。若你喜歡的想法禁不起設計良好的測試，它就是錯的，放下它吧。<br>Don’t believe anything just because you want to. Believing something doesn’t make it so. Test ideas by the evidence gained from observation and experiment. If a favorite idea fails a well-designed test, it’s wrong. Get over it.</p>
+<h3 id="4-追隨證據，無論它通往哪裡-Follow-the-evidence-wherever-it-leads"><a href="#4-追隨證據，無論它通往哪裡-Follow-the-evidence-wherever-it-leads" class="headerlink" title="4. 追隨證據，無論它通往哪裡 ( Follow the evidence, wherever it leads )"></a>4. 追隨證據，無論它通往哪裡 ( Follow the evidence, wherever it leads )</h3><p>如果你沒有證據，就別妄自評論。<br>If you have no evidence, reserve judgment.</p>
+<h3 id="5-你可能是錯的-You-could-be-wrong"><a href="#5-你可能是錯的-You-could-be-wrong" class="headerlink" title="5. 你可能是錯的 ( You could be wrong )"></a>5. 你可能是錯的 ( You could be wrong )</h3><p>即使最頂尖的科學家，也會搞錯某些事情。牛頓，愛因斯坦，以及歷史上每一個偉大科學家，都會犯錯，他們當然會犯錯，他們只是凡人。<br>Even the best scientists have been wrong about some things. Newton, Einstein, and every other great scientist in history, they all made mistakes. Of course they did. They are human.</p>
+<hr>
+<blockquote class="blockquote-center"><h3 id="科學可以讓我們免於愚弄自己和別人。"><a href="#科學可以讓我們免於愚弄自己和別人。" class="headerlink" title="科學可以讓我們免於愚弄自己和別人。"></a>科學可以讓我們免於愚弄自己和別人。</h3><h3 id="Science-is-a-way-to-keep-from-fooling-ourselves-and-each-other"><a href="#Science-is-a-way-to-keep-from-fooling-ourselves-and-each-other" class="headerlink" title="Science is a way to keep from fooling ourselves and each other."></a>Science is a way to keep from fooling ourselves and each other.</h3></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;How did we escape form the prison bounded by a nutshell?&lt;/p&gt;
+&lt;p&gt;《宇宙大探索》 ( Cosmos: A Spacetime Odyssey ) 最後一集部分內容的紀錄，原文與中文翻譯皆來自 &lt;a href=&quot;https://www.netflix.com/title/80004448&quot; target=&quot;_blank&quot;&gt;Netflix&lt;/a&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Drama" scheme="https://tsuyoshitsai.github.io/categories/Drama/"/>
+    
+    
+      <category term="Drama" scheme="https://tsuyoshitsai.github.io/tags/Drama/"/>
+    
+      <category term="Scientist" scheme="https://tsuyoshitsai.github.io/tags/Scientist/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS Specificity Summary</title>
+    <link href="https://tsuyoshitsai.github.io/2017/04/09/CSS-Specificity-Summary/"/>
+    <id>https://tsuyoshitsai.github.io/2017/04/09/CSS-Specificity-Summary/</id>
+    <published>2017-04-09T15:40:54.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>CSS 權重的概要與使用時需特別注意的地方。</p>
+<a id="more"></a>
+<ol>
+<li><code>!important</code> ( never use ) &gt; inline styles &gt; IDs &gt; classes, attributes and pseudo-classes &gt; elements and pseudo-elements</li>
+<li><code>a#id</code> &gt; <code>a[id=&quot;id&quot;]</code> ( ID &gt; attribute )</li>
+<li>the rule that has a more specific selector with <code>!important</code> wins.</li>
+<li>universal selector ( * ) &gt; inherited values ( both specificity are 0, 0, 0, 0, but custom style &gt; user agent style. )</li>
+<li><code>*, +, &gt;, ~, &#39; &#39;, :not()</code> have no effect on specificity. ( The selectors declared inside :not() do, however. )</li>
+<li>contextual selectors &gt; single selector ( <a href="https://jsfiddle.net/fe8myvx3/" target="_blank" rel="external">example</a> )</li>
+<li>embedded stlye &gt; external style</li>
+<li>last rule &gt; previous rule ( only overrides same properties )</li>
+<li>LVHA: link-visited-hover-active</li>
+</ol>
+<hr>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ol>
+<li><a href="https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/" title="CSS Specificity: Things You Should Know" target="_blank" rel="external">CSS Specificity: Things You Should Know</a></li>
+<li><a href="https://css-tricks.com/specifics-on-css-specificity/" title="Specifics on CSS Specificity" target="_blank" rel="external">Specifics on CSS Specificity</a></li>
+<li><a href="http://meyerweb.com/eric/css/link-specificity.html" title="meyerweb.com - Specificity" target="_blank" rel="external">meyerweb.com - Specificity</a></li>
+<li><a href="https://www.w3.org/TR/CSS22/cascade.html#specificity" title="Calculating a selector&#39;s specificity" target="_blank" rel="external">Calculating a selector’s specificity</a></li>
+<li><a href="http://stackoverflow.com/questions/5805040/relationship-between-important-and-css-specificity" title="Relationship between !important and CSS specificity" target="_blank" rel="external">Relationship between !important and CSS specificity</a></li>
+</ol>
+<h2 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h2><ol>
+<li><a href="http://cssspecificity.com/" title="cssspecificity.com" target="_blank" rel="external">cssspecificity.com</a></li>
+<li><a href="https://stuffandnonsense.co.uk/archives/images/specificitywars-05v2.jpg" title="specificity wars" target="_blank" rel="external">specificity wars</a></li>
+</ol>
+<hr>
+<h1 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h1><ol>
+<li><a href="http://specificity.keegan.st/" title="Specificity Calculator" target="_blank" rel="external">Specificity Calculator</a></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;CSS 權重的概要與使用時需特別注意的地方。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="CSS" scheme="https://tsuyoshitsai.github.io/categories/CSS/"/>
+    
+    
+      <category term="CSS" scheme="https://tsuyoshitsai.github.io/tags/CSS/"/>
+    
+      <category term="Specificity" scheme="https://tsuyoshitsai.github.io/tags/Specificity/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript 中的約整誤差 ( Rounding Errors )</title>
+    <link href="https://tsuyoshitsai.github.io/2017/04/07/Rounding-errors-in-JavaScript/"/>
+    <id>https://tsuyoshitsai.github.io/2017/04/07/Rounding-errors-in-JavaScript/</id>
+    <published>2017-04-07T08:56:20.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="釐清問題"><a href="#釐清問題" class="headerlink" title="釐清問題"></a>釐清問題</h1><p>JavaScript 中不存在整數，因其數字儲存格式為 64 位元的雙精度 (double precision) 浮點數。當我們輸入數字時，通常使用的是十進位的浮點數 ( decimal floating-point numbers )，但在 JavaScript 引擎內部這些數字被表示為二進位的浮點數 ( binary floating-point numbers )。</p>
+<p>我們可以透過觀察十進位浮點數及二進位浮點數能表示什麼樣子的小數，瞭解這個情況是如何發生的：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&gt; <span class="number">0.1</span> + <span class="number">0.2</span> === <span class="number">0.3</span></div><div class="line"><span class="literal">false</span></div><div class="line"></div><div class="line">&gt; <span class="number">0.1</span> + <span class="number">0.2</span></div><div class="line"><span class="number">0.30000000000000004</span></div></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<p>在十進位系統中，所有小數都是尾數 m 除以 10 的次方的結果：<br>$${m \over 10^e}$$</p>
+<p>二進位系統則是尾數 m 除以 2 的次方的結果：<br>$${m \over 2^e}$$</p>
+<p>因此，如果要正確地表示十進位的數字，該數字也必須能適切地被轉換成二進位的數字 ( 分母裡面只有 2 )，以下是能同時以十進位與二進位表示的數字：</p>
+<p>${0.5_{dec} = {5 \over 10} = {1 \over 2} = 0.1_{bin}}$</p>
+<p>${0.75_{dec} = {75 \over 100} = {3 \over 4} = 0.11_{bin}}$</p>
+<p>${0.125_{dec} = {125 \over 1000} = {1 \over 8} = 0.001_{bin}}$</p>
+<p>如果分母中有除了 2 以外的數字，則無法精確地表示該數字，如：</p>
+<p>${0.1_{dec} = {1 \over 10} = {1 \over 2\times5}}$</p>
+<p>${0.2_{dec} = {2 \over 10} = {1 \over 5}}$</p>
+<p>一般我們不會發現 0.1 是不精確的數字，但若乘以夠大的 10 的次方，其不精確之處就會顯現出來：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; <span class="number">0.1</span> * <span class="built_in">Math</span>.pow(<span class="number">10</span>, <span class="number">24</span>)</div><div class="line"><span class="number">1.0000000000000001e+23</span></div><div class="line"></div><div class="line"><span class="comment">//eX 為「乘以 10 的 X 次方」的縮寫，如 5e2 為 500、5e-2 為 0.05。</span></div></pre></td></tr></table></figure></p>
+<p>如果將兩個無法精確表示的數字相加，其結果的不精確之處則顯而易見，如一開始的例子：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&gt; <span class="number">0.1</span> + <span class="number">0.2</span></div><div class="line"><span class="number">0.30000000000000004</span></div></pre></td></tr></table></figure></p>
+<p>另外一個例子：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&gt; <span class="number">0.1</span> + <span class="number">1</span> - <span class="number">1</span></div><div class="line"><span class="number">0.10000000000000009</span></div></pre></td></tr></table></figure></p>
+<h1 id="驗證過程"><a href="#驗證過程" class="headerlink" title="驗證過程"></a>驗證過程</h1><ol>
+<li><p>JavaScript 在運算數字的時候，會先將 0.1、0.2 這些十進位的浮點數轉換為二進位的浮點數，若以科學的方式表示：</p>
+<p><small>${0.1_{bin} \approx 1.\underbrace{10011001\cdots10011010}_{52}\times2^{-4}}$</small><br><small>${0.2_{bin} \approx 1.\underbrace{10011001\cdots10011010}_{52}\times2^{-3}}$</small></p>
+</li>
+<li><p>將兩個數字相加後，得到的數字為：<br><small>${10.\underbrace{01100110\cdots01100111}_{52}\times2^{-3} = 1.\underbrace{00110011\cdots001100111}_{53}\times2^{-2}}$</small></p>
+</li>
+<li><p>由於約整後的尾數數量 ( 53 ) 已經超過其有效位數 ( 52 )，JS 會將其無條件進位：<br><small>${1.\underbrace{00110011\cdots001100110100}_{52}\times2^{-2}}$</small></p>
+</li>
+<li><p>最後，以二進位的方式儲存運算結果的值：<br><small>${0 01111111101 0011001100110011001100110011001100110011001100110100}$</small></p>
+</li>
+<li><p>但該值被轉換成供我們閱讀的十進位時，則為：<br><small>${0.3000000000000000444089209850062616169452667236328125}$</small></p>
+</li>
+<li><p>取其前 17 個小數位 ( <a href="https://www.wikiwand.com/en/Double-precision_floating-point_format#/section_IEEE_754_double-precision_binary_floating-point_format:_binary64" title="If an IEEE 754 double precision is converted to a decimal string with at least 17 significant digits and then converted back to double, then the final number must match the original." target="_blank" rel="external">Double-precision floating-point format</a> )：<br><small>${0.30000000000000004}$</small></p>
+</li>
+</ol>
+<p>至於 0.1 + 0.2 的值不等於 0.3，是因為 0.3 儲存的二進位數字被轉換成十進位時為：<br><small>${0.299999999999999988897769753748434595763683319091796875}$</small></p>
+<p>關於 Javascript 內部的雙精度數字表示法與詳細計算過程請參閱：</p>
+<ol>
+<li><a href="http://speakingjs.com/es5/ch11.html#number_representation" title="Speaking JavaScript - The Internal Representation of Numbers" target="_blank" rel="external">The Internal Representation of Numbers</a></li>
+<li><a href="https://medium.com/the-node-js-collection/javascripts-number-type-8d59199db1b6#7025" title="JavaScript’s Number type in details - Floating point according to the IEEE754" target="_blank" rel="external">Floating point according to the IEEE754</a></li>
+</ol>
+<hr>
+<h1 id="最佳實務"><a href="#最佳實務" class="headerlink" title="最佳實務"></a>最佳實務</h1><p>由於約整誤差的關係，不應該直接比較非整數，而是考量約整誤差，取一個上界 ( upper bound )，這樣的上界被稱作 <a href="http://en.wikipedia.org/wiki/Machine_epsilon" title="machine epsilon" target="_blank" rel="external">machine epsilon</a>。雙精度的標準 epsilon 值為 ${2^{-53}}$，我們可以自訂一個函式確保浮點數的精確性：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> (!<span class="built_in">Number</span>.EPSILON) &#123; <span class="built_in">Number</span>.EPSILON = <span class="built_in">Math</span>.pow(<span class="number">2</span>, <span class="number">-53</span>); &#125;</div><div class="line"><span class="keyword">var</span> epsEqu = <span class="function"><span class="keyword">function</span>(<span class="params">x, y</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> <span class="built_in">Math</span>.abs(x - y) &lt; <span class="built_in">Number</span>.EPSILON;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>感謝友人讓我知道某些瀏覽器有實作 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON" title="EPSILON" target="_blank" rel="external">EPSILON</a> 可以用。</p>
+<p>測試：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&gt; epsEqu(<span class="number">0.1</span> + <span class="number">0.2</span>, <span class="number">0.3</span>)</div><div class="line"><span class="literal">true</span></div></pre></td></tr></table></figure></p>
+<hr>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ol>
+<li><a href="http://speakingjs.com/es5/ch11.html#rounding_errors" title="Speaking JavaScript - Handling Rounding Errors" target="_blank" rel="external">Speaking JavaScript - Handling Rounding Errors</a></li>
+<li><a href="https://medium.com/the-node-js-collection/javascripts-number-type-8d59199db1b6" title="JavaScript’s Number type in details" target="_blank" rel="external">JavaScript’s Number type in details</a></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;釐清問題&quot;&gt;&lt;a href=&quot;#釐清問題&quot; class=&quot;headerlink&quot; title=&quot;釐清問題&quot;&gt;&lt;/a&gt;釐清問題&lt;/h1&gt;&lt;p&gt;JavaScript 中不存在整數，因其數字儲存格式為 64 位元的雙精度 (double precision) 浮點數。當我們輸入數字時，通常使用的是十進位的浮點數 ( decimal floating-point numbers )，但在 JavaScript 引擎內部這些數字被表示為二進位的浮點數 ( binary floating-point numbers )。&lt;/p&gt;
+&lt;p&gt;我們可以透過觀察十進位浮點數及二進位浮點數能表示什麼樣子的小數，瞭解這個情況是如何發生的：&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt; &lt;span class=&quot;number&quot;&gt;0.1&lt;/span&gt; + &lt;span class=&quot;number&quot;&gt;0.2&lt;/span&gt; === &lt;span class=&quot;number&quot;&gt;0.3&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;literal&quot;&gt;false&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;gt; &lt;span class=&quot;number&quot;&gt;0.1&lt;/span&gt; + &lt;span class=&quot;number&quot;&gt;0.2&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;number&quot;&gt;0.30000000000000004&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="https://tsuyoshitsai.github.io/categories/JavaScript/"/>
+    
+      <category term="Number" scheme="https://tsuyoshitsai.github.io/categories/JavaScript/Number/"/>
+    
+    
+      <category term="JavaScript" scheme="https://tsuyoshitsai.github.io/tags/JavaScript/"/>
+    
+      <category term="Rounding Errors" scheme="https://tsuyoshitsai.github.io/tags/Rounding-Errors/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Webpack Plugin - 自動加上 Css prefix</title>
+    <link href="https://tsuyoshitsai.github.io/2017/02/18/Webpack-Plugin-Auto-add-prefix-by-postcss-and-autoprefixer/"/>
+    <id>https://tsuyoshitsai.github.io/2017/02/18/Webpack-Plugin-Auto-add-prefix-by-postcss-and-autoprefixer/</id>
+    <published>2017-02-18T08:48:33.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-安裝-Plugin"><a href="#1-安裝-Plugin" class="headerlink" title="1. 安裝 Plugin"></a>1. 安裝 Plugin</h3><figure class="highlight plain"><figcaption><span>install Plugins</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i -D postcss-loader</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="2-設定-webpack-config-js"><a href="#2-設定-webpack-config-js" class="headerlink" title="2. 設定 webpack.config.js"></a>2. 設定 webpack.config.js</h3><p>在 webpack.config.js 中加入 postcss-loader<br><figure class="highlight javascript"><figcaption><span>webpack.config.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">module</span>: &#123;</div><div class="line">    <span class="attr">loaders</span>: [</div><div class="line">        &#123;</div><div class="line">            <span class="attr">test</span>: <span class="regexp">/\.css$/</span>,</div><div class="line">            <span class="attr">loader</span>: <span class="string">'style-loader!css-loader!postcss-loader'</span></div><div class="line">        &#125;,</div><div class="line">        &#123;</div><div class="line">            <span class="attr">test</span>: <span class="regexp">/\.scss$/</span>,</div><div class="line">            <span class="attr">loader</span>: <span class="string">'style-loader!css-loader!postcss-loader!sass-loader'</span></div><div class="line">        &#125;</div><div class="line">        ...</div><div class="line">    ]</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h3 id="3-建立並設定-postcss-config-js"><a href="#3-建立並設定-postcss-config-js" class="headerlink" title="3. 建立並設定 postcss.config.js"></a>3. 建立並設定 postcss.config.js</h3><figure class="highlight javascript"><figcaption><span>postcss.config.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">module</span>.exports = &#123;</div><div class="line">    <span class="attr">plugins</span>: [</div><div class="line">        <span class="built_in">require</span>(<span class="string">'autoprefixer'</span>)(&#123; <span class="comment">/* ...options */</span> &#125;)</div><div class="line">    ]</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="Remind"><a href="#Remind" class="headerlink" title="Remind"></a>Remind</h3><p>webpack.config.js 中 postcss-loader 設定的順序必須在 css-loader 之後、sass-loader 之前。</p>
+<hr>
+<h1 id="使用版本"><a href="#使用版本" class="headerlink" title="使用版本"></a>使用版本</h1><figure class="highlight javascript"><figcaption><span>package.json</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">"devDependencies"</span>: &#123;  </div><div class="line">    <span class="string">"autoprefixer"</span>: <span class="string">"^6.7.2"</span>,</div><div class="line">    <span class="string">"postcss-loader"</span>: <span class="string">"^1.2.2"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="https://github.com/postcss/postcss-loader" target="_blank" rel="external">postcss-loader</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-安裝-Plugin&quot;&gt;&lt;a href=&quot;#1-安裝-Plugin&quot; class=&quot;headerlink&quot; title=&quot;1. 安裝 Plugin&quot;&gt;&lt;/a&gt;1. 安裝 Plugin&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;install Plugins&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm i -D postcss-loader&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/categories/Webpack/"/>
+    
+      <category term="Plugin" scheme="https://tsuyoshitsai.github.io/categories/Webpack/Plugin/"/>
+    
+    
+      <category term="JavaScript" scheme="https://tsuyoshitsai.github.io/tags/JavaScript/"/>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/tags/Webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Webpack Plugin - 分離 html 文件中的樣式</title>
+    <link href="https://tsuyoshitsai.github.io/2017/02/18/Webpack-Plugin-Separate-HTML-and-style-by-ExtractTextPlugin/"/>
+    <id>https://tsuyoshitsai.github.io/2017/02/18/Webpack-Plugin-Separate-HTML-and-style-by-ExtractTextPlugin/</id>
+    <published>2017-02-18T08:47:38.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-安裝-Plugin"><a href="#1-安裝-Plugin" class="headerlink" title="1. 安裝 Plugin"></a>1. 安裝 Plugin</h3><figure class="highlight plain"><figcaption><span>install Plugins</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i -D extract-text-webpack-plugin</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="2-設定-webpack-config-js"><a href="#2-設定-webpack-config-js" class="headerlink" title="2. 設定 webpack.config.js"></a>2. 設定 webpack.config.js</h3><p>在 webpack.config.js 中加入 ExtractTextPlugin 變數，並在 plugins 陣列中實體化該物件<br><figure class="highlight javascript"><figcaption><span>webpack.config.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> ExtractTextPlugin = <span class="built_in">require</span>(<span class="string">'extract-text-webpack-plugin'</span>);</div><div class="line">plugins: [</div><div class="line">    <span class="keyword">new</span> CleanWebpackPlugin(&#123; <span class="attr">filename</span>: <span class="string">"[name].css"</span>, <span class="attr">allChunks</span>: <span class="literal">true</span> &#125;)</div><div class="line">    ...</div><div class="line">]</div></pre></td></tr></table></figure></p>
+<p>在 module &gt; loaders 陣列中調整樣式相關檔案的物件，如：<br><figure class="highlight javascript"><figcaption><span>webpack.config.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">module</span>: &#123;</div><div class="line">    <span class="attr">loaders</span>: [        </div><div class="line">        &#123;</div><div class="line">            <span class="attr">test</span>: <span class="regexp">/\.css$/</span>,</div><div class="line">            <span class="attr">loader</span>: ExtractTextPlugin.extract(&#123; <span class="attr">fallback</span>: <span class="string">'style-loader'</span>, <span class="attr">use</span>: <span class="string">'css-loader'</span> &#125;)</div><div class="line">        &#125;</div><div class="line">        ...</div><div class="line">    ]</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<hr>
+<h1 id="使用版本"><a href="#使用版本" class="headerlink" title="使用版本"></a>使用版本</h1><figure class="highlight javascript"><figcaption><span>package.json</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="string">"devDependencies"</span>: &#123;  </div><div class="line">    <span class="string">"extract-text-webpack-plugin"</span>: <span class="string">"^2.0.0-rc.3"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-安裝-Plugin&quot;&gt;&lt;a href=&quot;#1-安裝-Plugin&quot; class=&quot;headerlink&quot; title=&quot;1. 安裝 Plugin&quot;&gt;&lt;/a&gt;1. 安裝 Plugin&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;install Plugins&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm i -D extract-text-webpack-plugin&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/categories/Webpack/"/>
+    
+      <category term="Plugin" scheme="https://tsuyoshitsai.github.io/categories/Webpack/Plugin/"/>
+    
+    
+      <category term="JavaScript" scheme="https://tsuyoshitsai.github.io/tags/JavaScript/"/>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/tags/Webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Webpack Plugin - 自動清除並重建 output 指定的目錄</title>
+    <link href="https://tsuyoshitsai.github.io/2017/02/18/Webpack-Plugin-Auto-clean-and-rebuild-output-directory-by-CleanWebpackPlugin/"/>
+    <id>https://tsuyoshitsai.github.io/2017/02/18/Webpack-Plugin-Auto-clean-and-rebuild-output-directory-by-CleanWebpackPlugin/</id>
+    <published>2017-02-18T08:47:00.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-安裝-Plugin"><a href="#1-安裝-Plugin" class="headerlink" title="1. 安裝 Plugin"></a>1. 安裝 Plugin</h3><figure class="highlight plain"><figcaption><span>install Plugins</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i -D clean-webpack-plugin</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="2-設定-webpack-config-js"><a href="#2-設定-webpack-config-js" class="headerlink" title="2. 設定 webpack.config.js"></a>2. 設定 webpack.config.js</h3><p>在 webpack.config.js 中加入 CleanWebpackPlugin 變數，並在 plugins 陣列中實體化該物件<br><figure class="highlight javascript"><figcaption><span>webpack.config.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> CleanWebpackPlugin = <span class="built_in">require</span>(<span class="string">'clean-webpack-plugin'</span>);</div><div class="line">plugins: [</div><div class="line">    <span class="keyword">new</span> CleanWebpackPlugin([<span class="string">'dist'</span>])</div><div class="line">    ...</div><div class="line">]</div></pre></td></tr></table></figure></p>
+<h3 id="3-自動重建目錄"><a href="#3-自動重建目錄" class="headerlink" title="3. 自動重建目錄"></a>3. 自動重建目錄</h3><p>直接在 shell 執行 <code>webpack</code> 即可。</p>
+<hr>
+<h1 id="使用版本"><a href="#使用版本" class="headerlink" title="使用版本"></a>使用版本</h1><figure class="highlight javascript"><figcaption><span>package.json</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="string">"devDependencies"</span>: &#123;  </div><div class="line">    <span class="string">"clean-webpack-plugin"</span>: <span class="string">"^0.1.15"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="https://github.com/johnagan/clean-webpack-plugin" target="_blank" rel="external">html-webpack-plugin</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-安裝-Plugin&quot;&gt;&lt;a href=&quot;#1-安裝-Plugin&quot; class=&quot;headerlink&quot; title=&quot;1. 安裝 Plugin&quot;&gt;&lt;/a&gt;1. 安裝 Plugin&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;install Plugins&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm i -D clean-webpack-plugin&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/categories/Webpack/"/>
+    
+      <category term="Plugin" scheme="https://tsuyoshitsai.github.io/categories/Webpack/Plugin/"/>
+    
+    
+      <category term="JavaScript" scheme="https://tsuyoshitsai.github.io/tags/JavaScript/"/>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/tags/Webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Webpack Plugin - 自動將 bundle 檔加進 html 文件</title>
+    <link href="https://tsuyoshitsai.github.io/2017/02/18/Webpack-Plugin-Auto-inject-content-to-HTML-by-HtmlWebpackPlugin/"/>
+    <id>https://tsuyoshitsai.github.io/2017/02/18/Webpack-Plugin-Auto-inject-content-to-HTML-by-HtmlWebpackPlugin/</id>
+    <published>2017-02-18T08:45:17.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-安裝-Plugin"><a href="#1-安裝-Plugin" class="headerlink" title="1. 安裝 Plugin"></a>1. 安裝 Plugin</h3><figure class="highlight plain"><figcaption><span>install Plugins</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i -D html-webpack-plugin</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="2-設定-webpack-config-js"><a href="#2-設定-webpack-config-js" class="headerlink" title="2. 設定 webpack.config.js"></a>2. 設定 webpack.config.js</h3><p>在 webpack.config.js 中加入 HtmlWebpackPlugin 變數，並在 plugins 陣列中實體化該物件<br><figure class="highlight javascript"><figcaption><span>webpack.config.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> HtmlWebpackPlugin = <span class="built_in">require</span>(<span class="string">'html-webpack-plugin'</span>);</div><div class="line">plugins: [</div><div class="line">    <span class="keyword">new</span> HtmlWebpackPlugin(&#123;</div><div class="line">        <span class="attr">template</span>: path.resolve(__dirname, <span class="string">'src/index.html'</span>),</div><div class="line">        <span class="attr">filename</span>: <span class="string">'index.html'</span>,</div><div class="line">        <span class="attr">inject</span>: <span class="literal">true</span></div><div class="line">    &#125;)</div><div class="line">    ...</div><div class="line">]</div></pre></td></tr></table></figure></p>
+<h3 id="3-自動產生-html-文件"><a href="#3-自動產生-html-文件" class="headerlink" title="3. 自動產生 html 文件"></a>3. 自動產生 html 文件</h3><p>直接在 shell 執行 <code>webpack</code> 即可。</p>
+<h3 id="Remind"><a href="#Remind" class="headerlink" title="Remind"></a>Remind</h3><p>若有設定 publicPath，自動產生的 <code>&lt;script&gt;</code> 的 src 會指向該位址。</p>
+<hr>
+<h1 id="使用版本"><a href="#使用版本" class="headerlink" title="使用版本"></a>使用版本</h1><figure class="highlight javascript"><figcaption><span>package.json</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="string">"devDependencies"</span>: &#123;  </div><div class="line">    <span class="string">"html-webpack-plugin"</span>: <span class="string">"^2.28.0"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="http://www.cnblogs.com/haogj/p/5160821.html" target="_blank" rel="external">webpack 插件： html-webpack-plugin</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-安裝-Plugin&quot;&gt;&lt;a href=&quot;#1-安裝-Plugin&quot; class=&quot;headerlink&quot; title=&quot;1. 安裝 Plugin&quot;&gt;&lt;/a&gt;1. 安裝 Plugin&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;install Plugins&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm i -D html-webpack-plugin&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/categories/Webpack/"/>
+    
+      <category term="Plugin" scheme="https://tsuyoshitsai.github.io/categories/Webpack/Plugin/"/>
+    
+    
+      <category term="JavaScript" scheme="https://tsuyoshitsai.github.io/tags/JavaScript/"/>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/tags/Webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Webpack Loader - 使用 Image</title>
+    <link href="https://tsuyoshitsai.github.io/2017/02/10/Webpack-Loader-Load-image-by-url-loader/"/>
+    <id>https://tsuyoshitsai.github.io/2017/02/10/Webpack-Loader-Load-image-by-url-loader/</id>
+    <published>2017-02-09T16:06:47.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-安裝-Loader"><a href="#1-安裝-Loader" class="headerlink" title="1. 安裝 Loader"></a>1. 安裝 Loader</h3><figure class="highlight plain"><figcaption><span>install Loaders</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm i -D url-loader</div><div class="line">         file-loader</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>oneline</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i -D url-loader file-loader</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="2-設定-webpack-config-js"><a href="#2-設定-webpack-config-js" class="headerlink" title="2. 設定 webpack.config.js"></a>2. 設定 webpack.config.js</h3><p>在 webpack.config.js 的 output 中加入 publicPath，並在 module &gt; loaders 陣列中新增一個物件<br><figure class="highlight javascript"><figcaption><span>webpack.config.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">output: &#123;</div><div class="line">    <span class="attr">publicPath</span>: <span class="string">'./dist/'</span>,</div><div class="line">    ...</div><div class="line">&#125;,</div><div class="line"><span class="attr">module</span>: &#123;</div><div class="line">    <span class="attr">loaders</span>: [</div><div class="line">        &#123;</div><div class="line">            <span class="attr">test</span>: <span class="regexp">/\.(jpe?g|png|gif|svg)$/i</span>,</div><div class="line">            <span class="attr">loader</span>: <span class="string">'url-loader?limit=8192'</span></div><div class="line">        &#125;</div><div class="line">        ...</div><div class="line">    ]</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h3 id="3-使用-image"><a href="#3-使用-image" class="headerlink" title="3. 使用 image"></a>3. 使用 image</h3><p>在 css 檔中使用 <code>url(&quot;FileName.ext&quot;)</code> 即可。<br>使用這兩個 loader 之前，在 css 中引用 <code>url()</code> 時會報錯。</p>
+<h3 id="Remind"><a href="#Remind" class="headerlink" title="Remind"></a>Remind</h3><p>output 中的 path 是放置打包檔的目錄，需另外設定 publicPath 讓 file-loader 重新指定檔案路徑。<br>url-loader 是對 file-loader 的封裝，url-loader 將判斷檔案大小，如果小於 limit 的範圍，會轉成 base-64 引用檔案；如果超過 limit 的範圍，會直接轉用 file-loader 處理檔案。<br>file-lodaer 會將 Css 中的 <code>url(&quot;FileName.jpg&quot;)</code> 轉成 <code>require(&quot;./FileName.jpg&quot;)</code>。</p>
+<hr>
+<h1 id="使用版本"><a href="#使用版本" class="headerlink" title="使用版本"></a>使用版本</h1><figure class="highlight javascript"><figcaption><span>package.json</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">"devDependencies"</span>: &#123;  </div><div class="line">  <span class="string">"file-loader"</span>: <span class="string">"^0.10.0"</span>,</div><div class="line">  <span class="string">"url-loader"</span>: <span class="string">"^0.5.7"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-安裝-Loader&quot;&gt;&lt;a href=&quot;#1-安裝-Loader&quot; class=&quot;headerlink&quot; title=&quot;1. 安裝 Loader&quot;&gt;&lt;/a&gt;1. 安裝 Loader&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;install Loaders&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm i -D url-loader&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;         file-loader&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;oneline&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm i -D url-loader file-loader&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/categories/Webpack/"/>
+    
+      <category term="Loader" scheme="https://tsuyoshitsai.github.io/categories/Webpack/Loader/"/>
+    
+    
+      <category term="JavaScript" scheme="https://tsuyoshitsai.github.io/tags/JavaScript/"/>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/tags/Webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Webpack Loader - 使用 Scss</title>
+    <link href="https://tsuyoshitsai.github.io/2017/02/10/Webpack-Loader-Apply-scss-by-sass-loader/"/>
+    <id>https://tsuyoshitsai.github.io/2017/02/10/Webpack-Loader-Apply-scss-by-sass-loader/</id>
+    <published>2017-02-09T16:00:55.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-安裝-Loader"><a href="#1-安裝-Loader" class="headerlink" title="1. 安裝 Loader"></a>1. 安裝 Loader</h3><figure class="highlight plain"><figcaption><span>install Loaders</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm i -D node-sass</div><div class="line">         sass-loader</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>oneline</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i -D node-sass sass-loader</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="2-設定-webpack-config-js"><a href="#2-設定-webpack-config-js" class="headerlink" title="2. 設定 webpack.config.js"></a>2. 設定 webpack.config.js</h3><p>在 webpack.config.js 的 module &gt; loaders 陣列中新增一個物件<br><figure class="highlight javascript"><figcaption><span>webpack.config.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">module</span>: &#123;</div><div class="line">    <span class="attr">loaders</span>: [</div><div class="line">        &#123;</div><div class="line">            <span class="attr">test</span>: <span class="regexp">/\.scss$/</span>,</div><div class="line">            <span class="attr">loader</span>: <span class="string">'style-loader!css-loader!sass-loader'</span></div><div class="line">        &#125;</div><div class="line">        ...</div><div class="line">    ]</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h3 id="3-使用-scss"><a href="#3-使用-scss" class="headerlink" title="3. 使用 scss"></a>3. 使用 scss</h3><p>在欲使用 scss 的 js 檔中加入<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> <span class="string">'./[FileName].scss'</span>;</div></pre></td></tr></table></figure></p>
+<h3 id="Remind"><a href="#Remind" class="headerlink" title="Remind"></a>Remind</h3><p>node-sass 為安裝 sass-loader 的必要套件。<br>需搭配  一併使用。</p>
+<hr>
+<h1 id="使用版本"><a href="#使用版本" class="headerlink" title="使用版本"></a>使用版本</h1><figure class="highlight javascript"><figcaption><span>package.json</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="string">"devDependencies"</span>: &#123;  </div><div class="line">  <span class="string">"css-loader"</span>: <span class="string">"^0.26.1"</span>,</div><div class="line">  <span class="string">"style-loader"</span>: <span class="string">"^0.13.1"</span>,</div><div class="line">  <span class="string">"node-sass"</span>: <span class="string">"^4.5.0"</span>,</div><div class="line">  <span class="string">"sass-loader"</span>: <span class="string">"^4.1.1"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-安裝-Loader&quot;&gt;&lt;a href=&quot;#1-安裝-Loader&quot; class=&quot;headerlink&quot; title=&quot;1. 安裝 Loader&quot;&gt;&lt;/a&gt;1. 安裝 Loader&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;install Loaders&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm i -D node-sass&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;         sass-loader&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;oneline&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm i -D node-sass sass-loader&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/categories/Webpack/"/>
+    
+      <category term="Loader" scheme="https://tsuyoshitsai.github.io/categories/Webpack/Loader/"/>
+    
+    
+      <category term="JavaScript" scheme="https://tsuyoshitsai.github.io/tags/JavaScript/"/>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/tags/Webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Webpack Loader - 使用 Css</title>
+    <link href="https://tsuyoshitsai.github.io/2017/02/09/Webpack-Loader-Apply-css-by-css-loader-and-style-loader/"/>
+    <id>https://tsuyoshitsai.github.io/2017/02/09/Webpack-Loader-Apply-css-by-css-loader-and-style-loader/</id>
+    <published>2017-02-09T15:49:37.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-安裝-Loader"><a href="#1-安裝-Loader" class="headerlink" title="1. 安裝 Loader"></a>1. 安裝 Loader</h3><figure class="highlight plain"><figcaption><span>install Loaders</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm i -D style-loader</div><div class="line">         css-loader</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>oneline</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i -D style-loader css-loader</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="2-設定-webpack-config-js"><a href="#2-設定-webpack-config-js" class="headerlink" title="2. 設定 webpack.config.js"></a>2. 設定 webpack.config.js</h3><p>在 webpack.config.js 的 module &gt; loaders 陣列中新增一個物件<br><figure class="highlight javascript"><figcaption><span>webpack.config.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">module</span>: &#123;    </div><div class="line">    <span class="attr">loaders</span>: [</div><div class="line">        &#123;</div><div class="line">            <span class="attr">test</span>: <span class="regexp">/\.css$/</span>,</div><div class="line">            <span class="attr">loader</span>: <span class="string">'style-loader!css-loader'</span>        </div><div class="line">        &#125;</div><div class="line">        ...</div><div class="line">    ]</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h3 id="3-使用-css"><a href="#3-使用-css" class="headerlink" title="3. 使用 css"></a>3. 使用 css</h3><p>在欲使用 css 的 js 檔中加入<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> <span class="string">'./[FileName].css'</span>;</div></pre></td></tr></table></figure></p>
+<hr>
+<h1 id="使用版本"><a href="#使用版本" class="headerlink" title="使用版本"></a>使用版本</h1><figure class="highlight javascript"><figcaption><span>package.json</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">"devDependencies"</span>: &#123;  </div><div class="line">  <span class="string">"css-loader"</span>: <span class="string">"^0.26.1"</span>,</div><div class="line">  <span class="string">"style-loader"</span>: <span class="string">"^0.13.1"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-安裝-Loader&quot;&gt;&lt;a href=&quot;#1-安裝-Loader&quot; class=&quot;headerlink&quot; title=&quot;1. 安裝 Loader&quot;&gt;&lt;/a&gt;1. 安裝 Loader&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;install Loaders&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm i -D style-loader&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;         css-loader&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;figcaption&gt;&lt;span&gt;oneline&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm i -D style-loader css-loader&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/categories/Webpack/"/>
+    
+      <category term="Loader" scheme="https://tsuyoshitsai.github.io/categories/Webpack/Loader/"/>
+    
+    
+      <category term="JavaScript" scheme="https://tsuyoshitsai.github.io/tags/JavaScript/"/>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/tags/Webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Webpack 設置 React 開發環境</title>
+    <link href="https://tsuyoshitsai.github.io/2017/02/03/Set-up-React-development-environment-by-Webpack/"/>
+    <id>https://tsuyoshitsai.github.io/2017/02/03/Set-up-React-development-environment-by-Webpack/</id>
+    <published>2017-02-03T07:03:20.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>僅列出精簡的步驟，並另外補充其他教學中較少提及的相關知識。<br>流程與內容主要是參考這幾篇：</p>
+<ol>
+<li><a href="https://github.com/kdchang/reactjs101/blob/master/Ch02/webpack-dev-enviroment.md" target="_blank" rel="external">React 開發環境設置與 Webpack 入門教學</a></li>
+<li><a href="http://jason-wang.logdown.com/posts/605416" target="_blank" rel="external">設定 React ES6 環境 採用 Webpack 和 Babel</a></li>
+<li><a href="http://ithelp.ithome.com.tw/users/20069901/ironman/1074" target="_blank" rel="external">使用 webpack 模組化你的程式碼，讓人生更美好。系列</a></li>
+<li><a href="https://hainuo.gitbooks.io/react-webpack-cookbook/content/index.html" target="_blank" rel="external">React 和 Webpack 小书</a></li>
+</ol>
+<a id="more"></a>
+<h3 id="1-安裝-NodeJS-和-npm-目前版本的-Node-都會內建-npm"><a href="#1-安裝-NodeJS-和-npm-目前版本的-Node-都會內建-npm" class="headerlink" title="1. 安裝 NodeJS 和 npm ( 目前版本的 Node 都會內建 npm )"></a>1. 安裝 NodeJS 和 npm ( 目前版本的 Node 都會內建 npm )</h3><h3 id="2-建立並進入開發目錄"><a href="#2-建立並進入開發目錄" class="headerlink" title="2. 建立並進入開發目錄"></a>2. 建立並進入開發目錄</h3><h3 id="3-初始化模組配置文件-package-json"><a href="#3-初始化模組配置文件-package-json" class="headerlink" title="3. 初始化模組配置文件 ( package.json )"></a>3. 初始化模組配置文件 ( package.json )</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm init</div></pre></td></tr></table></figure>
+<h3 id="4-安裝-Webpack-與-Webpack-Server"><a href="#4-安裝-Webpack-與-Webpack-Server" class="headerlink" title="4. 安裝 Webpack 與 Webpack Server"></a>4. 安裝 Webpack 與 Webpack Server</h3><figure class="highlight plain"><figcaption><span>install webpack and server</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm i -D webpack</div><div class="line">         webpack-dev-server</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>oneline</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i -D webpack webpack-dev-server</div></pre></td></tr></table></figure>
+<h3 id="5-安裝-Babel"><a href="#5-安裝-Babel" class="headerlink" title="5. 安裝 Babel"></a>5. 安裝 Babel</h3><figure class="highlight plain"><figcaption><span>install babel</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">npm i -D babel-core</div><div class="line">         babel-loader</div><div class="line">         babel-preset-es2015</div><div class="line">         babel-preset-react</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>oneline</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i -D babel-core babel-loader babel-preset-es2015 babel-preset-react</div></pre></td></tr></table></figure>
+<h3 id="6-安裝-React"><a href="#6-安裝-React" class="headerlink" title="6. 安裝 React"></a>6. 安裝 React</h3><figure class="highlight plain"><figcaption><span>install react</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm i -S react</div><div class="line">         react-dom</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>oneline</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i -S react react-dom</div></pre></td></tr></table></figure>
+<h3 id="7-在開發目錄中建立-index-html"><a href="#7-在開發目錄中建立-index-html" class="headerlink" title="7. 在開發目錄中建立 index.html"></a>7. 在開發目錄中建立 index.html</h3><figure class="highlight html"><figcaption><span>src/index.html</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>React Setup<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"root"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"./dist/bundle.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="8-建立並進入-src-資料夾，並建立-index-js"><a href="#8-建立並進入-src-資料夾，並建立-index-js" class="headerlink" title="8. 建立並進入 src 資料夾，並建立 index.js"></a>8. 建立並進入 src 資料夾，並建立 index.js</h3><p>在檔案中引入 React</p>
+<figure class="highlight javascript"><figcaption><span>src/index.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">'react'</span>;</div><div class="line"><span class="keyword">import</span> ReactDOM <span class="keyword">from</span> <span class="string">'react-dom'</span>;</div><div class="line"></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">App</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span> </span>&#123;</div><div class="line">  render() &#123;</div><div class="line">    <span class="keyword">return</span> (</div><div class="line">      <span class="xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, World!<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span></div><div class="line">    );</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">ReactDOM.render(<span class="xml"><span class="tag">&lt;<span class="name">App</span> /&gt;</span>, document.getElementById('root'));</span></div></pre></td></tr></table></figure>
+<h3 id="9-建立並設定-webpack-config-js"><a href="#9-建立並設定-webpack-config-js" class="headerlink" title="9. 建立並設定 webpack.config.js"></a>9. 建立並設定 webpack.config.js</h3><figure class="highlight javascript"><figcaption><span>webpack.config.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> path = <span class="built_in">require</span>(<span class="string">'path'</span>);</div><div class="line"></div><div class="line"><span class="built_in">module</span>.exports = &#123;</div><div class="line">    <span class="attr">entry</span>: path.resolve(__dirname, <span class="string">'./src/index.js'</span>),    </div><div class="line">    <span class="attr">output</span>: &#123;</div><div class="line">        <span class="attr">path</span>: path.resolve(__dirname, <span class="string">'dist'</span>),</div><div class="line">        <span class="attr">filename</span>: <span class="string">'bundle.js'</span></div><div class="line">    &#125;,</div><div class="line">    <span class="attr">module</span>: &#123;</div><div class="line">        <span class="attr">loaders</span>: [</div><div class="line">            &#123;</div><div class="line">                <span class="attr">test</span>: <span class="regexp">/.js|jsx?$/</span>,</div><div class="line">                <span class="attr">loader</span>: <span class="string">'babel-loader'</span>,</div><div class="line">                <span class="attr">exclude</span>: <span class="regexp">/node_modules/</span>,</div><div class="line">                <span class="attr">query</span>: &#123;</div><div class="line">                    <span class="attr">presets</span>: [<span class="string">'es2015'</span>, <span class="string">'react'</span>]</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">        ]</div><div class="line">    &#125;,</div><div class="line">    <span class="attr">devServer</span>: &#123;</div><div class="line">        <span class="attr">inline</span>: <span class="literal">true</span>,</div><div class="line">        <span class="attr">port</span>: <span class="number">8080</span>,</div><div class="line">    &#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h3 id="10-在-package-json-中設定指令別名"><a href="#10-在-package-json-中設定指令別名" class="headerlink" title="10. 在 package.json 中設定指令別名"></a>10. 在 package.json 中設定指令別名</h3><figure class="highlight javascript"><figcaption><span>package.json</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="string">"scripts"</span>: &#123;</div><div class="line">  <span class="string">"test"</span>: <span class="string">"echo \"Error: no test specified\" &amp;&amp; exit 1"</span>,</div><div class="line">  <span class="string">"start"</span>: <span class="string">"webpack-dev-server --devtool eval --progress --colors"</span>,</div><div class="line">  <span class="string">"start-w"</span>: <span class="string">"webpack-dev-server --devtool eval --progress --colors --watch"</span>,</div><div class="line">  <span class="string">"start-w-o"</span>: <span class="string">"webpack-dev-server --devtool eval --progress --colors --watch --open"</span>    </div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="11-在-terminal-中執行指令檢測畫面"><a href="#11-在-terminal-中執行指令檢測畫面" class="headerlink" title="11. 在 terminal 中執行指令檢測畫面"></a>11. 在 terminal 中執行指令檢測畫面</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">webpack</div><div class="line">npm run start-w-o</div></pre></td></tr></table></figure>
+<hr>
+<h1 id="使用版本"><a href="#使用版本" class="headerlink" title="使用版本"></a>使用版本</h1><figure class="highlight javascript"><figcaption><span>package.json</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="string">"devDependencies"</span>: &#123;</div><div class="line">  <span class="string">"babel-core"</span>: <span class="string">"^6.22.1"</span>,</div><div class="line">  <span class="string">"babel-loader"</span>: <span class="string">"^6.2.10"</span>,</div><div class="line">  <span class="string">"babel-preset-es2015"</span>: <span class="string">"^6.22.0"</span>,</div><div class="line">  <span class="string">"babel-preset-react"</span>: <span class="string">"^6.22.0"</span>,</div><div class="line">  <span class="string">"webpack"</span>: <span class="string">"^2.2.1"</span>,</div><div class="line">  <span class="string">"webpack-dev-server"</span>: <span class="string">"^1.16.3"</span></div><div class="line">&#125;,</div><div class="line"><span class="string">"dependencies"</span>: &#123;</div><div class="line">  <span class="string">"react"</span>: <span class="string">"^15.4.2"</span>,</div><div class="line">  <span class="string">"react-dom"</span>: <span class="string">"^15.4.2"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<h1 id="npm-install-參數"><a href="#npm-install-參數" class="headerlink" title="npm install 參數"></a>npm install 參數</h1><p>當在安裝模組時，一般需先安裝模組本身，再將模組名稱與版本號手動寫進模組配置文件 ( package.json ) 中，npm 提供了一些參數，自動將安裝的模組及版本號存放進 package.json 文件中。日後若要在其他專案使用相同的模組，只要在有相同 package.json 文件的目錄下執行 <code>npm install</code> 指令即可。另 <code>install</code> 可簡寫為 <code>i</code>。</p>
+<p><code>-S</code>, <code>--save</code> </p>
+<ul>
+<li>將模組及版本號添加至 dependencies 中</li>
+<li>產品依賴，配置產品發佈時會使用到的模組</li>
+</ul>
+<p><code>-D</code>, <code>--save-dev</code> </p>
+<ul>
+<li>將模組及版本號添加至 devDependencies 中</li>
+<li>開發依賴，配置開發過程中會使用到的模組、測試框架等</li>
+</ul>
+<p>其他參數參考以下連結：</p>
+<ol>
+<li><a href="https://segmentfault.com/q/1010000000403629" target="_blank" rel="external">npm 安装参数中的 –save-dev 是什么意思</a></li>
+<li><a href="https://docs.npmjs.com/cli/install" target="_blank" rel="external">npm-install</a></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;僅列出精簡的步驟，並另外補充其他教學中較少提及的相關知識。&lt;br&gt;流程與內容主要是參考這幾篇：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kdchang/reactjs101/blob/master/Ch02/webpack-dev-enviroment.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;React 開發環境設置與 Webpack 入門教學&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jason-wang.logdown.com/posts/605416&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;設定 React ES6 環境 採用 Webpack 和 Babel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ithelp.ithome.com.tw/users/20069901/ironman/1074&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用 webpack 模組化你的程式碼，讓人生更美好。系列&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hainuo.gitbooks.io/react-webpack-cookbook/content/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;React 和 Webpack 小书&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/categories/Webpack/"/>
+    
+      <category term="React Setup" scheme="https://tsuyoshitsai.github.io/categories/Webpack/React-Setup/"/>
+    
+    
+      <category term="JavaScript" scheme="https://tsuyoshitsai.github.io/tags/JavaScript/"/>
+    
+      <category term="React" scheme="https://tsuyoshitsai.github.io/tags/React/"/>
+    
+      <category term="Webpack" scheme="https://tsuyoshitsai.github.io/tags/Webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git Overview #NaN 心得</title>
+    <link href="https://tsuyoshitsai.github.io/2017/02/01/Git-Overview-NaN-Review/"/>
+    <id>https://tsuyoshitsai.github.io/2017/02/01/Git-Overview-NaN-Review/</id>
+    <published>2017-01-31T18:13:48.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在閱讀保哥的文章作筆記時，有些部分的說明其實不太容易理解，如相對名稱的意義、遠端的操作、重置與還原的操作等，所以在學習的過程中會透過關鍵字參考其他地方的資料，也因此得到一些額外的收穫。</p>
+<a id="more"></a>
+<p>主要參考來源內，除了 <a href="https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/26.md" target="_blank" rel="external">遠端共用儲存庫</a> 與 <a href="https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/29.md" target="_blank" rel="external">Svn 轉 Git</a> 這兩篇外，我實際操作了文章中的各個步驟與流程，文章一篇篇領進 Git 的核心功能，並引導概念及指令的操作方式，而我也漸漸被這門版控軟體獨有的魅力給吸引。</p>
+<p>但也瞭解到若要更深入熟悉 Git 版控軟體的威力，勢必要參與多人合作開發專案，遇到各種狀況並解決它們，所以特意寫了<a href="/2017/01/21/Git-Reference/" title="Reference 篇">Reference 篇</a>，希望收錄將來遇到的問題，與依其內容而有效解決的文章們。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在閱讀保哥的文章作筆記時，有些部分的說明其實不太容易理解，如相對名稱的意義、遠端的操作、重置與還原的操作等，所以在學習的過程中會透過關鍵字參考其他地方的資料，也因此得到一些額外的收穫。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/categories/Git/"/>
+    
+      <category term="Overview" scheme="https://tsuyoshitsai.github.io/categories/Git/Overview/"/>
+    
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/tags/Git/"/>
+    
+      <category term="Learn Git in 30 days" scheme="https://tsuyoshitsai.github.io/tags/Learn-Git-in-30-days/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git Command #11 遠端操作</title>
+    <link href="https://tsuyoshitsai.github.io/2017/01/24/Git-Command-11-Remote/"/>
+    <id>https://tsuyoshitsai.github.io/2017/01/24/Git-Command-11-Remote/</id>
+    <published>2017-01-23T16:18:43.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一個工作目錄下的本地儲存庫，可以有多個遠端儲存庫。</p>
+<ul>
+<li><code>git clone [Repository URL]</code><ul>
+<li><strong>複製</strong> 遠端儲存庫到本機，並建立工作目錄與本地儲存庫</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git remote add [RemoteRefName] [URL]</code><ul>
+<li><strong>新增</strong> 遠端儲存庫到本機，並以 RemoteRefName 作為 URL 的別名</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git remote</code><ul>
+<li>列出遠端儲存庫時指定的名稱</li>
+<li><code>git remote -v</code><ul>
+<li>在指定名稱後方顯示該遠端的 URL</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<a id="more"></a>
+<ul>
+<li><code>git ls-remote</code><ul>
+<li>列出所有遠端分支與標籤名稱</li>
+<li><code>git ls-remote [RemoteRefName]</code><ul>
+<li>根據遠端參照名稱 ( RemoteRefName ) ，列出特定遠端儲存庫的遠端分支與標籤名稱</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git push</code><ul>
+<li><strong>推送</strong> 本地儲存庫中目前分支的所有物件到遠端儲存庫</li>
+<li><code>git push [RemoteRefName] [Branch]</code><ul>
+<li>將本地的分支上傳到遠端儲存庫</li>
+<li>RemoteRefName 可直接指定遠端 URL</li>
+<li>如 <code>git push origin master</code> 是將本地的 master 分支上傳到 origin 指定之遠端儲存庫的 master 分支</li>
+<li>遠端儲存庫需開放寫入權限給使用者才能使用</li>
+</ul>
+</li>
+<li><code>git push -u [RemoteRefName] [Branch]</code><ul>
+<li>加上 <code>-u</code> 參數，往後在 push/pull/fetch 時，會直接參照該特定分支存取內容</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git pull</code><ul>
+<li><strong>拉回</strong> 遠端儲存庫的最新版，且 <strong>會</strong> 將遠端分支 (origin/master) 合併至本地分支 (master)</li>
+<li>該指令等同於 <code>git fetch</code> + <code>git merge origin/master</code></li>
+<li><code>git pull [RemoteRefName] [Branch]</code><ul>
+<li>將遠端儲存庫的內容拉回，且合併至本地儲存庫</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git fetch</code><ul>
+<li><strong>取回</strong> 遠端儲存庫的最新版，但 <strong>不會</strong> 將遠端分支 (origin/master) 合併至本地分支 (master)</li>
+<li><code>git fetch [RemoteRefName] [Branch]</code><ul>
+<li>將遠端儲存庫的內容拉回，但不合併到本地儲存庫</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git merge origin/master</code></li>
+</ul>
+<ul>
+<li><strong>Reference</strong><ul>
+<li><a href="https://goo.gl/uGxEqD" target="_blank" rel="external">2.5 Git 基礎 - 與遠端協同工作</a></li>
+<li><a href="https://goo.gl/xkO0LK" target="_blank" rel="external">3.5 Git 分支 - 遠端分支</a></li>
+<li><a href="https://goo.gl/a5OhHp" target="_blank" rel="external">連猴子都能懂的 Git 入門指南 - 遠端操作</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一個工作目錄下的本地儲存庫，可以有多個遠端儲存庫。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git clone [Repository URL]&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;複製&lt;/strong&gt; 遠端儲存庫到本機，並建立工作目錄與本地儲存庫&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git remote add [RemoteRefName] [URL]&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;新增&lt;/strong&gt; 遠端儲存庫到本機，並以 RemoteRefName 作為 URL 的別名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git remote&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;列出遠端儲存庫時指定的名稱&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git remote -v&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;在指定名稱後方顯示該遠端的 URL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/categories/Git/"/>
+    
+      <category term="Command" scheme="https://tsuyoshitsai.github.io/categories/Git/Command/"/>
+    
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git Command #10 重置與還原</title>
+    <link href="https://tsuyoshitsai.github.io/2017/01/24/Git-Command-10-Reset-Revert-Cherry-pick-Rebase/"/>
+    <id>https://tsuyoshitsai.github.io/2017/01/24/Git-Command-10-Reset-Revert-Cherry-pick-Rebase/</id>
+    <published>2017-01-23T16:17:04.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-reset"><a href="#git-reset" class="headerlink" title="git reset"></a>git reset</h1><ul>
+<li><code>git reset</code><ul>
+<li>還原到指定 Commit，此次之後的修改都會被退回</li>
+<li>該指令會讓分支回到指定版本</li>
+<li>取消 <code>git commit</code>，取消 <code>git  add</code>，保留工作目錄的變更狀態</li>
+<li>直接執行該指令可以重設當前工作目錄的版本及索引狀態，但保留實體狀態的變更</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git reset --soft</code><ul>
+<li>取消 <code>git commit</code>，保留 <code>git add</code>，保留工作目錄的變更狀態</li>
+<li>重設當前工作目錄的版本，但保留索引狀態及實體狀態的變更</li>
+<li><code>git reset --soft &quot;HEAD^&quot;</code><ul>
+<li>刪除最近一次的版本紀錄，保留最後一次版本變更的內容</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git reset --hard</code><ul>
+<li>取消 <code>git commit</code>，取消 <code>git add</code>，取消工作目錄的變更狀態</li>
+<li>重設當前工作目錄的版本、索引狀態及實體狀態的變更</li>
+<li>該指令可重置被刪除及被更名的目錄或檔案</li>
+<li>該指令會將所有檔案都還原</li>
+<li><code>git reset --hard &quot;HEAD^&quot;</code><ul>
+<li>將 HEAD 的位置指向前一版，刪除目前的最新版 ( 實際上該版本仍存在物件儲存區中 )</li>
+</ul>
+</li>
+<li><code>git reset --hard ORIG_HEAD</code><ul>
+<li>還原到上一次的 Commit</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<a id="more"></a>
+<hr>
+<h1 id="git-revert"><a href="#git-revert" class="headerlink" title="git revert"></a>git revert</h1><ul>
+<li><code>git revert</code><ul>
+<li>還原到指定 Commit，此次之前的修改都會被保留</li>
+<li>該指令會讓分支繼續成長</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git revert [Commit]</code><ul>
+<li>還原到指定 Commit 的版本，並建立一個版本</li>
+<li>該指令實際上是將指定 Commit 版本與 HEAD 合併</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git revert -n [Commit]</code><ul>
+<li>還原到指定 Commit 的版本，但不建立版本</li>
+<li><code>git revert --continue</code><ul>
+<li>還原到指定版本且完成變更後，需使用該指令建立版本，而非 <code>git commit</code></li>
+</ul>
+</li>
+<li><code>git revert --abort</code><ul>
+<li>放棄該次的還原，將所有變更返回至原本的狀態</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="git-cherry-pick"><a href="#git-cherry-pick" class="headerlink" title="git cherry-pick"></a>git cherry-pick</h1><ul>
+<li><code>git cherry-pick</code><ul>
+<li>與 <code>git revert</code> 類似，但 revert 是套用相反的合併，cherry-pick 是套用相同變更的合併</li>
+<li>該指令建立的版本資訊 ( LogMessage、Author、Date ) 皆會與指定版本相同</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git cherry-pick [Commit]</code><ul>
+<li>將指定 Commit 版本合併至目前分支的最新版，該指令會在目前分支建立一個版本</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git cherry-pick [Commit] -x</code><ul>
+<li>加上該參數，可以在 Log 自動加上 cherry picked from commit [Commit] 的字樣</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git cherry-pick [Commit] -e</code><ul>
+<li>加上該參數，可以在建立版本前先編輯訊息</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git cherry-pick [Commit] -n</code><ul>
+<li>加上該參數，可以取消自動建立版本的功能</li>
+<li>需再以 <code>git commit</code> 建立版本，用自己的版本資訊做提交</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="git-rebase"><a href="#git-rebase" class="headerlink" title="git rebase"></a>git rebase</h1><ul>
+<li><code>git rebase</code><ul>
+<li>重新定義分支參考基準</li>
+<li>把特定分支的變更整合到當前分支</li>
+<li><strong>Notice</strong><ul>
+<li>使用該指令需確保工作目錄是乾淨的，且索引中不能有準備 commit 的檔案，否則會無法執行</li>
+<li>若分支是從遠端儲存庫 pull 回來的，使用該指令後將會無法把修改後的分支及版本 push 到遠端儲存庫</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git rebase [Branch]</code><ul>
+<li>將 Branch 的變更作為當前分支的基礎，需再接著執行合併的操作</li>
+</ul>
+<ol>
+<li><code>git merge [Branch]</code><ul>
+<li>會執行快轉機制 ( Fast-forward )</li>
+<li>合併時會將當前分支的 HEAD 參照名稱，直接調整成指定分支的 HEAD 版本</li>
+</ul>
+</li>
+<li><code>git merge [Branch] --no-ff</code><ul>
+<li>停用快轉機制</li>
+<li>會將指定分支建立一個分支，再將它合併回當前分支</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<ul>
+<li><code>git rebase [Commit] -i</code><ul>
+<li>可修改指定版本所在分支中的歷程記錄</li>
+<li>執行該指令會出現編輯器，可在任一版本前輸入以下指令對歷程記錄做調整<ul>
+<li>p, pick = use commit<ul>
+<li>不做任何變更，直接 commit</li>
+</ul>
+</li>
+<li>r, reword = use commit, but edit the commit message<ul>
+<li>跳出編輯器讓使用者修改版本訊息後再重新 commit</li>
+</ul>
+</li>
+<li>e, edit = use commit, but stop for amending<ul>
+<li>暫停在指定版本，可編輯該版本</li>
+<li>編輯後可使用 <code>git commit --amend</code> 重新 commit 該版本</li>
+<li>也可以使用 <code>git add .</code> 及 <code>git commit</code> 以在暫停的指定版本後插入新版本</li>
+<li>最後需使用 <code>git rebase --continue</code> 讓 rebase 的動作繼續完成</li>
+</ul>
+</li>
+<li>s, squash = use commit, but meld into previous commit<ul>
+<li>套用該指令的版本將會合併至上一個版本</li>
+<li><strong>會</strong>合併版本訊息</li>
+</ul>
+</li>
+<li>f, fixup = like “squash”, but discard this commit’s log message<ul>
+<li>套用該指令的版本將會合併至上一個版本</li>
+<li><strong>不會</strong>合併版本訊息</li>
+<li>指定版本的訊息將會被丟棄，直接套用上一個版本的訊息</li>
+</ul>
+</li>
+<li>x, exec = run command (the rest of the line) using shell<ul>
+<li>暫停在指定版本，可執行一條指令</li>
+</ul>
+</li>
+<li>d, drop = remove commit<ul>
+<li>套用該指令的版本將會從歷程記錄中被移除</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="https://goo.gl/8k7ucs" target="_blank" rel="external">3.6 Git 分支 - 分支的衍合</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;git-reset&quot;&gt;&lt;a href=&quot;#git-reset&quot; class=&quot;headerlink&quot; title=&quot;git reset&quot;&gt;&lt;/a&gt;git reset&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git reset&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;還原到指定 Commit，此次之後的修改都會被退回&lt;/li&gt;
+&lt;li&gt;該指令會讓分支回到指定版本&lt;/li&gt;
+&lt;li&gt;取消 &lt;code&gt;git commit&lt;/code&gt;，取消 &lt;code&gt;git  add&lt;/code&gt;，保留工作目錄的變更狀態&lt;/li&gt;
+&lt;li&gt;直接執行該指令可以重設當前工作目錄的版本及索引狀態，但保留實體狀態的變更&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git reset --soft&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;取消 &lt;code&gt;git commit&lt;/code&gt;，保留 &lt;code&gt;git add&lt;/code&gt;，保留工作目錄的變更狀態&lt;/li&gt;
+&lt;li&gt;重設當前工作目錄的版本，但保留索引狀態及實體狀態的變更&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git reset --soft &amp;quot;HEAD^&amp;quot;&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;刪除最近一次的版本紀錄，保留最後一次版本變更的內容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git reset --hard&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;取消 &lt;code&gt;git commit&lt;/code&gt;，取消 &lt;code&gt;git add&lt;/code&gt;，取消工作目錄的變更狀態&lt;/li&gt;
+&lt;li&gt;重設當前工作目錄的版本、索引狀態及實體狀態的變更&lt;/li&gt;
+&lt;li&gt;該指令可重置被刪除及被更名的目錄或檔案&lt;/li&gt;
+&lt;li&gt;該指令會將所有檔案都還原&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git reset --hard &amp;quot;HEAD^&amp;quot;&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;將 HEAD 的位置指向前一版，刪除目前的最新版 ( 實際上該版本仍存在物件儲存區中 )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git reset --hard ORIG_HEAD&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;還原到上一次的 Commit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/categories/Git/"/>
+    
+      <category term="Command" scheme="https://tsuyoshitsai.github.io/categories/Git/Command/"/>
+    
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git Command #09 版本日誌</title>
+    <link href="https://tsuyoshitsai.github.io/2017/01/24/Git-Command-09-Reflog/"/>
+    <id>https://tsuyoshitsai.github.io/2017/01/24/Git-Command-09-Reflog/</id>
+    <published>2017-01-23T16:12:09.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-reflog"><a href="#git-reflog" class="headerlink" title="git reflog"></a>git reflog</h1><ul>
+<li><code>git reflog</code><ul>
+<li>列出 reflog 清單</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git reflog [Branch]</code><ul>
+<li>只顯示特定分支的 reflog</li>
+</ul>
+</li>
+</ul>
+<a id="more"></a>
+<ul>
+<li><code>git log -g</code><ul>
+<li>列出每個 reflog 中的內容</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git reflog delete [Ref@{Specifier}]</code><ul>
+<li>刪除特定 reflog</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="git-config"><a href="#git-config" class="headerlink" title="git config"></a>git config</h1><ul>
+<li><code>git config --global/local gc.reflogExpire &quot;Day&quot;</code></li>
+<li><code>git config --global/local gc.reflogExpireUnreachable &quot;Day&quot;</code><ul>
+<li>調整 reflog 過期的預設值</li>
+<li>Day 可設定 [Number days]，如 30 days 可保留 30 天</li>
+<li>Day 可設定 never 表示永不刪除紀錄</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git config --local gc.[Branch].reflogExpire &quot;Day&quot;</code></li>
+<li><code>git config --local gc.[Branch].reflogExpireUnreachable &quot;Day&quot;</code><ul>
+<li>針對特定分支設定 reflog 過期時間</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git reflog expire --expire=now --all</code><ul>
+<li>清除所有 reflog</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;git-reflog&quot;&gt;&lt;a href=&quot;#git-reflog&quot; class=&quot;headerlink&quot; title=&quot;git reflog&quot;&gt;&lt;/a&gt;git reflog&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git reflog&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;列出 reflog 清單&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git reflog [Branch]&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;只顯示特定分支的 reflog&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/categories/Git/"/>
+    
+      <category term="Command" scheme="https://tsuyoshitsai.github.io/categories/Git/Command/"/>
+    
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git Command #08 暫存工作目錄</title>
+    <link href="https://tsuyoshitsai.github.io/2017/01/24/Git-Command-08-Stash/"/>
+    <id>https://tsuyoshitsai.github.io/2017/01/24/Git-Command-08-Stash/</id>
+    <published>2017-01-23T16:09:51.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-stash"><a href="#git-stash" class="headerlink" title="git stash"></a>git stash</h1><ul>
+<li><code>git stash (save)</code><ul>
+<li>建立暫存版</li>
+<li>僅包含已追蹤 ( tracked ) 的檔案</li>
+<li><code>git stash (save) -u</code><ul>
+<li>包含所有未追蹤 ( Untracked ) 及已追蹤 ( Tracked ) 的檔案</li>
+</ul>
+</li>
+<li><code>git stash save -u &quot;LogMessage&quot;</code><ul>
+<li>該指令可以在建立暫存版的同時輸入版本說明</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<a id="more"></a>
+<ul>
+<li><code>git stash pop</code><ul>
+<li>將暫存版合併回現在的工作目錄</li>
+<li>預設會取回最近的一筆暫存版 ( stash@{0} )</li>
+<li>該指令執行完後 <strong>會</strong> 將被取回的 stash 分支刪除</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git stash apply</code><ul>
+<li>將暫存版合併回現在的工作目錄</li>
+<li>該指令執行完後 <strong>不會</strong> 將被取回的 stash 分支刪除</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git stash pop/apply &quot;Stash&quot;</code><ul>
+<li>取回特定的暫存版</li>
+<li>如 <code>git stash pop/apply &quot;stash@{1}&quot;</code> 可取回 stash@{1} 的暫存版</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git stash list</code><ul>
+<li>列出目前的 stash 分支清單</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git stash drop &quot;Stash&quot;</code><ul>
+<li>刪除特定的暫存版</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git stash clear</code><ul>
+<li>刪除所有暫存版</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;git-stash&quot;&gt;&lt;a href=&quot;#git-stash&quot; class=&quot;headerlink&quot; title=&quot;git stash&quot;&gt;&lt;/a&gt;git stash&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git stash (save)&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;建立暫存版&lt;/li&gt;
+&lt;li&gt;僅包含已追蹤 ( tracked ) 的檔案&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git stash (save) -u&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;包含所有未追蹤 ( Untracked ) 及已追蹤 ( Tracked ) 的檔案&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git stash save -u &amp;quot;LogMessage&amp;quot;&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;該指令可以在建立暫存版的同時輸入版本說明&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/categories/Git/"/>
+    
+      <category term="Command" scheme="https://tsuyoshitsai.github.io/categories/Git/Command/"/>
+    
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git Command #07 標籤操作</title>
+    <link href="https://tsuyoshitsai.github.io/2017/01/23/Git-Command-07-Tag/"/>
+    <id>https://tsuyoshitsai.github.io/2017/01/23/Git-Command-07-Tag/</id>
+    <published>2017-01-23T15:49:08.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-tag"><a href="#git-tag" class="headerlink" title="git tag"></a>git tag</h1><ul>
+<li><code>git tag</code><ul>
+<li>列出所有標籤</li>
+<li>包括輕量標籤與標示標籤，無法看出標籤類型</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git tag [TagName]</code><ul>
+<li>建立輕量標籤</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git tag [TagName] -a -m &quot;LogMessage&quot;</code><ul>
+<li>建立標示標籤，並加上說明</li>
+<li>與 <code>git commit</code> 一樣，所有標示標籤都必須加上說明</li>
+<li>該指令預設會將當前的 HEAD 版本建立成 Tag 物件</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git tag [TagName] [Object]</code><ul>
+<li>將特定物件建立輕量標籤</li>
+<li>在指令後面加上 <code>-a -m &quot;LogMessage&quot;</code> 即可改為建立標示標籤</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git tag [TagName] -d</code><ul>
+<li>刪除特定標籤</li>
+</ul>
+</li>
+</ul>
+<a id="more"></a>
+<hr>
+<h1 id="git-cat-file"><a href="#git-cat-file" class="headerlink" title="git cat-file"></a>git cat-file</h1><ul>
+<li><code>git cat-file -p [TagName]</code><ul>
+<li>查看標籤的內容</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git cat-file -t [TagName]</code><ul>
+<li>查看標籤的物件類型</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;git-tag&quot;&gt;&lt;a href=&quot;#git-tag&quot; class=&quot;headerlink&quot; title=&quot;git tag&quot;&gt;&lt;/a&gt;git tag&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git tag&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;列出所有標籤&lt;/li&gt;
+&lt;li&gt;包括輕量標籤與標示標籤，無法看出標籤類型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git tag [TagName]&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;建立輕量標籤&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git tag [TagName] -a -m &amp;quot;LogMessage&amp;quot;&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;建立標示標籤，並加上說明&lt;/li&gt;
+&lt;li&gt;與 &lt;code&gt;git commit&lt;/code&gt; 一樣，所有標示標籤都必須加上說明&lt;/li&gt;
+&lt;li&gt;該指令預設會將當前的 HEAD 版本建立成 Tag 物件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git tag [TagName] [Object]&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;將特定物件建立輕量標籤&lt;/li&gt;
+&lt;li&gt;在指令後面加上 &lt;code&gt;-a -m &amp;quot;LogMessage&amp;quot;&lt;/code&gt; 即可改為建立標示標籤&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git tag [TagName] -d&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;刪除特定標籤&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/categories/Git/"/>
+    
+      <category term="Command" scheme="https://tsuyoshitsai.github.io/categories/Git/Command/"/>
+    
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git Command #06 參照操作</title>
+    <link href="https://tsuyoshitsai.github.io/2017/01/23/Git-Command-06-Ref/"/>
+    <id>https://tsuyoshitsai.github.io/2017/01/23/Git-Command-06-Ref/</id>
+    <published>2017-01-23T15:49:02.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-update-ref"><a href="#git-update-ref" class="headerlink" title="git update-ref"></a>git update-ref</h1><ul>
+<li><code>git update-ref [RefName] [Object]</code><ul>
+<li>以 RefName 建立 Object 的<strong>一般參照</strong></li>
+<li>建議使用 refs/[RefName]</li>
+</ul>
+</li>
+</ul>
+<a id="more"></a>
+<ul>
+<li><code>git update-ref -d [RefName]</code><ul>
+<li>刪除 RefName 一般參照</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="git-rev-parse"><a href="#git-rev-parse" class="headerlink" title="git rev-parse"></a>git rev-parse</h1><ul>
+<li><code>git rev-parse [RefName or RelativeName]</code><ul>
+<li>查詢 <strong>參照名稱</strong> 或 <strong>相對名稱</strong> 的絕對名稱</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;git-update-ref&quot;&gt;&lt;a href=&quot;#git-update-ref&quot; class=&quot;headerlink&quot; title=&quot;git update-ref&quot;&gt;&lt;/a&gt;git update-ref&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git update-ref [RefName] [Object]&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;以 RefName 建立 Object 的&lt;strong&gt;一般參照&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;建議使用 refs/[RefName]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/categories/Git/"/>
+    
+      <category term="Command" scheme="https://tsuyoshitsai.github.io/categories/Git/Command/"/>
+    
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git Command #05 分支操作</title>
+    <link href="https://tsuyoshitsai.github.io/2017/01/23/Git-Command-05-Branch/"/>
+    <id>https://tsuyoshitsai.github.io/2017/01/23/Git-Command-05-Branch/</id>
+    <published>2017-01-23T15:48:56.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-branch"><a href="#git-branch" class="headerlink" title="git branch"></a>git branch</h1><ul>
+<li><code>git branch</code><ul>
+<li>列出所有本地分支</li>
+<li>不包含遠端分支</li>
+<li>可查看目前所在分支</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git branch [Branch]</code><ul>
+<li>建立分支，但維持在目前的分支</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git branch [Branch] [Reflog]</code><ul>
+<li>將特定 Reflog 建立分支，維持在目前分支</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git branch -d [Branch]</code><ul>
+<li>刪除該分支</li>
+<li>無法刪除當前的分支</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git branch -a</code><ul>
+<li>列出所有分支</li>
+<li>包含遠端分支</li>
+</ul>
+</li>
+</ul>
+<a id="more"></a>
+<hr>
+<h1 id="git-checkout"><a href="#git-checkout" class="headerlink" title="git checkout"></a>git checkout</h1><ul>
+<li><code>git checkout [Branch]</code><ul>
+<li>切換分支</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git checkout -b [Branch]</code><ul>
+<li>建立分支，並切換到該新分支</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git checkout [Branch] [File]</code><ul>
+<li>還原 Branch 中的 File</li>
+<li>該指令可重置被刪除及被更名的目錄或檔案</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;git-branch&quot;&gt;&lt;a href=&quot;#git-branch&quot; class=&quot;headerlink&quot; title=&quot;git branch&quot;&gt;&lt;/a&gt;git branch&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git branch&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;列出所有本地分支&lt;/li&gt;
+&lt;li&gt;不包含遠端分支&lt;/li&gt;
+&lt;li&gt;可查看目前所在分支&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git branch [Branch]&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;建立分支，但維持在目前的分支&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git branch [Branch] [Reflog]&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;將特定 Reflog 建立分支，維持在目前分支&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git branch -d [Branch]&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;刪除該分支&lt;/li&gt;
+&lt;li&gt;無法刪除當前的分支&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git branch -a&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;列出所有分支&lt;/li&gt;
+&lt;li&gt;包含遠端分支&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/categories/Git/"/>
+    
+      <category term="Command" scheme="https://tsuyoshitsai.github.io/categories/Git/Command/"/>
+    
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git Command #04 物件操作</title>
+    <link href="https://tsuyoshitsai.github.io/2017/01/23/Git-Command-04-Object/"/>
+    <id>https://tsuyoshitsai.github.io/2017/01/23/Git-Command-04-Object/</id>
+    <published>2017-01-23T15:48:50.000Z</published>
+    <updated>2017-08-25T15:55:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-add"><a href="#git-add" class="headerlink" title="git add"></a>git add</h1><ul>
+<li><code>git add .</code><ul>
+<li>將 <strong>當前工作目錄</strong> 及其子目錄下 <strong>所有檔案</strong> 的變更加到索引中</li>
+<li>該指令不會建立任何版本</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git add [Dir]</code><ul>
+<li>將 <strong>指定工作目錄</strong> 及其子目錄下的所有檔案的變更加到索引</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git add [File]</code><ul>
+<li>將 <strong>指定檔案</strong> 的變更加到索引</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git add -u</code><ul>
+<li>僅將 <strong>更新</strong> 或 <strong>刪除</strong> 的檔案變更加到索引</li>
+</ul>
+</li>
+</ul>
+<a id="more"></a>
+<hr>
+<h1 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a>git commit</h1><ul>
+<li><code>git commit</code><ul>
+<li>以當前的索引狀態建立版本</li>
+<li>比對 <strong>索引</strong> 與 <strong>目前最新版</strong> 的差異，並將差異狀態提交成一個 Commit 物件 ( 建立版本 )</li>
+<li>所有版本都必須輸入「版本說明」</li>
+<li>以該指令建立版本，Git Shell 會自動開啟記事本讓使用者輸入版本說明</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git commit -m &quot;LogMessage&quot;</code><ul>
+<li>該指令可以在建立版本的同時輸入版本說明</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git commit --amend</code><ul>
+<li>重新提交當前分支的最後一個版本</li>
+<li>將目前在索引中的變更檔案，加到最新版，並調整版本說明，建立版本</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="git-gc"><a href="#git-gc" class="headerlink" title="git gc"></a>git gc</h1><ul>
+<li><code>git gc</code><ul>
+<li>封裝老舊的物件</li>
+<li>該指令會重新整理或清除找不到、無法追蹤的版本</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="git-rm"><a href="#git-rm" class="headerlink" title="git rm"></a>git rm</h1><ul>
+<li><code>git rm</code><ul>
+<li>刪除工作目錄中的實體檔案</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git rm [File]</code><ul>
+<li>刪除索引檔案 ( 將刪除檔案的動作計入版本控管 )</li>
+<li>刪除工作目錄中的實體檔案</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>git rm --cached [file]</code><ul>
+<li>刪除索引檔案 ( 將刪除檔案的動作計入版本控管 )</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="git-mv"><a href="#git-mv" class="headerlink" title="git mv"></a>git mv</h1><ul>
+<li><code>git mv [OldName] [NewName]</code><ul>
+<li>變更索引的工作目錄或檔案名稱 ( 將變更檔案名稱的動作計入版本控管 )</li>
+<li>變更實體的工作目錄或檔案名稱</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;git-add&quot;&gt;&lt;a href=&quot;#git-add&quot; class=&quot;headerlink&quot; title=&quot;git add&quot;&gt;&lt;/a&gt;git add&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;將 &lt;strong&gt;當前工作目錄&lt;/strong&gt; 及其子目錄下 &lt;strong&gt;所有檔案&lt;/strong&gt; 的變更加到索引中&lt;/li&gt;
+&lt;li&gt;該指令不會建立任何版本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add [Dir]&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;將 &lt;strong&gt;指定工作目錄&lt;/strong&gt; 及其子目錄下的所有檔案的變更加到索引&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add [File]&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;將 &lt;strong&gt;指定檔案&lt;/strong&gt; 的變更加到索引&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add -u&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;僅將 &lt;strong&gt;更新&lt;/strong&gt; 或 &lt;strong&gt;刪除&lt;/strong&gt; 的檔案變更加到索引&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/categories/Git/"/>
+    
+      <category term="Command" scheme="https://tsuyoshitsai.github.io/categories/Git/Command/"/>
+    
+    
+      <category term="Git" scheme="https://tsuyoshitsai.github.io/tags/Git/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[如何從自我囚禁的監獄中逃脫？]]></title>
+    <url>%2F2017%2F05%2F20%2FHow-did-we-escape-form-the-prison-bounded-by-a-nutshell%2F</url>
+    <content type="text"><![CDATA[How did we escape form the prison bounded by a nutshell? 《宇宙大探索》 ( Cosmos: A Spacetime Odyssey ) 最後一集部分內容的紀錄，原文與中文翻譯皆來自 Netflix。 我們這種渺小的生物，居住在一顆塵埃上，如何想出怎麼發射太空船，進入銀河系的繁星中？How did we, tiny creatures living on that speck of dust, ever manage to figure out how to send spacecraft out among the stars of the Milky Way? 那是世世代代追尋者的心血，他們謹記五條簡單的原則：It was the work of generations of searchers who took five simple rules to heart. 1. 質疑權威 ( Question authority )即使某人說是如此，也不表示真是如此，包括我。No idea is true just because someone says so, including me. 2. 獨立思考 ( Think for your self )3. 質疑自己 ( Question your self )別只因為你想相信而去相信，相信某件事，並不表示那是事實。用觀察與實驗獲得的證據來測試。若你喜歡的想法禁不起設計良好的測試，它就是錯的，放下它吧。Don’t believe anything just because you want to. Believing something doesn’t make it so. Test ideas by the evidence gained from observation and experiment. If a favorite idea fails a well-designed test, it’s wrong. Get over it. 4. 追隨證據，無論它通往哪裡 ( Follow the evidence, wherever it leads )如果你沒有證據，就別妄自評論。If you have no evidence, reserve judgment. 5. 你可能是錯的 ( You could be wrong )即使最頂尖的科學家，也會搞錯某些事情。牛頓，愛因斯坦，以及歷史上每一個偉大科學家，都會犯錯，他們當然會犯錯，他們只是凡人。Even the best scientists have been wrong about some things. Newton, Einstein, and every other great scientist in history, they all made mistakes. Of course they did. They are human. 科學可以讓我們免於愚弄自己和別人。Science is a way to keep from fooling ourselves and each other.]]></content>
+      <categories>
+        <category>Drama</category>
+      </categories>
+      <tags>
+        <tag>Drama</tag>
+        <tag>Scientist</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[CSS Specificity Summary]]></title>
+    <url>%2F2017%2F04%2F09%2FCSS-Specificity-Summary%2F</url>
+    <content type="text"><![CDATA[CSS 權重的概要與使用時需特別注意的地方。 !important ( never use ) &gt; inline styles &gt; IDs &gt; classes, attributes and pseudo-classes &gt; elements and pseudo-elements a#id &gt; a[id=&quot;id&quot;] ( ID &gt; attribute ) the rule that has a more specific selector with !important wins. universal selector ( * ) &gt; inherited values ( both specificity are 0, 0, 0, 0, but custom style &gt; user agent style. ) *, +, &gt;, ~, &#39; &#39;, :not() have no effect on specificity. ( The selectors declared inside :not() do, however. ) contextual selectors &gt; single selector ( example ) embedded stlye &gt; external style last rule &gt; previous rule ( only overrides same properties ) LVHA: link-visited-hover-active Reference CSS Specificity: Things You Should Know Specifics on CSS Specificity meyerweb.com - Specificity Calculating a selector’s specificity Relationship between !important and CSS specificity Image cssspecificity.com specificity wars Tool Specificity Calculator]]></content>
+      <categories>
+        <category>CSS</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+        <tag>Specificity</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[JavaScript 中的約整誤差 ( Rounding Errors )]]></title>
+    <url>%2F2017%2F04%2F07%2FRounding-errors-in-JavaScript%2F</url>
+    <content type="text"><![CDATA[釐清問題JavaScript 中不存在整數，因其數字儲存格式為 64 位元的雙精度 (double precision) 浮點數。當我們輸入數字時，通常使用的是十進位的浮點數 ( decimal floating-point numbers )，但在 JavaScript 引擎內部這些數字被表示為二進位的浮點數 ( binary floating-point numbers )。 我們可以透過觀察十進位浮點數及二進位浮點數能表示什麼樣子的小數，瞭解這個情況是如何發生的：12345&gt; 0.1 + 0.2 === 0.3false&gt; 0.1 + 0.20.30000000000000004 在十進位系統中，所有小數都是尾數 m 除以 10 的次方的結果：$${m \over 10^e}$$ 二進位系統則是尾數 m 除以 2 的次方的結果：$${m \over 2^e}$$ 因此，如果要正確地表示十進位的數字，該數字也必須能適切地被轉換成二進位的數字 ( 分母裡面只有 2 )，以下是能同時以十進位與二進位表示的數字： ${0.5_{dec} = {5 \over 10} = {1 \over 2} = 0.1_{bin}}$ ${0.75_{dec} = {75 \over 100} = {3 \over 4} = 0.11_{bin}}$ ${0.125_{dec} = {125 \over 1000} = {1 \over 8} = 0.001_{bin}}$ 如果分母中有除了 2 以外的數字，則無法精確地表示該數字，如： ${0.1_{dec} = {1 \over 10} = {1 \over 2\times5}}$ ${0.2_{dec} = {2 \over 10} = {1 \over 5}}$ 一般我們不會發現 0.1 是不精確的數字，但若乘以夠大的 10 的次方，其不精確之處就會顯現出來：1234&gt; 0.1 * Math.pow(10, 24)1.0000000000000001e+23//eX 為「乘以 10 的 X 次方」的縮寫，如 5e2 為 500、5e-2 為 0.05。 如果將兩個無法精確表示的數字相加，其結果的不精確之處則顯而易見，如一開始的例子：12&gt; 0.1 + 0.20.30000000000000004 另外一個例子：12&gt; 0.1 + 1 - 10.10000000000000009 驗證過程 JavaScript 在運算數字的時候，會先將 0.1、0.2 這些十進位的浮點數轉換為二進位的浮點數，若以科學的方式表示： ${0.1_{bin} \approx 1.\underbrace{10011001\cdots10011010}_{52}\times2^{-4}}$${0.2_{bin} \approx 1.\underbrace{10011001\cdots10011010}_{52}\times2^{-3}}$ 將兩個數字相加後，得到的數字為：${10.\underbrace{01100110\cdots01100111}_{52}\times2^{-3} = 1.\underbrace{00110011\cdots001100111}_{53}\times2^{-2}}$ 由於約整後的尾數數量 ( 53 ) 已經超過其有效位數 ( 52 )，JS 會將其無條件進位：${1.\underbrace{00110011\cdots001100110100}_{52}\times2^{-2}}$ 最後，以二進位的方式儲存運算結果的值：${0 01111111101 0011001100110011001100110011001100110011001100110100}$ 但該值被轉換成供我們閱讀的十進位時，則為：${0.3000000000000000444089209850062616169452667236328125}$ 取其前 17 個小數位 ( Double-precision floating-point format )：${0.30000000000000004}$ 至於 0.1 + 0.2 的值不等於 0.3，是因為 0.3 儲存的二進位數字被轉換成十進位時為：${0.299999999999999988897769753748434595763683319091796875}$ 關於 Javascript 內部的雙精度數字表示法與詳細計算過程請參閱： The Internal Representation of Numbers Floating point according to the IEEE754 最佳實務由於約整誤差的關係，不應該直接比較非整數，而是考量約整誤差，取一個上界 ( upper bound )，這樣的上界被稱作 machine epsilon。雙精度的標準 epsilon 值為 ${2^{-53}}$，我們可以自訂一個函式確保浮點數的精確性：1234if (!Number.EPSILON) &#123; Number.EPSILON = Math.pow(2, -53); &#125;var epsEqu = function(x, y) &#123; return Math.abs(x - y) &lt; Number.EPSILON;&#125; 感謝友人讓我知道某些瀏覽器有實作 EPSILON 可以用。 測試：12&gt; epsEqu(0.1 + 0.2, 0.3)true Reference Speaking JavaScript - Handling Rounding Errors JavaScript’s Number type in details]]></content>
+      <categories>
+        <category>JavaScript</category>
+        <category>Number</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>Rounding Errors</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Webpack Plugin - 自動加上 Css prefix]]></title>
+    <url>%2F2017%2F02%2F18%2FWebpack-Plugin-Auto-add-prefix-by-postcss-and-autoprefixer%2F</url>
+    <content type="text"><![CDATA[1. 安裝 Plugininstall Plugins1npm i -D postcss-loader 2. 設定 webpack.config.js在 webpack.config.js 中加入 postcss-loaderwebpack.config.js12345678910111213module: &#123; loaders: [ &#123; test: /\.css$/, loader: 'style-loader!css-loader!postcss-loader' &#125;, &#123; test: /\.scss$/, loader: 'style-loader!css-loader!postcss-loader!sass-loader' &#125; ... ]&#125; 3. 建立並設定 postcss.config.jspostcss.config.js12345module.exports = &#123; plugins: [ require('autoprefixer')(&#123; /* ...options */ &#125;) ]&#125; Remindwebpack.config.js 中 postcss-loader 設定的順序必須在 css-loader 之後、sass-loader 之前。 使用版本package.json1234"devDependencies": &#123; "autoprefixer": "^6.7.2", "postcss-loader": "^1.2.2"&#125; Referencepostcss-loader]]></content>
+      <categories>
+        <category>Webpack</category>
+        <category>Plugin</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>Webpack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Webpack Plugin - 分離 html 文件中的樣式]]></title>
+    <url>%2F2017%2F02%2F18%2FWebpack-Plugin-Separate-HTML-and-style-by-ExtractTextPlugin%2F</url>
+    <content type="text"><![CDATA[1. 安裝 Plugininstall Plugins1npm i -D extract-text-webpack-plugin 2. 設定 webpack.config.js在 webpack.config.js 中加入 ExtractTextPlugin 變數，並在 plugins 陣列中實體化該物件webpack.config.js12345var ExtractTextPlugin = require('extract-text-webpack-plugin');plugins: [ new CleanWebpackPlugin(&#123; filename: "[name].css", allChunks: true &#125;) ...] 在 module &gt; loaders 陣列中調整樣式相關檔案的物件，如：webpack.config.js123456789module: &#123; loaders: [ &#123; test: /\.css$/, loader: ExtractTextPlugin.extract(&#123; fallback: 'style-loader', use: 'css-loader' &#125;) &#125; ... ]&#125; 使用版本package.json123"devDependencies": &#123; "extract-text-webpack-plugin": "^2.0.0-rc.3"&#125;]]></content>
+      <categories>
+        <category>Webpack</category>
+        <category>Plugin</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>Webpack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Webpack Plugin - 自動清除並重建 output 指定的目錄]]></title>
+    <url>%2F2017%2F02%2F18%2FWebpack-Plugin-Auto-clean-and-rebuild-output-directory-by-CleanWebpackPlugin%2F</url>
+    <content type="text"><![CDATA[1. 安裝 Plugininstall Plugins1npm i -D clean-webpack-plugin 2. 設定 webpack.config.js在 webpack.config.js 中加入 CleanWebpackPlugin 變數，並在 plugins 陣列中實體化該物件webpack.config.js12345var CleanWebpackPlugin = require('clean-webpack-plugin');plugins: [ new CleanWebpackPlugin(['dist']) ...] 3. 自動重建目錄直接在 shell 執行 webpack 即可。 使用版本package.json123"devDependencies": &#123; "clean-webpack-plugin": "^0.1.15"&#125; Referencehtml-webpack-plugin]]></content>
+      <categories>
+        <category>Webpack</category>
+        <category>Plugin</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>Webpack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Webpack Plugin - 自動將 bundle 檔加進 html 文件]]></title>
+    <url>%2F2017%2F02%2F18%2FWebpack-Plugin-Auto-inject-content-to-HTML-by-HtmlWebpackPlugin%2F</url>
+    <content type="text"><![CDATA[1. 安裝 Plugininstall Plugins1npm i -D html-webpack-plugin 2. 設定 webpack.config.js在 webpack.config.js 中加入 HtmlWebpackPlugin 變數，並在 plugins 陣列中實體化該物件webpack.config.js123456789var HtmlWebpackPlugin = require('html-webpack-plugin');plugins: [ new HtmlWebpackPlugin(&#123; template: path.resolve(__dirname, 'src/index.html'), filename: 'index.html', inject: true &#125;) ...] 3. 自動產生 html 文件直接在 shell 執行 webpack 即可。 Remind若有設定 publicPath，自動產生的 &lt;script&gt; 的 src 會指向該位址。 使用版本package.json123"devDependencies": &#123; "html-webpack-plugin": "^2.28.0"&#125; Referencewebpack 插件： html-webpack-plugin]]></content>
+      <categories>
+        <category>Webpack</category>
+        <category>Plugin</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>Webpack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Webpack Loader - 使用 Image]]></title>
+    <url>%2F2017%2F02%2F10%2FWebpack-Loader-Load-image-by-url-loader%2F</url>
+    <content type="text"><![CDATA[1. 安裝 Loaderinstall Loaders12npm i -D url-loader file-loader oneline1npm i -D url-loader file-loader 2. 設定 webpack.config.js在 webpack.config.js 的 output 中加入 publicPath，並在 module &gt; loaders 陣列中新增一個物件webpack.config.js12345678910111213output: &#123; publicPath: './dist/', ...&#125;,module: &#123; loaders: [ &#123; test: /\.(jpe?g|png|gif|svg)$/i, loader: 'url-loader?limit=8192' &#125; ... ]&#125; 3. 使用 image在 css 檔中使用 url(&quot;FileName.ext&quot;) 即可。使用這兩個 loader 之前，在 css 中引用 url() 時會報錯。 Remindoutput 中的 path 是放置打包檔的目錄，需另外設定 publicPath 讓 file-loader 重新指定檔案路徑。url-loader 是對 file-loader 的封裝，url-loader 將判斷檔案大小，如果小於 limit 的範圍，會轉成 base-64 引用檔案；如果超過 limit 的範圍，會直接轉用 file-loader 處理檔案。file-lodaer 會將 Css 中的 url(&quot;FileName.jpg&quot;) 轉成 require(&quot;./FileName.jpg&quot;)。 使用版本package.json1234"devDependencies": &#123; "file-loader": "^0.10.0", "url-loader": "^0.5.7"&#125;]]></content>
+      <categories>
+        <category>Webpack</category>
+        <category>Loader</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>Webpack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Webpack Loader - 使用 Scss]]></title>
+    <url>%2F2017%2F02%2F10%2FWebpack-Loader-Apply-scss-by-sass-loader%2F</url>
+    <content type="text"><![CDATA[1. 安裝 Loaderinstall Loaders12npm i -D node-sass sass-loader oneline1npm i -D node-sass sass-loader 2. 設定 webpack.config.js在 webpack.config.js 的 module &gt; loaders 陣列中新增一個物件webpack.config.js123456789module: &#123; loaders: [ &#123; test: /\.scss$/, loader: 'style-loader!css-loader!sass-loader' &#125; ... ]&#125; 3. 使用 scss在欲使用 scss 的 js 檔中加入1import './[FileName].scss'; Remindnode-sass 為安裝 sass-loader 的必要套件。需搭配 一併使用。 使用版本package.json123456"devDependencies": &#123; "css-loader": "^0.26.1", "style-loader": "^0.13.1", "node-sass": "^4.5.0", "sass-loader": "^4.1.1"&#125;]]></content>
+      <categories>
+        <category>Webpack</category>
+        <category>Loader</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>Webpack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Webpack Loader - 使用 Css]]></title>
+    <url>%2F2017%2F02%2F09%2FWebpack-Loader-Apply-css-by-css-loader-and-style-loader%2F</url>
+    <content type="text"><![CDATA[1. 安裝 Loaderinstall Loaders12npm i -D style-loader css-loader oneline1npm i -D style-loader css-loader 2. 設定 webpack.config.js在 webpack.config.js 的 module &gt; loaders 陣列中新增一個物件webpack.config.js123456789module: &#123; loaders: [ &#123; test: /\.css$/, loader: 'style-loader!css-loader' &#125; ... ]&#125; 3. 使用 css在欲使用 css 的 js 檔中加入1import './[FileName].css'; 使用版本package.json1234"devDependencies": &#123; "css-loader": "^0.26.1", "style-loader": "^0.13.1"&#125;]]></content>
+      <categories>
+        <category>Webpack</category>
+        <category>Loader</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>Webpack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[使用 Webpack 設置 React 開發環境]]></title>
+    <url>%2F2017%2F02%2F03%2FSet-up-React-development-environment-by-Webpack%2F</url>
+    <content type="text"><![CDATA[僅列出精簡的步驟，並另外補充其他教學中較少提及的相關知識。流程與內容主要是參考這幾篇： React 開發環境設置與 Webpack 入門教學 設定 React ES6 環境 採用 Webpack 和 Babel 使用 webpack 模組化你的程式碼，讓人生更美好。系列 React 和 Webpack 小书 1. 安裝 NodeJS 和 npm ( 目前版本的 Node 都會內建 npm )2. 建立並進入開發目錄3. 初始化模組配置文件 ( package.json )1npm init 4. 安裝 Webpack 與 Webpack Serverinstall webpack and server12npm i -D webpack webpack-dev-server oneline1npm i -D webpack webpack-dev-server 5. 安裝 Babelinstall babel1234npm i -D babel-core babel-loader babel-preset-es2015 babel-preset-react oneline1npm i -D babel-core babel-loader babel-preset-es2015 babel-preset-react 6. 安裝 Reactinstall react12npm i -S react react-dom oneline1npm i -S react react-dom 7. 在開發目錄中建立 index.htmlsrc/index.html1234567891011&lt;!DOCTYPE html&gt;&lt;html lang="en"&gt;&lt;head&gt; &lt;meta charset="UTF-8"&gt; &lt;title&gt;React Setup&lt;/title&gt;&lt;/head&gt;&lt;body&gt; &lt;div id="root"&gt;&lt;/div&gt; &lt;script src="./dist/bundle.js"&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt; 8. 建立並進入 src 資料夾，並建立 index.js在檔案中引入 React src/index.js123456789101112import React from 'react';import ReactDOM from 'react-dom';class App extends React.Component &#123; render() &#123; return ( &lt;h1&gt;Hello, World!&lt;/h1&gt; ); &#125;&#125;ReactDOM.render(&lt;App /&gt;, document.getElementById('root')); 9. 建立並設定 webpack.config.jswebpack.config.js12345678910111213141516171819202122232425var path = require('path');module.exports = &#123; entry: path.resolve(__dirname, './src/index.js'), output: &#123; path: path.resolve(__dirname, 'dist'), filename: 'bundle.js' &#125;, module: &#123; loaders: [ &#123; test: /.js|jsx?$/, loader: 'babel-loader', exclude: /node_modules/, query: &#123; presets: ['es2015', 'react'] &#125; &#125; ] &#125;, devServer: &#123; inline: true, port: 8080, &#125;&#125;; 10. 在 package.json 中設定指令別名package.json123456"scripts": &#123; "test": "echo \"Error: no test specified\" &amp;&amp; exit 1", "start": "webpack-dev-server --devtool eval --progress --colors", "start-w": "webpack-dev-server --devtool eval --progress --colors --watch", "start-w-o": "webpack-dev-server --devtool eval --progress --colors --watch --open" &#125; 11. 在 terminal 中執行指令檢測畫面12webpacknpm run start-w-o 使用版本package.json123456789101112"devDependencies": &#123; "babel-core": "^6.22.1", "babel-loader": "^6.2.10", "babel-preset-es2015": "^6.22.0", "babel-preset-react": "^6.22.0", "webpack": "^2.2.1", "webpack-dev-server": "^1.16.3"&#125;,"dependencies": &#123; "react": "^15.4.2", "react-dom": "^15.4.2"&#125; npm install 參數當在安裝模組時，一般需先安裝模組本身，再將模組名稱與版本號手動寫進模組配置文件 ( package.json ) 中，npm 提供了一些參數，自動將安裝的模組及版本號存放進 package.json 文件中。日後若要在其他專案使用相同的模組，只要在有相同 package.json 文件的目錄下執行 npm install 指令即可。另 install 可簡寫為 i。 -S, --save 將模組及版本號添加至 dependencies 中 產品依賴，配置產品發佈時會使用到的模組 -D, --save-dev 將模組及版本號添加至 devDependencies 中 開發依賴，配置開發過程中會使用到的模組、測試框架等 其他參數參考以下連結： npm 安装参数中的 –save-dev 是什么意思 npm-install]]></content>
+      <categories>
+        <category>Webpack</category>
+        <category>React Setup</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>React</tag>
+        <tag>Webpack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #NaN 心得]]></title>
+    <url>%2F2017%2F02%2F01%2FGit-Overview-NaN-Review%2F</url>
+    <content type="text"><![CDATA[在閱讀保哥的文章作筆記時，有些部分的說明其實不太容易理解，如相對名稱的意義、遠端的操作、重置與還原的操作等，所以在學習的過程中會透過關鍵字參考其他地方的資料，也因此得到一些額外的收穫。 主要參考來源內，除了 遠端共用儲存庫 與 Svn 轉 Git 這兩篇外，我實際操作了文章中的各個步驟與流程，文章一篇篇領進 Git 的核心功能，並引導概念及指令的操作方式，而我也漸漸被這門版控軟體獨有的魅力給吸引。 但也瞭解到若要更深入熟悉 Git 版控軟體的威力，勢必要參與多人合作開發專案，遇到各種狀況並解決它們，所以特意寫了Reference 篇，希望收錄將來遇到的問題，與依其內容而有效解決的文章們。]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Command #11 遠端操作]]></title>
+    <url>%2F2017%2F01%2F24%2FGit-Command-11-Remote%2F</url>
+    <content type="text"><![CDATA[一個工作目錄下的本地儲存庫，可以有多個遠端儲存庫。 git clone [Repository URL] 複製 遠端儲存庫到本機，並建立工作目錄與本地儲存庫 git remote add [RemoteRefName] [URL] 新增 遠端儲存庫到本機，並以 RemoteRefName 作為 URL 的別名 git remote 列出遠端儲存庫時指定的名稱 git remote -v 在指定名稱後方顯示該遠端的 URL git ls-remote 列出所有遠端分支與標籤名稱 git ls-remote [RemoteRefName] 根據遠端參照名稱 ( RemoteRefName ) ，列出特定遠端儲存庫的遠端分支與標籤名稱 git push 推送 本地儲存庫中目前分支的所有物件到遠端儲存庫 git push [RemoteRefName] [Branch] 將本地的分支上傳到遠端儲存庫 RemoteRefName 可直接指定遠端 URL 如 git push origin master 是將本地的 master 分支上傳到 origin 指定之遠端儲存庫的 master 分支 遠端儲存庫需開放寫入權限給使用者才能使用 git push -u [RemoteRefName] [Branch] 加上 -u 參數，往後在 push/pull/fetch 時，會直接參照該特定分支存取內容 git pull 拉回 遠端儲存庫的最新版，且 會 將遠端分支 (origin/master) 合併至本地分支 (master) 該指令等同於 git fetch + git merge origin/master git pull [RemoteRefName] [Branch] 將遠端儲存庫的內容拉回，且合併至本地儲存庫 git fetch 取回 遠端儲存庫的最新版，但 不會 將遠端分支 (origin/master) 合併至本地分支 (master) git fetch [RemoteRefName] [Branch] 將遠端儲存庫的內容拉回，但不合併到本地儲存庫 git merge origin/master Reference 2.5 Git 基礎 - 與遠端協同工作 3.5 Git 分支 - 遠端分支 連猴子都能懂的 Git 入門指南 - 遠端操作]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Command</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Command #10 重置與還原]]></title>
+    <url>%2F2017%2F01%2F24%2FGit-Command-10-Reset-Revert-Cherry-pick-Rebase%2F</url>
+    <content type="text"><![CDATA[git reset git reset 還原到指定 Commit，此次之後的修改都會被退回 該指令會讓分支回到指定版本 取消 git commit，取消 git add，保留工作目錄的變更狀態 直接執行該指令可以重設當前工作目錄的版本及索引狀態，但保留實體狀態的變更 git reset --soft 取消 git commit，保留 git add，保留工作目錄的變更狀態 重設當前工作目錄的版本，但保留索引狀態及實體狀態的變更 git reset --soft &quot;HEAD^&quot; 刪除最近一次的版本紀錄，保留最後一次版本變更的內容 git reset --hard 取消 git commit，取消 git add，取消工作目錄的變更狀態 重設當前工作目錄的版本、索引狀態及實體狀態的變更 該指令可重置被刪除及被更名的目錄或檔案 該指令會將所有檔案都還原 git reset --hard &quot;HEAD^&quot; 將 HEAD 的位置指向前一版，刪除目前的最新版 ( 實際上該版本仍存在物件儲存區中 ) git reset --hard ORIG_HEAD 還原到上一次的 Commit git revert git revert 還原到指定 Commit，此次之前的修改都會被保留 該指令會讓分支繼續成長 git revert [Commit] 還原到指定 Commit 的版本，並建立一個版本 該指令實際上是將指定 Commit 版本與 HEAD 合併 git revert -n [Commit] 還原到指定 Commit 的版本，但不建立版本 git revert --continue 還原到指定版本且完成變更後，需使用該指令建立版本，而非 git commit git revert --abort 放棄該次的還原，將所有變更返回至原本的狀態 git cherry-pick git cherry-pick 與 git revert 類似，但 revert 是套用相反的合併，cherry-pick 是套用相同變更的合併 該指令建立的版本資訊 ( LogMessage、Author、Date ) 皆會與指定版本相同 git cherry-pick [Commit] 將指定 Commit 版本合併至目前分支的最新版，該指令會在目前分支建立一個版本 git cherry-pick [Commit] -x 加上該參數，可以在 Log 自動加上 cherry picked from commit [Commit] 的字樣 git cherry-pick [Commit] -e 加上該參數，可以在建立版本前先編輯訊息 git cherry-pick [Commit] -n 加上該參數，可以取消自動建立版本的功能 需再以 git commit 建立版本，用自己的版本資訊做提交 git rebase git rebase 重新定義分支參考基準 把特定分支的變更整合到當前分支 Notice 使用該指令需確保工作目錄是乾淨的，且索引中不能有準備 commit 的檔案，否則會無法執行 若分支是從遠端儲存庫 pull 回來的，使用該指令後將會無法把修改後的分支及版本 push 到遠端儲存庫 git rebase [Branch] 將 Branch 的變更作為當前分支的基礎，需再接著執行合併的操作 git merge [Branch] 會執行快轉機制 ( Fast-forward ) 合併時會將當前分支的 HEAD 參照名稱，直接調整成指定分支的 HEAD 版本 git merge [Branch] --no-ff 停用快轉機制 會將指定分支建立一個分支，再將它合併回當前分支 git rebase [Commit] -i 可修改指定版本所在分支中的歷程記錄 執行該指令會出現編輯器，可在任一版本前輸入以下指令對歷程記錄做調整 p, pick = use commit 不做任何變更，直接 commit r, reword = use commit, but edit the commit message 跳出編輯器讓使用者修改版本訊息後再重新 commit e, edit = use commit, but stop for amending 暫停在指定版本，可編輯該版本 編輯後可使用 git commit --amend 重新 commit 該版本 也可以使用 git add . 及 git commit 以在暫停的指定版本後插入新版本 最後需使用 git rebase --continue 讓 rebase 的動作繼續完成 s, squash = use commit, but meld into previous commit 套用該指令的版本將會合併至上一個版本 會合併版本訊息 f, fixup = like “squash”, but discard this commit’s log message 套用該指令的版本將會合併至上一個版本 不會合併版本訊息 指定版本的訊息將會被丟棄，直接套用上一個版本的訊息 x, exec = run command (the rest of the line) using shell 暫停在指定版本，可執行一條指令 d, drop = remove commit 套用該指令的版本將會從歷程記錄中被移除 Reference3.6 Git 分支 - 分支的衍合]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Command</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Command #09 版本日誌]]></title>
+    <url>%2F2017%2F01%2F24%2FGit-Command-09-Reflog%2F</url>
+    <content type="text"><![CDATA[git reflog git reflog 列出 reflog 清單 git reflog [Branch] 只顯示特定分支的 reflog git log -g 列出每個 reflog 中的內容 git reflog delete [Ref@{Specifier}] 刪除特定 reflog git config git config --global/local gc.reflogExpire &quot;Day&quot; git config --global/local gc.reflogExpireUnreachable &quot;Day&quot; 調整 reflog 過期的預設值 Day 可設定 [Number days]，如 30 days 可保留 30 天 Day 可設定 never 表示永不刪除紀錄 git config --local gc.[Branch].reflogExpire &quot;Day&quot; git config --local gc.[Branch].reflogExpireUnreachable &quot;Day&quot; 針對特定分支設定 reflog 過期時間 git reflog expire --expire=now --all 清除所有 reflog]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Command</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Command #08 暫存工作目錄]]></title>
+    <url>%2F2017%2F01%2F24%2FGit-Command-08-Stash%2F</url>
+    <content type="text"><![CDATA[git stash git stash (save) 建立暫存版 僅包含已追蹤 ( tracked ) 的檔案 git stash (save) -u 包含所有未追蹤 ( Untracked ) 及已追蹤 ( Tracked ) 的檔案 git stash save -u &quot;LogMessage&quot; 該指令可以在建立暫存版的同時輸入版本說明 git stash pop 將暫存版合併回現在的工作目錄 預設會取回最近的一筆暫存版 ( stash@{0} ) 該指令執行完後 會 將被取回的 stash 分支刪除 git stash apply 將暫存版合併回現在的工作目錄 該指令執行完後 不會 將被取回的 stash 分支刪除 git stash pop/apply &quot;Stash&quot; 取回特定的暫存版 如 git stash pop/apply &quot;stash@{1}&quot; 可取回 stash@{1} 的暫存版 git stash list 列出目前的 stash 分支清單 git stash drop &quot;Stash&quot; 刪除特定的暫存版 git stash clear 刪除所有暫存版]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Command</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Command #07 標籤操作]]></title>
+    <url>%2F2017%2F01%2F23%2FGit-Command-07-Tag%2F</url>
+    <content type="text"><![CDATA[git tag git tag 列出所有標籤 包括輕量標籤與標示標籤，無法看出標籤類型 git tag [TagName] 建立輕量標籤 git tag [TagName] -a -m &quot;LogMessage&quot; 建立標示標籤，並加上說明 與 git commit 一樣，所有標示標籤都必須加上說明 該指令預設會將當前的 HEAD 版本建立成 Tag 物件 git tag [TagName] [Object] 將特定物件建立輕量標籤 在指令後面加上 -a -m &quot;LogMessage&quot; 即可改為建立標示標籤 git tag [TagName] -d 刪除特定標籤 git cat-file git cat-file -p [TagName] 查看標籤的內容 git cat-file -t [TagName] 查看標籤的物件類型 Reference]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Command</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Command #06 參照操作]]></title>
+    <url>%2F2017%2F01%2F23%2FGit-Command-06-Ref%2F</url>
+    <content type="text"><![CDATA[git update-ref git update-ref [RefName] [Object] 以 RefName 建立 Object 的一般參照 建議使用 refs/[RefName] git update-ref -d [RefName] 刪除 RefName 一般參照 git rev-parse git rev-parse [RefName or RelativeName] 查詢 參照名稱 或 相對名稱 的絕對名稱]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Command</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Command #05 分支操作]]></title>
+    <url>%2F2017%2F01%2F23%2FGit-Command-05-Branch%2F</url>
+    <content type="text"><![CDATA[git branch git branch 列出所有本地分支 不包含遠端分支 可查看目前所在分支 git branch [Branch] 建立分支，但維持在目前的分支 git branch [Branch] [Reflog] 將特定 Reflog 建立分支，維持在目前分支 git branch -d [Branch] 刪除該分支 無法刪除當前的分支 git branch -a 列出所有分支 包含遠端分支 git checkout git checkout [Branch] 切換分支 git checkout -b [Branch] 建立分支，並切換到該新分支 git checkout [Branch] [File] 還原 Branch 中的 File 該指令可重置被刪除及被更名的目錄或檔案]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Command</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Command #04 物件操作]]></title>
+    <url>%2F2017%2F01%2F23%2FGit-Command-04-Object%2F</url>
+    <content type="text"><![CDATA[git add git add . 將 當前工作目錄 及其子目錄下 所有檔案 的變更加到索引中 該指令不會建立任何版本 git add [Dir] 將 指定工作目錄 及其子目錄下的所有檔案的變更加到索引 git add [File] 將 指定檔案 的變更加到索引 git add -u 僅將 更新 或 刪除 的檔案變更加到索引 git commit git commit 以當前的索引狀態建立版本 比對 索引 與 目前最新版 的差異，並將差異狀態提交成一個 Commit 物件 ( 建立版本 ) 所有版本都必須輸入「版本說明」 以該指令建立版本，Git Shell 會自動開啟記事本讓使用者輸入版本說明 git commit -m &quot;LogMessage&quot; 該指令可以在建立版本的同時輸入版本說明 git commit --amend 重新提交當前分支的最後一個版本 將目前在索引中的變更檔案，加到最新版，並調整版本說明，建立版本 git gc git gc 封裝老舊的物件 該指令會重新整理或清除找不到、無法追蹤的版本 git rm git rm 刪除工作目錄中的實體檔案 git rm [File] 刪除索引檔案 ( 將刪除檔案的動作計入版本控管 ) 刪除工作目錄中的實體檔案 git rm --cached [file] 刪除索引檔案 ( 將刪除檔案的動作計入版本控管 ) git mv git mv [OldName] [NewName] 變更索引的工作目錄或檔案名稱 ( 將變更檔案名稱的動作計入版本控管 ) 變更實體的工作目錄或檔案名稱]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Command</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Command #03 狀態查詢]]></title>
+    <url>%2F2017%2F01%2F23%2FGit-Command-03-Status%2F</url>
+    <content type="text"><![CDATA[git status git status 列出當前 工作目錄 的詳細狀態 可查詢 目前最新版 與 索引 兩者之間的差異，觀察哪些檔案會儲存到下一個 Commit 物件 ( 下一個版本 ) 中 git status -s 可查詢較精簡的版本 git cat-file git cat-file -p [Object] 查詢 指定物件 的內容 git cat-file -t [Object] 查詢 指定物件 的類型 git ls-files git ls-files 列出目前在 索引 中的所有檔案 git ls-files -u 列出目前 Unmerged 的檔案 git diff git diff 比對 工作目錄 與 索引 之間的差異 可在執行 git add . 之前，透過該指令查看檔案變更的差異 git diff [Commit] 比對 工作目錄 與 指定版本 之間的差異 常用 git diff HEAD，用來比對 工作目錄 與 當前分支最新版 的差異，該方法不會比對索引狀態 git diff --cached [Commit] 比對 當前索引狀態 與 指定版本 之間的差異 常用 git diff --cached HEAD，用來比對 當前索引狀態 與 當前分支最新版 的差異，該方法不會比對工作目錄 git diff [Commit] [Commit] 比對 兩個版本 之間的差異 常用 git diff HEAD^ HEAD，用來比對 前一版 與 最新版 之間的差異 git log git log 列出版本的歷史紀錄 git log [-Number] 限制版本歷史紀錄的輸出筆數 git log --pretty=oneline 列出較精簡的版本歷史紀錄 git log --pretty=oneline --abbrev-commit 僅輸出部分的物件絕對名稱 git show git show [Commit] 查詢該版本的變更紀錄 git show-ref 列出所有參照名稱 ( 一般參照、符號參照 ) 僅顯示 .git/refs 目錄下的參照 git fsck git fsck 檢查 Git 的檔案系統是否完整]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Command</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Command #02 Config Setting]]></title>
+    <url>%2F2017%2F01%2F23%2FGit-Command-02-Config-Setting%2F</url>
+    <content type="text"><![CDATA[一般操作 git config --list 列出 Git for Windows 已設定的所有選項 git config --list --system 僅列出系統層級的選項 git config --list --global 僅列出使用者層級的選項 git config --list --local 僅列出儲存區層級的選項 git config [ConfigSection.ConfigName] 取得特定選項的值 git config [ConfigSection.ConfigName] [ConfigValue] 設定特定選項的值 git config --unset --system/global/local [ConfigSection.ConfigName] 刪除特定選項的值 常用設定 git config --global alias.[Alias] [GitCommand] 設定 [Alias] 為 [GitCommand] 的別名，以利快速執行指令 git config --global alias.co checkout git config --global alias.ci commit git config --global alias.st status git config --global alias.br branch git config --global core.editor notepad.exe/&quot;EditorDir&quot; 改變執行 git commit 時打開的預設編輯器為記事本或指定路徑的編輯器 git config --edit --system/global/local 直接開啟編輯設定檔 git config --global help.autocorrect 1 開啟自動修正錯誤參數的功能 git config --local/global commit.template &quot;TemplateDir&quot; 指定自訂 Commit 版本說明的範本路徑位置 --local 參數需在有 git init 過的專案目錄中執行，且會將設定存在儲存區層級 --global 參數不限定執行的目錄，會將設定存在使用者層級 可以兩者皆設定，Git 會自動依照套用順序執行，所以 local 會覆蓋 global 的設定]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Command</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Command #01 初始化]]></title>
+    <url>%2F2017%2F01%2F23%2FGit-Command-01-Initial%2F</url>
+    <content type="text"><![CDATA[git init git init 建立本地儲存庫 會產生兩類文件 紀錄版本歷史的版本庫目錄 實際文件的拷貝 ( 工作目錄，Working Directory ) 預設的儲存庫會放在當前工作目錄的 .git 隱藏資料夾底下 git init --bare 建立共用儲存庫 僅建立紀錄版本歷史的版本庫目錄 該資料夾不能直接做開發用途，只能用來儲存 Git 的相關資訊 Reference git-init git init 和 git init –bare 的区别？ GIT初始化–bare參數：使用git init &amp; git init –bare的差異 What is the difference between “git init” and “git init –bare”?]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Command</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Reference]]></title>
+    <url>%2F2017%2F01%2F21%2FGit-Reference%2F</url>
+    <content type="text"><![CDATA[紀錄學習 Git 時的參考來源，以及有關 Git 的有用資訊。 僅僅閱讀幾篇文章、操作些許指令，就想完全掌握 Git 這個強大的版控軟體是很不容易的，即使是非常習慣該版控流程的老手，也難免會遇到費解的問題，所以這篇文章將會持續更新，以提供遺忘或感到困惑時的方向。 全覽指南中文 30 天精通 Git 版本控管 Pro Git book 連猴子都能懂的Git入門指南]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Reference</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #18 Git on GitHub - Fork、Pull Request]]></title>
+    <url>%2F2017%2F01%2F18%2FGit-Overview-18-Git-on-GitHub-Fork-Pull-request%2F</url>
+    <content type="text"><![CDATA[概述由於 Git 沒有特意強化權限控管的機制，這代表所有人都可以下載一個遠端儲存庫的完整版本，也有權限將變更推送到遠端儲存庫，這對共同開發而言並不是件好事，因此 GitHub 採用了 Fork 與 Pull Request 的方式讓使用者可以做到基本的權限控管。 權限設定 在 GitHub 的 個人帳戶 上，所有合作者 ( Collaborators ) 都能自由地使用被授權的專案 在 GitHub 的 組織帳戶 上，可以設定團隊 ( Teams )，並可以做較詳細的權限設定 Pull only Push and Pull Push, Pull and Administrative Fork將專案複製到自己的帳號底下，並作為自己的遠端儲存庫任意使用。 按下 Fork 按鈕後 GitHub 會自動在自己的帳號下建立該專案，並會在專案名稱下提示 fork from [Author/ProjectName] 使用者會擁有該專案完整的歷史紀錄 Pull Request欲將被 Fork 的專案合併回作者的專案時，需向對方提出拉取要求。 請專案作者對自己變更過的儲存庫使用 git pull，由於是向對方發出請求，故稱 Pull Request 在操作 Pull Request 的過程中 GitHub 會自動比對兩個版本的差異]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #17 分支 - 進階]]></title>
+    <url>%2F2017%2F01%2F17%2FGit-Overview-17-Branch-Advance%2F</url>
+    <content type="text"><![CDATA[概述 中的分支僅限於本地分支，加上遠端儲存庫後，分支系統可以被拆成四種概念，且本地與遠端之間的關係會變得稍微複雜一些。 種類1. 遠端追蹤分支 位於遠端，目的是追蹤分支的變化情形 通常無法存取 2. 本地追蹤分支 位於本地端 使用 git clone 將遠端儲存庫複製回來後，也會一併載回遠端追蹤分支，並建立對應的同名本地追蹤分支 執行 git branch -a 指令時，列出的紅色部分就是本地追蹤分支 3. 本地分支 位於本地端，目的是用作開發用途 有主題分支 ( Topic Branch ) 及開發分支 ( Development Branch ) 的別稱 執行 git branch 會列出所有本地分支 執行 git branch -a 指令時，列出的綠色部分就是本地分支 4. 遠端分支 位於遠端 通常無法在本地端直接存取 遠端參照設定使用 git remote add [RemoteName] [URL] 建立遠端儲存庫的參照後，這些設定資訊會被存放在 .git/config 中，內容範例如下： 123[remote &quot;jquery&quot;] url = https://github.com/jquery/jquery.git fetch = +refs/heads/*:refs/remotes/jquery/* [remote &quot;jquery&quot;]代表要以 jquery 這個參照名稱代表遠端儲存庫的 URL 位址 url = https://github.com/jquery/jquery.git代表該遠端儲存庫的 URL 位址 fetch = +refs/heads/*:refs/remotes/jquery/*代表該遠端儲存庫指令的參照名稱規格 對應設定執行 git push 指令時，會自動將目前所在分支推送到設定的遠端分支，可以在 .git/config 中設定本地分支與遠端儲存庫的對應關係，以下是執行 git clone 後，Git 自動建立的預設設定： 123[branch &quot;master&quot;] remote = origin merge = refs/heads/master [branch &quot;master&quot;]代表被設定的本地分支 remote = origin代表本地分支要推送的遠端儲存庫參照 merge = refs/heads/master代表推送時，將與本次變更合併的遠端分支 參照名稱規格 ( refspec )定義執行 git fetch 指令時要取回哪些遠端分支的物件。 1+refs/heads/*:refs/remotes/jquery/* +代表傳輸資料時，不會特別使用安全機制 refs/heads/*「來源參照規格」，代表遠端儲存庫的 遠端分支，* 星號代表 refs/heads/ 該路徑下所有的遠端參照 :區隔「來源分支」與「目的分支」 refs/remotes/origin/*「目的參照規格」，代表本地儲存庫的 本地追蹤分支，* 星號代表 refs/remotes/origin/ 該路徑下所有的本地參照 git fetch 可取得遠端儲存庫的相關物件，它會先透過 URL 連到遠端儲存庫，取出「來源參照規格」的遠端分支，再放入「目的參照規格」的本地追蹤分支。 Reference]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #16 Git on GitHub - Basic]]></title>
+    <url>%2F2017%2F01%2F16%2FGit-Overview-16-Git-on-GitHub-Basic%2F</url>
+    <content type="text"><![CDATA[概述使用版控軟體，最主要就是想透過遠端與其他人合作，而 GitHub 是目前全世界最大的開源專案平台，在此提供本地儲存庫與 GitHub 遠端儲存庫的溝通方式。另外，在 GitHub 上建立 Git Repo 並不困難，便不多做贅述。 基本觀念將本地變更推送至 GitHub 有以下幾種方式： 1. GitHub 沒有 版本，本地 沒有 版本 在 GitHub 建立沒有版本的儲存庫 透過 git clone 取得遠端儲存庫 建立版本並上傳 2. GitHub 沒有 版本，本地 已有 版本 在 GitHub 建立沒有版本的儲存庫 將現有的本地儲存庫上傳到指定的 GitHub 專案 3. GitHub 已有 版本，本地 沒有 版本 在 GitHub 建立有初始化版本的儲存庫 透過 git clone 取得遠端儲存庫 建立版本並上傳 4. GitHub 已有 版本，本地 已有 版本 在 GitHub 建立有初始化版本的儲存庫 將現有的本地儲存庫上傳到指定的 GitHub 專案 注意事項1.、3. 是屬於需要取得遠端儲存庫的方式，因為前者是沒有版本的狀態，亦即沒有預設的 master 分支，所以會有兩種操作方式 2.、4. 是屬於將本地既有儲存庫合併至遠端的方式，因為後者在遠端上已有版本，若本地儲存庫也建立了初始化版本，將會發生衝突，所以兩者的操作方式也會不同 操作方式1. GitHub 沒有 版本，本地 沒有 版本 直接使用 git clone [URL] 即可 Git 會自動建立工作目錄 在本地端建立版本後，使用 git push [RemoteRefName] [Branch] 指令上傳至遠端 可在 push 後加上 -u 參數，設定本地分支追蹤遠端分支 2. GitHub 沒有 版本，本地 已有 版本 在本地儲存庫使用 git remote add [RemoteRefName] [URL] 指令，建立遠端參照名稱 使用 git push [RemoteRefName] [Branch] 上傳至遠端 可在 push 後加上 -u 參數，設定本地分支追蹤遠端分支 3. GitHub 已有 版本，本地 沒有 版本 直接使用 git clone [URL] 即可 Git 會自動建立工作目錄 在本地端建立版本後，使用 git push [RemoteRefName] [Branch] 指令上傳至遠端 不需加上 -u 參數，Git 會自動設定本地分支追蹤遠端分支 4. GitHub 已有 版本，本地 已有 版本 在本地儲存庫使用 git remote add [RemoteRefName] [URL] 指令，建立遠端參照名稱 若直接使用 git push [RemoteRefName] [Branch] 指令會被拒絕，因為兩個地方都已有版本，會產生衝突 可使用 git pull [RemoteRefName] [Branch] 指令，將遠端的內容拉回並合併至本地後，再 push 回遠端 或使用 git fetch 指令，將遠端的內容拉回，再自行使用 git merge 合併至本地，再 push 回遠端 Reference]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #15 版本歷史紀錄]]></title>
+    <url>%2F2017%2F01%2F09%2FGit-Overview-15-Commit-history%2F</url>
+    <content type="text"><![CDATA[概述版本分享給其他人前，可以預先整理版本紀錄，讓其他人對版本的修改過程有較清楚的瞭解。 基本觀念 每完成一個項目的編輯就建立版本 有順序的修正功能，確保版本變更按順序提交，以便追蹤 注意事項 分享的最小單位是 分支 在特定分支 分享給其他人前，可以任意修改分支上的版本歷史紀錄 將特定分支 分享給其他人後，就不要再修改版本歷史紀錄]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #14 忽略清單]]></title>
+    <url>%2F2017%2F01%2F09%2FGit-Overview-14-Gitignore%2F</url>
+    <content type="text"><![CDATA[概述有時不希望將工具產生的暫存或快取檔案被加入版本控管，為了排除這些檔案，可以使用忽略清單 ( .gitignore ) 的機制。 特性 可列出檔名或路徑 列在清單內的檔名或路徑不會出現在 git status 的結果中，也不會在 git add 時加入索引 僅限 未追蹤 ( Untracked ) 的檔案會被忽略，已追蹤 ( Tracked ) 的檔案不受忽略清單控制]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #13 合併]]></title>
+    <url>%2F2017%2F01%2F09%2FGit-Overview-13-Merge%2F</url>
+    <content type="text"><![CDATA[基本觀念 合併的功能奠基於分支上 合併的動作必須發生在同一個儲存庫中 若合併時，相同檔案的相同位置處皆有變更，會引發衝突，同時檔案會被標示為 unmerged 狀態 衝突需要使用者自行解決 合併成功後，Git 會自動替我們建立一個新版本 注意事項 合併前，檢查目前所在的分支 合併前，檢查工作目錄與索引的狀態 解決衝突要解決衝突有以下幾種可行的方式： 若合併的過程中發生衝突，直接 git add 可以將目前工作目錄的狀態加到索引中，這麼做會取消 unmerged 的衝突狀態，再執行 git commit 便能夠以 目前分支的版本 解決衝突。 手動修改衝突的檔案，移除衝突標示，編輯出符合需求的內容後再執行 git add 與 git commit。 使用 GUI 工具，選擇符合需求的版本。]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #12 版本日誌]]></title>
+    <url>%2F2016%2F12%2F29%2FGit-Overview-12-Reflog%2F</url>
+    <content type="text"><![CDATA[概述在 Git 中做的所有版本變更，即使是復原的操作，都會被記錄下來，所以透過版本日誌的紀錄，能夠還原到任何狀態。簡言之，版本日誌就是參照變更的歷程記錄。無論對這些紀錄本身做任何操作，如修改或刪除，都不會影響物件儲存庫的內容。 產生 Reflog 的原則只要透過指令修改參照的內容，或是變更分支的 HEAD 參照內容，就會建立 Reflog。因為修改 ref 而產生 log，所以指令名稱才稱為 reflog。 產生 Reflog 的動作除以下動作外，每個分支、暫存版都會有自己的 Reflog，這些資料也都會存在 .git/logs/refs/ 資料夾下。 Commit Checkout Pull Push Merge Reset Clone Branch Rebase Stash Reflog 的過期時間預設保存 90 天。若其中的 Commit 物件已不在分支上，則預設保留 30 天。 Reference]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #11 標籤]]></title>
+    <url>%2F2016%2F12%2F29%2FGit-Overview-11-Tag%2F</url>
+    <content type="text"><![CDATA[概述隨著開發時程拉長、版本的數量增加，難以單憑版本說明尋找到特定的版本，所以我們可以在建立版本時，使用標籤替某些重要的版本做標記。 功能 以自訂名稱標記特定版本 幫助回憶特定版本的功能或狀態 類型雖有兩種標籤類型，但使用上的差異並不大。大部分情況會使用 標示標籤，因其能夠給予版本說明，且該標籤是基於 Git 物件的方式產生，具有永久性、不可變動性 ( Git 物件中僅索引具有可變動性 )。 輕量標籤 ( Lightweight Tag ) 相對名稱的一種 特定版本的別名 標示標籤 ( Annotated Tag ) Git 物件的一種 ( 即 Tag 物件 ) 會存放在物件儲存區中，且關聯到另一個 Commit 物件 可以附加版本說明 Reference]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #10 Config Setting]]></title>
+    <url>%2F2016%2F12%2F29%2FGit-Overview-10-Config-Setting%2F</url>
+    <content type="text"><![CDATA[儲存 Git Config 的三個地方 系統層級 ( --system ) 設定整台電腦，適用於本機所有使用者的預設值 通常預設位置在 C:/Program Files (x86)/Git/etc/.gitconfig 這個檔案中 使用者層級 ( --global ) 設定目前登入的使用者 通常預設位置在 C:/Users/[Username]/.gitconfig 這個檔案中 儲存區層級 ( --local ) 設定於特定專案中 通常預設位置在 /[WorkingDir]/.git/config 這個檔案中 套用順序Git 在執行時會依照以下順序套用： 系統層級 使用者層級 儲存區層級 ( 優先權最高 ) ReferenceGit Command #02 Config Setting]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #09 暫存工作目錄]]></title>
+    <url>%2F2016%2F12%2F29%2FGit-Overview-09-Temp-working-directory%2F</url>
+    <content type="text"><![CDATA[概述工作目錄是目前進度的狀態；索引則是希望建立版本的狀態。當開發途中被要求臨時修改某項功能，但不希望動到未完成的檔案時，可以將工作目錄中的變更狀態使用 git stash 指令建立 stash 版本，或稱之為暫存版。 功能 解決開發過程中插單的問題 將目前的變更狀態暫存起來，先去解決其他更緊急的問題 工作目錄狀態 新增檔案 ( 未列入追蹤 ) ( Untracked files ) 新增檔案 ( 已加入索引 ) ( Tracked/Staged files ) 修改檔案 ( 未加入索引 ) ( Tracked/Unstaged files ) 修改檔案 ( 已加入索引 ) ( Tracked/Staged files ) 刪除檔案 ( 未加入索引 ) ( Tracked/Unstaged files ) 刪除檔案 ( 已加入索引 ) ( Tracked/Staged files ) 運作建立暫存版的過程中， Git 會自動建立兩個分支、並個別建立版本，再將這兩個分支與 HEAD 版本合併成 stash 版本，以下為三個版本的內容： 工作目錄的 HEAD 版本 工作目錄中索引的內容 工作目錄中未追蹤的內容 建立暫存版後，Git 會自動產生暫存版的一般參照，並將變更的檔案還原成與 HEAD 的狀態相同，新增的檔案被刪除、修改的檔案被還原、刪除的檔案被加回。簡言之，就是使工作目錄的狀態與 HEAD 同步。 Reference]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #08 參照名稱]]></title>
+    <url>%2F2016%2F12%2F29%2FGit-Overview-08-Reference-name%2F</url>
+    <content type="text"><![CDATA[參照名稱 ( Ref )功能 參照名稱是物件的指標 Git 引擎或由使用者自行定義的名稱，用來指向特定 Git 物件 可將其想成 Git 物件絕對名稱的別名 ( Alias ) 特性 參照名稱通常指向 Commit 物件，但也可以指向其他 Git 物件 參照名稱只是檔案，且放在 .git/refs 資料夾下 本地分支：.git/refs/heads 遠端分支：.git/refs/remotes 標 籤：.git/refs/tags 當輸入 參照簡稱 時，Git 會依照以下順序搜尋參照名稱，找到後立即回傳該檔案內容的 物件絕對名稱 .git/&lt;參照簡稱&gt; .git/refs/&lt;參照簡稱&gt; .git/refs/tags/&lt;參照簡稱;標籤名稱&gt; .git/refs/heads/&lt;參照簡稱;本地分支名稱&gt; .git/refs/remotes/&lt;參照簡稱&gt; .git/refs/remotes/&lt;參照簡稱;遠端分支名稱&gt; 例子 HEAD 指向當前工作目錄中分支的 最新版 BranchName 分支名稱，對應到 Git 物件儲存庫中的 Commit 物件，預設指向分支的最新版本 TagName 標籤名稱 符號參照名稱 ( Symref )特性 指向另一個一般參照，內容以 ref: 開頭 例子 HEAD 指向當前工作目錄中分支的 最新版 在當前分支執行 git commit 時，該符號參照也會一併更新成最新版本 ORIG_HEAD HEAD 的 前一版 常用來復原上一次的版本變更 FETCH_HEAD 遠端儲存庫每個分支的 最新版 ( HEAD ) 的絕對名稱 MERGE_HEAD 合併來源的 Commit 物件的絕對名稱 Reference]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #07 相對名稱]]></title>
+    <url>%2F2016%2F12%2F29%2FGit-Overview-07-Relative-name%2F</url>
+    <content type="text"><![CDATA[功能 以特定 Commit 物件的相對位置，找到其他 Commit 物件 表示法 [Object]~[Number] 代表第 Number 個上層 Commit 物件 HEAD~1 可找到 HEAD 的上一層 Commit 物件 HEAD~3 可找到 HEAD 的上三層 Commit 物件 [Object]^[Number] 擁有多個上層 Commit 物件時，要代表第 Number 個第一代的上層 Commit 物件 HEAD^1 可找到 HEAD 的第一個第一代的上層 Commit 物件 HEAD^3 可找到 HEAD 的第三個第一代的上層 Commit 物件 ( 需在有分支合併的情況下才能這麼做 ) [Object]^[Number1]~[Number2] 代表第 Number1 個第一代的第 Number2 層 Commit 物件 HEAD^1~1 可找到 HEAD 的第一個第一代的上一層 Commit 物件 HEAD^1~3 可找到 HEAD 的第一個第一代的上三層 Commit 物件 HEAD^3~1 可找到 HEAD 的第三個第一代的上一層 Commit 物件 ( 需在有分支合併的情況下才能這麼做 ) HEAD^3~3 可找到 HEAD 的第三個第一代的上三層 Commit 物件 ( 需在有分支合併的情況下才能這麼做 ) 詳細說明123456789101112131415161718192021G H I J \ / \ / D E F \ | / \ \ | / | \|/ | B C \ / \ / AA = = A^0B = A^ = A^1 = A~1C = A^2 = A^2D = A^^ = A^1^1 = A~2E = B^2 = A^^2F = B^3 = A^^3G = A^^^ = A^1^1^1 = A~3H = D^2 = B^^2 = A^^^2 = A~2^2I = F^ = B^3^ = A^^3^J = F^2 = B^3^2 = A^^3^2 圖解 ReferenceWhat’s the difference between HEAD^ and HEAD~ in Git?]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #06 絕對名稱]]></title>
+    <url>%2F2016%2F12%2F29%2FGit-Overview-06-Absolute-name%2F</url>
+    <content type="text"><![CDATA[功能 執行 Git 指令時，會需要用到物件名稱 當需要用到物件名稱時，可使用全稱，也能使用 4 ~ 40 個字元長度的絕對名稱 特性 以內容進行 SHA1 雜湊運算後的結果]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #05 分支]]></title>
+    <url>%2F2016%2F12%2F29%2FGit-Overview-05-Branch%2F</url>
+    <content type="text"><![CDATA[概述可以將分支想像成一種 快照 功能，將某個版本與其歷史版本建立一個 快照，並賦予其分支名稱，我們可以在這些分支上建立版本，日後可以再進行合併的操作。 功能 Git 分散式版本控管機制的核心 解決版本衝突，順利進行合併 狀態[master] master 代表目前的分支 ( Branch ) 後面沒有數字代表目前沒有要被建立版本的索引 [master +10 ~15 -20 !] +10 代表有 10 個「新增」的檔案 ( add ) ~15 代表有 15 個「修改」的檔案 ( modify ) -20 代表有 20 個「刪除」的檔案 ( delete ) 「紅色」代表未追蹤的檔案 ( Untracked ) 僅列出 當前目錄下的檔案與資料夾 這些變更 不會 進入版本控管 可執行 git add . 指令將這些檔案加入索引 ，該指令並不會建立任何版本 「綠色」代表已被加入索引的檔案 ( Staged )，這些檔案已經準備可以建立版本 ( Commit ) 列出 當前目錄與子目錄下的檔案與資料夾，檔案數量可能較紅色多 這些變更 會 進入版本控管 可執行 git commit 指令將這些檔案變更建立版本 管理模式有分支就必須要合併，合併會產生版本衝突，為了解決版本衝突的問題，需要做好分支的管理。 git-flow 管理分支的邏輯 Reference 01 Reference]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #04 儲存庫、工作目錄、物件、索引]]></title>
+    <url>%2F2016%2F12%2F29%2FGit-Overview-04-Repository-Working-Directory-Object-Index-Stage%2F</url>
+    <content type="text"><![CDATA[概述Git 儲存庫的運作，是將工作目錄裡的變化，透過更新索引的方式，將資料寫入成 Git 物件。 儲存庫 ( Repository ) 記錄所有版本資訊的地方 放在工作目錄的 .git 資料夾底下 工作目錄 ( Working Directory ) 開發專案的地方 Git 的相關操作會在此進行 紀錄版本歷史的 Git 版本庫目錄 物件 ( Object )功能保存儲存庫中的所有檔案與版本記錄 特性 是不可變的 ( Immutable ) 的檔案類型 透過內容產生 SHA1 雜湊值，依照該雜湊值命名 所有物件皆會以 zlib 演算法進行壓縮 每隔一段時間，Git 會自動將老舊的物件封裝，以改善檔案存取效率 封裝時會利用差異壓縮演算法自動計算 Blob 之間的變化，並將差異存放在 .git/objects/pack 資料夾下，此做法可以節省硬碟空間的消耗 存放在物件儲存區 ( Object Storage ) 中，預設位置在 .git/objects 資料夾底下 類型 Tree 記錄特定資料夾下的檔案，及該檔案對應的 Blob 物件檔名 透過提交版本，產生 Tree 物件 可多層次包含其他 Tree 在特定版本下某個資料夾的快照 ( Snapshot ) Blob 即為原本的檔案內容 透過將檔案加入索引，產生 Blob 物件 將原本的「檔案內容」進行 SHA1 雜湊運算產生 HashId，並以該 HashId 為檔名 Commit 一個物件代表 Git 的一次提交 ( 版本 ) 透過提交版本，產生 Commit 物件 記錄版本的相關訊息，如 Tree 物件、提交時間、版本說明等 除第一個 Commit 物件外，皆會記錄上一層的 Commit 物件名稱 Tag 用來關聯特定的 Tree、Blob、Commit 物件 常被使用於替特定版本的 Commit 物件標示易懂的名稱 索引 ( Index、Stage )別名索引在國外文章中，有許多別名，以下指的皆是索引： Index Cache Directory Cache Current Directory Cache Staging Area Staged Files 功能保存要進儲存庫之前的工作目錄狀態；記錄要被提交到下一個版本的檔案。若想提交版本進儲存庫，需先更新索引。 特性 是可變的 ( Mutable ) 的檔案類型 是介於物件儲存區 ( Object Storage ) 與工作目錄 ( Working Directory ) 之間的媒介 狀態 Untracked 未追蹤，代表尚未被加入 Git 儲存庫的檔案 Unmodified 未修改，代表檔案第一次被加入，或是檔案內容與 HEAD 內容一致 Modified 已修改，代表檔案已被編輯，或是檔案內容與 HEAD 內容不一致 Staged 已被加入索引，代表執行 Commit 時會將該檔案加進 Git 儲存庫]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #03 建立儲存庫]]></title>
+    <url>%2F2016%2F12%2F29%2FGit-Overview-03-Set-up-repository%2F</url>
+    <content type="text"><![CDATA[有三種建立儲存庫的方式： 1. 本機的本地儲存庫 ( Local Repository )使用 GitHub for Windows 的 Git Shell 指令列工具操作 建立目錄：mkdir git-demo 進入該目錄：cd git-demo 建立儲存庫 ( Repository )：預設的儲存庫會放在工作目錄中的 .git 底下git init 2. 本機的共用儲存庫 ( Shared Repository )共用儲存庫是指建立 Git 儲存庫但不包含工作目錄 ( Working Directory )，大多使用直接的檔案存取，通常在 Linux 作業系統下較有機會使用到。 建立目錄：mkdir share-repo 進入該目錄：cd share-repo 建立共用儲存庫該指令會在當前工作目錄建立所有 Git 儲存庫的相關檔案與資料夾，該目錄不能拿來直接做開發用途，且最好只透過 Git 指令操作該目錄git init --bare 3. GitHub 或其他 Git 平台的遠端儲存庫 ( Remote Repository )與共用儲存庫幾乎一樣，差別在於遠端儲存庫大多使用 SSH, Git Protocol, HTTP 等協定遠端存取儲存庫。 登入 GitHub，找到並選擇 New Repository 設定專案相關資訊，點選 Create Repository 取回遠端儲存庫有兩種方式 透過 Set up in Desktop 按鈕自動開啟 GitHub for Windows 工具 複製平台提供的儲存庫 URL，並在 Git Shell 上執行：git clone [RepoUrl] 註：mkdir 與 cd 都代表命令提示字元 ( Command Prompt，或稱終端機 Terminal ) 的指令。相關教學 Reference]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #02 安裝工具]]></title>
+    <url>%2F2016%2F12%2F29%2FGit-Overview-02-Install-tools%2F</url>
+    <content type="text"><![CDATA[1. Git for Windows*底層 Git 工具，Windows 使用者非裝不可。 建議不要安裝 Windows Explorer integration 建議在 Adjusting your PATH environment 步驟時，選擇 Run Git from the Windows Command Prompt 這個選項 其他選項使用預設的即可 2. GitHub for WindowsGitHub 官方開發的 GUI 工具，可完成基本的版控功能。 將 GitHub 上的儲存庫複製回來 ( Clone Repositories ) 瀏覽本地儲存庫的版本歷史紀錄 ( Browse History ) 提交變更到本地儲存庫 ( Commit Changes ) 建立與管理、切換分支 ( Branch Code ) 與 GitHub 同步 ( Share on GitHub.com ) 3. SourceTree較完整的 GUI 工具，建議了解 Git 運作機制與觀念後再使用。 幾乎所有指令列功能都能透過該工具完成 須在安裝後 30 天內免費註冊並登錄序號]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #01 準備開始]]></title>
+    <url>%2F2016%2F12%2F29%2FGit-Overview-01-Ready-to-start%2F</url>
+    <content type="text"><![CDATA[Git 的優點 不依賴網路，能夠在本地端進行版控 備份容易，每個人都擁有完整的開發紀錄 分支的操作相當彈性且輕量，每個分支只是某個 Commit 物件的參考指標而已 學習方法Git 的指令跟參數非常多，若每次要用 Git 指令時都要查書的話，會非常沒效率，故學習 Git 最終仍需 GUI 工具作為輔助，但一開始還是建議先透過下指令的方式學習 Git 的基礎觀念。 步驟 了解運作原理 建立思維模式 ( Mindset ) 尋找適合的相關工具 ( GUI ) 重點觀念 學習建立、操作分支 ( Branch ) 學習合併檔案 ( Merge ) 學習解決衝突 ( Conflict )]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git Overview #00 序]]></title>
+    <url>%2F2016%2F12%2F29%2FGit-Overview-00-Preface%2F</url>
+    <content type="text"><![CDATA[前言這一系列的文章用來記錄學習 Git 的過程，最主要的資訊來源是保哥的 《30 天精通 Git 版本控管》。 會寫下一些核心的觀念跟常用的指令，希望未來突然記不起某個概念或某項指令的操作方式時，能透過這些文章讓自己迅速地回想起來。 目錄 Git Overview #10 Config Setting Git Overview #16 Git on GitHub - Basic]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Overview</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Learn Git in 30 days</tag>
+      </tags>
+  </entry>
+</search>
