@@ -10,11 +10,16 @@ https://hexo.io/docs/commands.html
 - clean: `hexo clean`
 
 # Todo for new Post
-- `git co master`, `git pull`, get latest content of master branch from remote
-- `git co hexo`, and add or update post
-- `hexo g -d`, deploy post
-- `git co master`, `git pull`, `git push`, to hold up project/ directory on GitHub
-- `git co hexo`, checkout hexo branch for next post
+1. `git co master`, `git pull`, update latest published version of master branch from remote
+2. `git co hexo`
+3. Add or Update post
+4. `hexo g -d`, deploy post, it will clear all files on GitHub, then publish files that just generated
+5. `git co master`
+6. `git pull --allow-unrelated-histories`, force update latest published version from step4
+7. Resolve conflict and commit
+8. `git push`, update remote master for holding up project and recruit directory on GitHub
+9. `git co hexo`, checkout hexo branch for next post
+
 
 # Todo for resetting
 - `git clone https://github.com/TsuyoshiTsai/TsuyoshiTsai.github.io.git`
