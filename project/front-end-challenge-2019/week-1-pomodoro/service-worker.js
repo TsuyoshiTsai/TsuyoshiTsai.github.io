@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/project/front-end-challenge-2019/week-1-pomodoro/precache-manifest.149796cfaead95447e8f07591559db63.js"
+  "/project/front-end-challenge-2019/week-1-pomodoro/precache-manifest.51410682299fea15f7f26d592fa83764.js"
 );
 
 self.addEventListener('message', (event) => {
