@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec9a3a46e74ceecca5cb894c729019e9",
+    "revision": "4d4381a2327928f256365e7d3259ed7b",
     "url": "/project/front-end-challenge-2019/week-2-free-cell/index.html"
   },
   {
-    "revision": "c958b6fb32c5be19f3c0",
+    "revision": "a23afa6bd6c2732935ee",
     "url": "/project/front-end-challenge-2019/week-2-free-cell/static/css/main.f25d2a2c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project/front-end-challenge-2019/week-2-free-cell/static/js/2.adea8de9.chunk.js"
   },
   {
-    "revision": "c958b6fb32c5be19f3c0",
-    "url": "/project/front-end-challenge-2019/week-2-free-cell/static/js/main.a9ec4561.chunk.js"
+    "revision": "a23afa6bd6c2732935ee",
+    "url": "/project/front-end-challenge-2019/week-2-free-cell/static/js/main.fa663488.chunk.js"
   },
   {
     "revision": "47b32736612c702ad7c1",
