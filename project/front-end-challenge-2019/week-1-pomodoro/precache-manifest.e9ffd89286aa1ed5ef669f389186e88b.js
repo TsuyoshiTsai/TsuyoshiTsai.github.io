@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c5eed982e7a923327bab0f8ea9a7661",
+    "revision": "8b6c4be47fc1bd072d3e4f9f6bd7951f",
     "url": "/project/front-end-challenge-2019/week-1-pomodoro/index.html"
   },
   {

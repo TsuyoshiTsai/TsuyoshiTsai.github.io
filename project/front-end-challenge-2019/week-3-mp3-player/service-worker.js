@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/project/front-end-challenge-2019/week-3-mp3-player/precache-manifest.1783818074ad2027a52c7c8c1d731fad.js"
+  "/project/front-end-challenge-2019/week-3-mp3-player/precache-manifest.7693432bfef743dd770252df565bba00.js"
 );
 
 self.addEventListener('message', (event) => {

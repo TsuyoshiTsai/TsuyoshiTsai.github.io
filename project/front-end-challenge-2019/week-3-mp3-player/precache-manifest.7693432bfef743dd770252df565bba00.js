@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f25795a63952ad626ad99feaca153ccf",
+    "revision": "93bd706178ac79c43de746bb778da84f",
     "url": "/project/front-end-challenge-2019/week-3-mp3-player/index.html"
   },
   {

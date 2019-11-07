@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d4381a2327928f256365e7d3259ed7b",
+    "revision": "bc061a9629f4267484203c30701f10f6",
     "url": "/project/front-end-challenge-2019/week-2-free-cell/index.html"
   },
   {

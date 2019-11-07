@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/project/front-end-challenge-2019/week-2-free-cell/precache-manifest.41d2515c51fd5c70dffdfcd9c420b771.js"
+  "/project/front-end-challenge-2019/week-2-free-cell/precache-manifest.c38d2f91b96b96384da22ac74a65af9c.js"
 );
 
 self.addEventListener('message', (event) => {
