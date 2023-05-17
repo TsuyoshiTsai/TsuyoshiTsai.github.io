@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/project/werewords/static/js/main.f7eedc7d.js",
+    "static/js/787.d8ceb548.chunk.js": "/project/werewords/static/js/787.d8ceb548.chunk.js",
+    "index.html": "/project/werewords/index.html",
+    "main.f7eedc7d.js.map": "/project/werewords/static/js/main.f7eedc7d.js.map",
+    "787.d8ceb548.chunk.js.map": "/project/werewords/static/js/787.d8ceb548.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f7eedc7d.js"
+  ]
+}
